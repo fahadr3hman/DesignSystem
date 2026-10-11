@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* App.swift */; };
+		100000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* ContentView.swift */; };
+		100000000000000000000003 /* SwiftUICatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* SwiftUICatalogView.swift */; };
+		100000000000000000000004 /* ThemeInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* ThemeInspectorView.swift */; };
+		100000000000000000000005 /* UIKitCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* UIKitCatalogViewController.swift */; };
+		100000000000000000000006 /* UniversalDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 700000000000000000000001 /* UniversalDesignSystem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/App.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/ContentView.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* SwiftUICatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/SwiftUICatalogView.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* ThemeInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/ThemeInspectorView.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* UIKitCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/UIKitCatalogViewController.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* UniversalDesignSystemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalDesignSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (100000000000000000000006 /* UniversalDesignSystem in Frameworks */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* App.swift */,
+				200000000000000000000002 /* ContentView.swift */,
+				200000000000000000000003 /* SwiftUICatalogView.swift */,
+				200000000000000000000004 /* ThemeInspectorView.swift */,
+				200000000000000000000005 /* UIKitCatalogViewController.swift */,
+				400000000000000000000002 /* Frameworks */,
+				400000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* Frameworks */ = {isa = PBXGroup; children = (); name = Frameworks; sourceTree = "<group>"; };
+		400000000000000000000003 /* Products */ = {isa = PBXGroup; children = (200000000000000000000006 /* UniversalDesignSystemDemo.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* UniversalDesignSystemDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600000000000000000000002 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				300000000000000000000002 /* Sources */,
+				300000000000000000000001 /* Frameworks */,
+				300000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = UniversalDesignSystemDemo;
+			packageProductDependencies = (700000000000000000000001 /* UniversalDesignSystem */,);
+			productName = UniversalDesignSystemDemo;
+			productReference = 200000000000000000000006 /* UniversalDesignSystemDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+									500000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {500000000000000000000001 = {CreatedOnToolsVersion = 27.0; };};
+			};
+			buildConfigurationList = 600000000000000000000001 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = 400000000000000000000001;
+			packageReferences = (800000000000000000000001 /* Local package */,);
+			productRefGroup = 400000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (500000000000000000000001 /* UniversalDesignSystemDemo */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* App.swift in Sources */,
+				100000000000000000000002 /* ContentView.swift in Sources */,
+				100000000000000000000003 /* SwiftUICatalogView.swift in Sources */,
+				100000000000000000000004 /* ThemeInspectorView.swift in Sources */,
+				100000000000000000000005 /* UIKitCatalogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		900000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Debug; };
+		900000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Release; };
+		900000000000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.universaldesignsystem.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		900000000000000000000004 /* Release target */ = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.universaldesignsystem.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600000000000000000000001 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (900000000000000000000001 /* Debug project */, 900000000000000000000002 /* Release project */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		600000000000000000000002 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (900000000000000000000003 /* Debug target */, 900000000000000000000004 /* Release target */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		800000000000000000000001 /* Local package */ = {isa = XCLocalSwiftPackageReference; relativePath = ..; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		700000000000000000000001 /* UniversalDesignSystem */ = {isa = XCSwiftPackageProductDependency; package = 800000000000000000000001 /* Local package */; productName = UniversalDesignSystem; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 500000000000000000000002 /* Project object */;
+}

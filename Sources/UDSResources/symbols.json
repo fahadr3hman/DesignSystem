@@ -1,0 +1,20 @@
+{
+  "add": "plus",
+  "back": "chevron.left",
+  "bell": "bell",
+  "close": "xmark",
+  "delete": "trash",
+  "edit": "pencil",
+  "favorite": "heart",
+  "favoriteFilled": "heart.fill",
+  "home": "house",
+  "menu": "line.3.horizontal",
+  "person": "person",
+  "search": "magnifyingglass",
+  "settings": "gearshape",
+  "share": "square.and.arrow.up",
+  "checkmark": "checkmark",
+  "warning": "exclamationmark.triangle",
+  "tools": "wrench.and.screwdriver",
+  "layers": "square.stack.3d.up"
+}
