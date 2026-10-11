@@ -51,13 +51,26 @@ That command runs on macOS 13 or later; iOS launches use the Xcode project.
 
 ### 1. Swift Package Manager Integration
 
-Add the package to your `Package.swift`:
+Add the published repository to your `Package.swift`. The repository currently
+uses the `main` branch in this example; switch to a version requirement after
+publishing a release tag.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-org/UniversalDesignSystem.git", from: "1.0.0")
+    .package(url: "https://github.com/fahadr3hman/DesignSystem.git", branch: "main")
+],
+targets: [
+    .target(
+        name: "YourApp",
+        dependencies: [
+            .product(name: "UniversalDesignSystem", package: "designsystem")
+        ]
+    )
 ]
 ```
+
+In Xcode, choose **File → Add Package Dependencies…** and enter
+`https://github.com/fahadr3hman/DesignSystem`.
 
 ### 2. Using Tokens in SwiftUI
 
@@ -130,6 +143,10 @@ class ProfileViewController: UIViewController {
 - [Automated Asset Generator](Documentation/AssetGeneration.md)
 - [UIKit Integration Guide](Documentation/UIKitIntegration.md)
 - [SwiftUI Integration Guide](Documentation/SwiftUIIntegration.md)
+- [Colors](Documentation/Colors.md)
+- [Typography](Documentation/Typography.md)
+- [Gradients](Documentation/Gradients.md)
+- [Accessibility](Documentation/Accessibility.md)
 - [Contribution Guidelines](CONTRIBUTING.md)
 
 ---
