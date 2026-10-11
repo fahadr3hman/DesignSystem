@@ -94,1205 +94,205 @@ public struct UDSColorUIKitProxy: Sendable {
 public struct UDSImage: Sendable {
     public static let uiKit = UDSImageUIKitProxy()
     public static var outlineActivity: Image { Image("outline-activity", bundle: UDSBundle.module) }
-    public static var outlineAd: Image { Image("outline-ad", bundle: UDSBundle.module) }
-    public static var outlineAlarmSmoke: Image { Image("outline-alarm-smoke", bundle: UDSBundle.module) }
     public static var outlineAlertCircle: Image { Image("outline-alert-circle", bundle: UDSBundle.module) }
-    public static var outlineAlertCircleOff: Image { Image("outline-alert-circle-off", bundle: UDSBundle.module) }
-    public static var outlineAlertSquare: Image { Image("outline-alert-square", bundle: UDSBundle.module) }
-    public static var outlineAlignCenter: Image { Image("outline-align-center", bundle: UDSBundle.module) }
-    public static var outlineAlignLeft: Image { Image("outline-align-left", bundle: UDSBundle.module) }
-    public static var outlineAlignRight: Image { Image("outline-align-right", bundle: UDSBundle.module) }
-    public static var outlineAmbulance: Image { Image("outline-ambulance", bundle: UDSBundle.module) }
-    public static var outlineAmpersand: Image { Image("outline-ampersand", bundle: UDSBundle.module) }
-    public static var outlineAnchor: Image { Image("outline-anchor", bundle: UDSBundle.module) }
-    public static var outlineAngle: Image { Image("outline-angle", bundle: UDSBundle.module) }
-    public static var outlineAntenna: Image { Image("outline-antenna", bundle: UDSBundle.module) }
-    public static var outlineAperture: Image { Image("outline-aperture", bundle: UDSBundle.module) }
-    public static var outlineAppWindow: Image { Image("outline-app-window", bundle: UDSBundle.module) }
-    public static var outlineApple: Image { Image("outline-apple", bundle: UDSBundle.module) }
     public static var outlineApps: Image { Image("outline-apps", bundle: UDSBundle.module) }
-    public static var outlineAppsOff: Image { Image("outline-apps-off", bundle: UDSBundle.module) }
     public static var outlineArchive: Image { Image("outline-archive", bundle: UDSBundle.module) }
-    public static var outlineArchiveOff: Image { Image("outline-archive-off", bundle: UDSBundle.module) }
-    public static var outlineArmchair: Image { Image("outline-armchair", bundle: UDSBundle.module) }
     public static var outlineArrowBack: Image { Image("outline-arrow-back", bundle: UDSBundle.module) }
-    public static var outlineArrowBackUp: Image { Image("outline-arrow-back-up", bundle: UDSBundle.module) }
-    public static var outlineArrowBigDown: Image { Image("outline-arrow-big-down", bundle: UDSBundle.module) }
-    public static var outlineArrowBigLeft: Image { Image("outline-arrow-big-left", bundle: UDSBundle.module) }
-    public static var outlineArrowBigRight: Image { Image("outline-arrow-big-right", bundle: UDSBundle.module) }
-    public static var outlineArrowBigUp: Image { Image("outline-arrow-big-up", bundle: UDSBundle.module) }
     public static var outlineArrowDown: Image { Image("outline-arrow-down", bundle: UDSBundle.module) }
-    public static var outlineArrowDownCircle: Image { Image("outline-arrow-down-circle", bundle: UDSBundle.module) }
-    public static var outlineArrowDownLeft: Image { Image("outline-arrow-down-left", bundle: UDSBundle.module) }
-    public static var outlineArrowDownRight: Image { Image("outline-arrow-down-right", bundle: UDSBundle.module) }
-    public static var outlineArrowDownSquare: Image { Image("outline-arrow-down-square", bundle: UDSBundle.module) }
     public static var outlineArrowForward: Image { Image("outline-arrow-forward", bundle: UDSBundle.module) }
     public static var outlineArrowLeft: Image { Image("outline-arrow-left", bundle: UDSBundle.module) }
-    public static var outlineArrowLeftCircle: Image { Image("outline-arrow-left-circle", bundle: UDSBundle.module) }
-    public static var outlineArrowLeftRight: Image { Image("outline-arrow-left-right", bundle: UDSBundle.module) }
-    public static var outlineArrowLeftSquare: Image { Image("outline-arrow-left-square", bundle: UDSBundle.module) }
     public static var outlineArrowRight: Image { Image("outline-arrow-right", bundle: UDSBundle.module) }
-    public static var outlineArrowRightCircle: Image { Image("outline-arrow-right-circle", bundle: UDSBundle.module) }
-    public static var outlineArrowRightSquare: Image { Image("outline-arrow-right-square", bundle: UDSBundle.module) }
     public static var outlineArrowUp: Image { Image("outline-arrow-up", bundle: UDSBundle.module) }
-    public static var outlineArrowUpCircle: Image { Image("outline-arrow-up-circle", bundle: UDSBundle.module) }
-    public static var outlineArrowUpLeft: Image { Image("outline-arrow-up-left", bundle: UDSBundle.module) }
-    public static var outlineArrowUpRight: Image { Image("outline-arrow-up-right", bundle: UDSBundle.module) }
-    public static var outlineArrowUpSquare: Image { Image("outline-arrow-up-square", bundle: UDSBundle.module) }
-    public static var outlineAsterisk: Image { Image("outline-asterisk", bundle: UDSBundle.module) }
-    public static var outlineAtom: Image { Image("outline-atom", bundle: UDSBundle.module) }
-    public static var outlineAward: Image { Image("outline-award", bundle: UDSBundle.module) }
-    public static var outlineAwardOff: Image { Image("outline-award-off", bundle: UDSBundle.module) }
-    public static var outlineAxe: Image { Image("outline-axe", bundle: UDSBundle.module) }
-    public static var outlineBackpack: Image { Image("outline-backpack", bundle: UDSBundle.module) }
-    public static var outlineBadge: Image { Image("outline-badge", bundle: UDSBundle.module) }
-    public static var outlineBalloon: Image { Image("outline-balloon", bundle: UDSBundle.module) }
-    public static var outlineBan: Image { Image("outline-ban", bundle: UDSBundle.module) }
-    public static var outlineBanana: Image { Image("outline-banana", bundle: UDSBundle.module) }
-    public static var outlineBandage: Image { Image("outline-bandage", bundle: UDSBundle.module) }
     public static var outlineBarcode: Image { Image("outline-barcode", bundle: UDSBundle.module) }
-    public static var outlineBarcodeOff: Image { Image("outline-barcode-off", bundle: UDSBundle.module) }
-    public static var outlineBarrel: Image { Image("outline-barrel", bundle: UDSBundle.module) }
-    public static var outlineBaseline: Image { Image("outline-baseline", bundle: UDSBundle.module) }
-    public static var outlineBath: Image { Image("outline-bath", bundle: UDSBundle.module) }
     public static var outlineBattery: Image { Image("outline-battery", bundle: UDSBundle.module) }
-    public static var outlineBatteryCharging: Image { Image("outline-battery-charging", bundle: UDSBundle.module) }
-    public static var outlineBatteryOff: Image { Image("outline-battery-off", bundle: UDSBundle.module) }
-    public static var outlineBed: Image { Image("outline-bed", bundle: UDSBundle.module) }
-    public static var outlineBeer: Image { Image("outline-beer", bundle: UDSBundle.module) }
-    public static var outlineBeerOff: Image { Image("outline-beer-off", bundle: UDSBundle.module) }
     public static var outlineBell: Image { Image("outline-bell", bundle: UDSBundle.module) }
     public static var outlineBellCheck: Image { Image("outline-bell-check", bundle: UDSBundle.module) }
-    public static var outlineBellCode: Image { Image("outline-bell-code", bundle: UDSBundle.module) }
-    public static var outlineBellDown: Image { Image("outline-bell-down", bundle: UDSBundle.module) }
-    public static var outlineBellHeart: Image { Image("outline-bell-heart", bundle: UDSBundle.module) }
-    public static var outlineBellMinus: Image { Image("outline-bell-minus", bundle: UDSBundle.module) }
     public static var outlineBellOff: Image { Image("outline-bell-off", bundle: UDSBundle.module) }
-    public static var outlineBellPause: Image { Image("outline-bell-pause", bundle: UDSBundle.module) }
-    public static var outlineBellPin: Image { Image("outline-bell-pin", bundle: UDSBundle.module) }
     public static var outlineBellPlus: Image { Image("outline-bell-plus", bundle: UDSBundle.module) }
-    public static var outlineBellQuestion: Image { Image("outline-bell-question", bundle: UDSBundle.module) }
-    public static var outlineBellSearch: Image { Image("outline-bell-search", bundle: UDSBundle.module) }
-    public static var outlineBellShare: Image { Image("outline-bell-share", bundle: UDSBundle.module) }
-    public static var outlineBellStar: Image { Image("outline-bell-star", bundle: UDSBundle.module) }
-    public static var outlineBellUp: Image { Image("outline-bell-up", bundle: UDSBundle.module) }
     public static var outlineBellX: Image { Image("outline-bell-x", bundle: UDSBundle.module) }
-    public static var outlineBike: Image { Image("outline-bike", bundle: UDSBundle.module) }
-    public static var outlineBinary: Image { Image("outline-binary", bundle: UDSBundle.module) }
-    public static var outlineBinoculars: Image { Image("outline-binoculars", bundle: UDSBundle.module) }
-    public static var outlineBiohazard: Image { Image("outline-biohazard", bundle: UDSBundle.module) }
-    public static var outlineBlender: Image { Image("outline-blender", bundle: UDSBundle.module) }
-    public static var outlineBlocks: Image { Image("outline-blocks", bundle: UDSBundle.module) }
     public static var outlineBluetooth: Image { Image("outline-bluetooth", bundle: UDSBundle.module) }
-    public static var outlineBluetoothConnected: Image { Image("outline-bluetooth-connected", bundle: UDSBundle.module) }
-    public static var outlineBluetoothOff: Image { Image("outline-bluetooth-off", bundle: UDSBundle.module) }
-    public static var outlineBluetoothX: Image { Image("outline-bluetooth-x", bundle: UDSBundle.module) }
-    public static var outlineBold: Image { Image("outline-bold", bundle: UDSBundle.module) }
-    public static var outlineBolt: Image { Image("outline-bolt", bundle: UDSBundle.module) }
-    public static var outlineBomb: Image { Image("outline-bomb", bundle: UDSBundle.module) }
-    public static var outlineBone: Image { Image("outline-bone", bundle: UDSBundle.module) }
     public static var outlineBook: Image { Image("outline-book", bundle: UDSBundle.module) }
-    public static var outlineBookDownload: Image { Image("outline-book-download", bundle: UDSBundle.module) }
-    public static var outlineBookOff: Image { Image("outline-book-off", bundle: UDSBundle.module) }
-    public static var outlineBookUpload: Image { Image("outline-book-upload", bundle: UDSBundle.module) }
     public static var outlineBookmark: Image { Image("outline-bookmark", bundle: UDSBundle.module) }
-    public static var outlineBookmarkEdit: Image { Image("outline-bookmark-edit", bundle: UDSBundle.module) }
-    public static var outlineBookmarkMinus: Image { Image("outline-bookmark-minus", bundle: UDSBundle.module) }
-    public static var outlineBookmarkOff: Image { Image("outline-bookmark-off", bundle: UDSBundle.module) }
     public static var outlineBookmarkPlus: Image { Image("outline-bookmark-plus", bundle: UDSBundle.module) }
-    public static var outlineBookmarkQuestion: Image { Image("outline-bookmark-question", bundle: UDSBundle.module) }
     public static var outlineBox: Image { Image("outline-box", bundle: UDSBundle.module) }
-    public static var outlineBoxOff: Image { Image("outline-box-off", bundle: UDSBundle.module) }
-    public static var outlineBraces: Image { Image("outline-braces", bundle: UDSBundle.module) }
-    public static var outlineBrackets: Image { Image("outline-brackets", bundle: UDSBundle.module) }
-    public static var outlineBrain: Image { Image("outline-brain", bundle: UDSBundle.module) }
     public static var outlineBriefcase: Image { Image("outline-briefcase", bundle: UDSBundle.module) }
-    public static var outlineBriefcaseOff: Image { Image("outline-briefcase-off", bundle: UDSBundle.module) }
-    public static var outlineBrush: Image { Image("outline-brush", bundle: UDSBundle.module) }
-    public static var outlineBug: Image { Image("outline-bug", bundle: UDSBundle.module) }
-    public static var outlineBugOff: Image { Image("outline-bug-off", bundle: UDSBundle.module) }
     public static var outlineBuilding: Image { Image("outline-building", bundle: UDSBundle.module) }
-    public static var outlineBuildingMinus: Image { Image("outline-building-minus", bundle: UDSBundle.module) }
-    public static var outlineBuildingOff: Image { Image("outline-building-off", bundle: UDSBundle.module) }
-    public static var outlineBuildingPlus: Image { Image("outline-building-plus", bundle: UDSBundle.module) }
-    public static var outlineBuildingStore: Image { Image("outline-building-store", bundle: UDSBundle.module) }
-    public static var outlineBus: Image { Image("outline-bus", bundle: UDSBundle.module) }
-    public static var outlineCake: Image { Image("outline-cake", bundle: UDSBundle.module) }
-    public static var outlineCalculator: Image { Image("outline-calculator", bundle: UDSBundle.module) }
     public static var outlineCalendar: Image { Image("outline-calendar", bundle: UDSBundle.module) }
     public static var outlineCalendarCheck: Image { Image("outline-calendar-check", bundle: UDSBundle.module) }
     public static var outlineCalendarClock: Image { Image("outline-calendar-clock", bundle: UDSBundle.module) }
-    public static var outlineCalendarCode: Image { Image("outline-calendar-code", bundle: UDSBundle.module) }
-    public static var outlineCalendarCog: Image { Image("outline-calendar-cog", bundle: UDSBundle.module) }
-    public static var outlineCalendarDown: Image { Image("outline-calendar-down", bundle: UDSBundle.module) }
-    public static var outlineCalendarHeart: Image { Image("outline-calendar-heart", bundle: UDSBundle.module) }
     public static var outlineCalendarMinus: Image { Image("outline-calendar-minus", bundle: UDSBundle.module) }
-    public static var outlineCalendarOff: Image { Image("outline-calendar-off", bundle: UDSBundle.module) }
-    public static var outlineCalendarPause: Image { Image("outline-calendar-pause", bundle: UDSBundle.module) }
-    public static var outlineCalendarPin: Image { Image("outline-calendar-pin", bundle: UDSBundle.module) }
     public static var outlineCalendarPlus: Image { Image("outline-calendar-plus", bundle: UDSBundle.module) }
-    public static var outlineCalendarQuestion: Image { Image("outline-calendar-question", bundle: UDSBundle.module) }
     public static var outlineCalendarSearch: Image { Image("outline-calendar-search", bundle: UDSBundle.module) }
-    public static var outlineCalendarShare: Image { Image("outline-calendar-share", bundle: UDSBundle.module) }
-    public static var outlineCalendarStar: Image { Image("outline-calendar-star", bundle: UDSBundle.module) }
-    public static var outlineCalendarTime: Image { Image("outline-calendar-time", bundle: UDSBundle.module) }
-    public static var outlineCalendarUp: Image { Image("outline-calendar-up", bundle: UDSBundle.module) }
-    public static var outlineCalendarUser: Image { Image("outline-calendar-user", bundle: UDSBundle.module) }
     public static var outlineCalendarX: Image { Image("outline-calendar-x", bundle: UDSBundle.module) }
     public static var outlineCamera: Image { Image("outline-camera", bundle: UDSBundle.module) }
     public static var outlineCameraCheck: Image { Image("outline-camera-check", bundle: UDSBundle.module) }
-    public static var outlineCameraCode: Image { Image("outline-camera-code", bundle: UDSBundle.module) }
-    public static var outlineCameraDown: Image { Image("outline-camera-down", bundle: UDSBundle.module) }
-    public static var outlineCameraHeart: Image { Image("outline-camera-heart", bundle: UDSBundle.module) }
-    public static var outlineCameraMinus: Image { Image("outline-camera-minus", bundle: UDSBundle.module) }
-    public static var outlineCameraMoon: Image { Image("outline-camera-moon", bundle: UDSBundle.module) }
-    public static var outlineCameraOff: Image { Image("outline-camera-off", bundle: UDSBundle.module) }
-    public static var outlineCameraPause: Image { Image("outline-camera-pause", bundle: UDSBundle.module) }
-    public static var outlineCameraPin: Image { Image("outline-camera-pin", bundle: UDSBundle.module) }
     public static var outlineCameraPlus: Image { Image("outline-camera-plus", bundle: UDSBundle.module) }
-    public static var outlineCameraQuestion: Image { Image("outline-camera-question", bundle: UDSBundle.module) }
-    public static var outlineCameraSearch: Image { Image("outline-camera-search", bundle: UDSBundle.module) }
-    public static var outlineCameraShare: Image { Image("outline-camera-share", bundle: UDSBundle.module) }
-    public static var outlineCameraStar: Image { Image("outline-camera-star", bundle: UDSBundle.module) }
-    public static var outlineCameraUp: Image { Image("outline-camera-up", bundle: UDSBundle.module) }
     public static var outlineCameraX: Image { Image("outline-camera-x", bundle: UDSBundle.module) }
-    public static var outlineCandy: Image { Image("outline-candy", bundle: UDSBundle.module) }
-    public static var outlineCandyOff: Image { Image("outline-candy-off", bundle: UDSBundle.module) }
-    public static var outlineCannabis: Image { Image("outline-cannabis", bundle: UDSBundle.module) }
     public static var outlineCar: Image { Image("outline-car", bundle: UDSBundle.module) }
-    public static var outlineCarOff: Image { Image("outline-car-off", bundle: UDSBundle.module) }
-    public static var outlineCaravan: Image { Image("outline-caravan", bundle: UDSBundle.module) }
-    public static var outlineCarrot: Image { Image("outline-carrot", bundle: UDSBundle.module) }
     public static var outlineCash: Image { Image("outline-cash", bundle: UDSBundle.module) }
-    public static var outlineCashCoin: Image { Image("outline-cash-coin", bundle: UDSBundle.module) }
-    public static var outlineCashEdit: Image { Image("outline-cash-edit", bundle: UDSBundle.module) }
-    public static var outlineCashHeart: Image { Image("outline-cash-heart", bundle: UDSBundle.module) }
-    public static var outlineCashMinus: Image { Image("outline-cash-minus", bundle: UDSBundle.module) }
-    public static var outlineCashMoveBack: Image { Image("outline-cash-move-back", bundle: UDSBundle.module) }
-    public static var outlineCashOff: Image { Image("outline-cash-off", bundle: UDSBundle.module) }
-    public static var outlineCashPlus: Image { Image("outline-cash-plus", bundle: UDSBundle.module) }
-    public static var outlineCast: Image { Image("outline-cast", bundle: UDSBundle.module) }
-    public static var outlineCat: Image { Image("outline-cat", bundle: UDSBundle.module) }
-    public static var outlineChartArea: Image { Image("outline-chart-area", bundle: UDSBundle.module) }
-    public static var outlineChartBar: Image { Image("outline-chart-bar", bundle: UDSBundle.module) }
-    public static var outlineChartColumn: Image { Image("outline-chart-column", bundle: UDSBundle.module) }
-    public static var outlineChartLine: Image { Image("outline-chart-line", bundle: UDSBundle.module) }
-    public static var outlineChartPie: Image { Image("outline-chart-pie", bundle: UDSBundle.module) }
-    public static var outlineChartScatter: Image { Image("outline-chart-scatter", bundle: UDSBundle.module) }
     public static var outlineCheck: Image { Image("outline-check", bundle: UDSBundle.module) }
-    public static var outlineChefHat: Image { Image("outline-chef-hat", bundle: UDSBundle.module) }
-    public static var outlineCherry: Image { Image("outline-cherry", bundle: UDSBundle.module) }
-    public static var outlineChessBishop: Image { Image("outline-chess-bishop", bundle: UDSBundle.module) }
-    public static var outlineChessKing: Image { Image("outline-chess-king", bundle: UDSBundle.module) }
-    public static var outlineChessKnight: Image { Image("outline-chess-knight", bundle: UDSBundle.module) }
-    public static var outlineChessQueen: Image { Image("outline-chess-queen", bundle: UDSBundle.module) }
-    public static var outlineChessRook: Image { Image("outline-chess-rook", bundle: UDSBundle.module) }
     public static var outlineChevronDown: Image { Image("outline-chevron-down", bundle: UDSBundle.module) }
     public static var outlineChevronLeft: Image { Image("outline-chevron-left", bundle: UDSBundle.module) }
     public static var outlineChevronRight: Image { Image("outline-chevron-right", bundle: UDSBundle.module) }
     public static var outlineChevronUp: Image { Image("outline-chevron-up", bundle: UDSBundle.module) }
-    public static var outlineChevronsDown: Image { Image("outline-chevrons-down", bundle: UDSBundle.module) }
-    public static var outlineChevronsLeft: Image { Image("outline-chevrons-left", bundle: UDSBundle.module) }
-    public static var outlineChevronsRight: Image { Image("outline-chevrons-right", bundle: UDSBundle.module) }
-    public static var outlineChevronsUp: Image { Image("outline-chevrons-up", bundle: UDSBundle.module) }
     public static var outlineCircle: Image { Image("outline-circle", bundle: UDSBundle.module) }
-    public static var outlineCircleArrowDown: Image { Image("outline-circle-arrow-down", bundle: UDSBundle.module) }
-    public static var outlineCircleArrowLeft: Image { Image("outline-circle-arrow-left", bundle: UDSBundle.module) }
-    public static var outlineCircleArrowRight: Image { Image("outline-circle-arrow-right", bundle: UDSBundle.module) }
-    public static var outlineCircleArrowUp: Image { Image("outline-circle-arrow-up", bundle: UDSBundle.module) }
-    public static var outlineCircleCheck: Image { Image("outline-circle-check", bundle: UDSBundle.module) }
-    public static var outlineCircleChevronDown: Image { Image("outline-circle-chevron-down", bundle: UDSBundle.module) }
-    public static var outlineCircleChevronLeft: Image { Image("outline-circle-chevron-left", bundle: UDSBundle.module) }
-    public static var outlineCircleChevronRight: Image { Image("outline-circle-chevron-right", bundle: UDSBundle.module) }
-    public static var outlineCircleChevronUp: Image { Image("outline-circle-chevron-up", bundle: UDSBundle.module) }
-    public static var outlineCircleDashed: Image { Image("outline-circle-dashed", bundle: UDSBundle.module) }
-    public static var outlineCircleDashedCheck: Image { Image("outline-circle-dashed-check", bundle: UDSBundle.module) }
-    public static var outlineCircleDot: Image { Image("outline-circle-dot", bundle: UDSBundle.module) }
-    public static var outlineCircleHeart: Image { Image("outline-circle-heart", bundle: UDSBundle.module) }
-    public static var outlineCircleKey: Image { Image("outline-circle-key", bundle: UDSBundle.module) }
-    public static var outlineCircleMinus: Image { Image("outline-circle-minus", bundle: UDSBundle.module) }
-    public static var outlineCircleOff: Image { Image("outline-circle-off", bundle: UDSBundle.module) }
-    public static var outlineCirclePause: Image { Image("outline-circle-pause", bundle: UDSBundle.module) }
-    public static var outlineCirclePlay: Image { Image("outline-circle-play", bundle: UDSBundle.module) }
-    public static var outlineCirclePlus: Image { Image("outline-circle-plus", bundle: UDSBundle.module) }
-    public static var outlineCirclePlusMinus: Image { Image("outline-circle-plus-minus", bundle: UDSBundle.module) }
-    public static var outlineCircleSquare: Image { Image("outline-circle-square", bundle: UDSBundle.module) }
-    public static var outlineCircleStop: Image { Image("outline-circle-stop", bundle: UDSBundle.module) }
-    public static var outlineCircleX: Image { Image("outline-circle-x", bundle: UDSBundle.module) }
     public static var outlineClipboard: Image { Image("outline-clipboard", bundle: UDSBundle.module) }
-    public static var outlineClipboardCheck: Image { Image("outline-clipboard-check", bundle: UDSBundle.module) }
-    public static var outlineClipboardCopy: Image { Image("outline-clipboard-copy", bundle: UDSBundle.module) }
-    public static var outlineClipboardHeart: Image { Image("outline-clipboard-heart", bundle: UDSBundle.module) }
-    public static var outlineClipboardList: Image { Image("outline-clipboard-list", bundle: UDSBundle.module) }
-    public static var outlineClipboardOff: Image { Image("outline-clipboard-off", bundle: UDSBundle.module) }
-    public static var outlineClipboardPlus: Image { Image("outline-clipboard-plus", bundle: UDSBundle.module) }
-    public static var outlineClipboardSearch: Image { Image("outline-clipboard-search", bundle: UDSBundle.module) }
-    public static var outlineClipboardText: Image { Image("outline-clipboard-text", bundle: UDSBundle.module) }
-    public static var outlineClipboardX: Image { Image("outline-clipboard-x", bundle: UDSBundle.module) }
     public static var outlineClock: Image { Image("outline-clock", bundle: UDSBundle.module) }
-    public static var outlineClock12: Image { Image("outline-clock-12", bundle: UDSBundle.module) }
-    public static var outlineClock2: Image { Image("outline-clock-2", bundle: UDSBundle.module) }
-    public static var outlineClockCheck: Image { Image("outline-clock-check", bundle: UDSBundle.module) }
-    public static var outlineClockCode: Image { Image("outline-clock-code", bundle: UDSBundle.module) }
-    public static var outlineClockDown: Image { Image("outline-clock-down", bundle: UDSBundle.module) }
-    public static var outlineClockEdit: Image { Image("outline-clock-edit", bundle: UDSBundle.module) }
-    public static var outlineClockHeart: Image { Image("outline-clock-heart", bundle: UDSBundle.module) }
-    public static var outlineClockMinus: Image { Image("outline-clock-minus", bundle: UDSBundle.module) }
-    public static var outlineClockOff: Image { Image("outline-clock-off", bundle: UDSBundle.module) }
-    public static var outlineClockPause: Image { Image("outline-clock-pause", bundle: UDSBundle.module) }
-    public static var outlineClockPin: Image { Image("outline-clock-pin", bundle: UDSBundle.module) }
-    public static var outlineClockPlay: Image { Image("outline-clock-play", bundle: UDSBundle.module) }
-    public static var outlineClockPlus: Image { Image("outline-clock-plus", bundle: UDSBundle.module) }
-    public static var outlineClockQuestion: Image { Image("outline-clock-question", bundle: UDSBundle.module) }
-    public static var outlineClockSearch: Image { Image("outline-clock-search", bundle: UDSBundle.module) }
-    public static var outlineClockShare: Image { Image("outline-clock-share", bundle: UDSBundle.module) }
-    public static var outlineClockShield: Image { Image("outline-clock-shield", bundle: UDSBundle.module) }
-    public static var outlineClockStar: Image { Image("outline-clock-star", bundle: UDSBundle.module) }
-    public static var outlineClockStop: Image { Image("outline-clock-stop", bundle: UDSBundle.module) }
-    public static var outlineClockUp: Image { Image("outline-clock-up", bundle: UDSBundle.module) }
-    public static var outlineClockX: Image { Image("outline-clock-x", bundle: UDSBundle.module) }
     public static var outlineCloud: Image { Image("outline-cloud", bundle: UDSBundle.module) }
     public static var outlineCloudCheck: Image { Image("outline-cloud-check", bundle: UDSBundle.module) }
-    public static var outlineCloudCode: Image { Image("outline-cloud-code", bundle: UDSBundle.module) }
-    public static var outlineCloudCog: Image { Image("outline-cloud-cog", bundle: UDSBundle.module) }
-    public static var outlineCloudDown: Image { Image("outline-cloud-down", bundle: UDSBundle.module) }
     public static var outlineCloudDownload: Image { Image("outline-cloud-download", bundle: UDSBundle.module) }
-    public static var outlineCloudFog: Image { Image("outline-cloud-fog", bundle: UDSBundle.module) }
-    public static var outlineCloudHeart: Image { Image("outline-cloud-heart", bundle: UDSBundle.module) }
-    public static var outlineCloudLock: Image { Image("outline-cloud-lock", bundle: UDSBundle.module) }
-    public static var outlineCloudMinus: Image { Image("outline-cloud-minus", bundle: UDSBundle.module) }
-    public static var outlineCloudOff: Image { Image("outline-cloud-off", bundle: UDSBundle.module) }
-    public static var outlineCloudPause: Image { Image("outline-cloud-pause", bundle: UDSBundle.module) }
-    public static var outlineCloudPin: Image { Image("outline-cloud-pin", bundle: UDSBundle.module) }
-    public static var outlineCloudPlus: Image { Image("outline-cloud-plus", bundle: UDSBundle.module) }
-    public static var outlineCloudQuestion: Image { Image("outline-cloud-question", bundle: UDSBundle.module) }
-    public static var outlineCloudRain: Image { Image("outline-cloud-rain", bundle: UDSBundle.module) }
-    public static var outlineCloudSearch: Image { Image("outline-cloud-search", bundle: UDSBundle.module) }
-    public static var outlineCloudShare: Image { Image("outline-cloud-share", bundle: UDSBundle.module) }
-    public static var outlineCloudSnow: Image { Image("outline-cloud-snow", bundle: UDSBundle.module) }
-    public static var outlineCloudStar: Image { Image("outline-cloud-star", bundle: UDSBundle.module) }
-    public static var outlineCloudUp: Image { Image("outline-cloud-up", bundle: UDSBundle.module) }
     public static var outlineCloudUpload: Image { Image("outline-cloud-upload", bundle: UDSBundle.module) }
     public static var outlineCloudX: Image { Image("outline-cloud-x", bundle: UDSBundle.module) }
-    public static var outlineClover: Image { Image("outline-clover", bundle: UDSBundle.module) }
     public static var outlineCode: Image { Image("outline-code", bundle: UDSBundle.module) }
-    public static var outlineCodeCircle: Image { Image("outline-code-circle", bundle: UDSBundle.module) }
-    public static var outlineCodeMinus: Image { Image("outline-code-minus", bundle: UDSBundle.module) }
-    public static var outlineCodeOff: Image { Image("outline-code-off", bundle: UDSBundle.module) }
-    public static var outlineCodePlus: Image { Image("outline-code-plus", bundle: UDSBundle.module) }
-    public static var outlineCoffee: Image { Image("outline-coffee", bundle: UDSBundle.module) }
     public static var outlineCoin: Image { Image("outline-coin", bundle: UDSBundle.module) }
-    public static var outlineCoinOff: Image { Image("outline-coin-off", bundle: UDSBundle.module) }
-    public static var outlineCoins: Image { Image("outline-coins", bundle: UDSBundle.module) }
-    public static var outlineColumns2: Image { Image("outline-columns-2", bundle: UDSBundle.module) }
-    public static var outlineColumns3: Image { Image("outline-columns-3", bundle: UDSBundle.module) }
-    public static var outlineCommand: Image { Image("outline-command", bundle: UDSBundle.module) }
     public static var outlineCompass: Image { Image("outline-compass", bundle: UDSBundle.module) }
-    public static var outlineCompassOff: Image { Image("outline-compass-off", bundle: UDSBundle.module) }
-    public static var outlineCone: Image { Image("outline-cone", bundle: UDSBundle.module) }
-    public static var outlineContainer: Image { Image("outline-container", bundle: UDSBundle.module) }
-    public static var outlineContrast: Image { Image("outline-contrast", bundle: UDSBundle.module) }
-    public static var outlineCookie: Image { Image("outline-cookie", bundle: UDSBundle.module) }
     public static var outlineCopy: Image { Image("outline-copy", bundle: UDSBundle.module) }
-    public static var outlineCopyCheck: Image { Image("outline-copy-check", bundle: UDSBundle.module) }
-    public static var outlineCopyMinus: Image { Image("outline-copy-minus", bundle: UDSBundle.module) }
-    public static var outlineCopyOff: Image { Image("outline-copy-off", bundle: UDSBundle.module) }
-    public static var outlineCopyPlus: Image { Image("outline-copy-plus", bundle: UDSBundle.module) }
-    public static var outlineCopyX: Image { Image("outline-copy-x", bundle: UDSBundle.module) }
-    public static var outlineCopyleft: Image { Image("outline-copyleft", bundle: UDSBundle.module) }
-    public static var outlineCopyright: Image { Image("outline-copyright", bundle: UDSBundle.module) }
-    public static var outlineCornerDownLeft: Image { Image("outline-corner-down-left", bundle: UDSBundle.module) }
-    public static var outlineCornerDownRight: Image { Image("outline-corner-down-right", bundle: UDSBundle.module) }
-    public static var outlineCornerLeftDown: Image { Image("outline-corner-left-down", bundle: UDSBundle.module) }
-    public static var outlineCornerLeftUp: Image { Image("outline-corner-left-up", bundle: UDSBundle.module) }
-    public static var outlineCornerRightDown: Image { Image("outline-corner-right-down", bundle: UDSBundle.module) }
-    public static var outlineCornerRightUp: Image { Image("outline-corner-right-up", bundle: UDSBundle.module) }
-    public static var outlineCornerUpLeft: Image { Image("outline-corner-up-left", bundle: UDSBundle.module) }
-    public static var outlineCornerUpRight: Image { Image("outline-corner-up-right", bundle: UDSBundle.module) }
-    public static var outlineCpu: Image { Image("outline-cpu", bundle: UDSBundle.module) }
-    public static var outlineCreativeCommons: Image { Image("outline-creative-commons", bundle: UDSBundle.module) }
     public static var outlineCreditCard: Image { Image("outline-credit-card", bundle: UDSBundle.module) }
-    public static var outlineCrop: Image { Image("outline-crop", bundle: UDSBundle.module) }
-    public static var outlineCross: Image { Image("outline-cross", bundle: UDSBundle.module) }
-    public static var outlineCrosshair: Image { Image("outline-crosshair", bundle: UDSBundle.module) }
-    public static var outlineCrown: Image { Image("outline-crown", bundle: UDSBundle.module) }
-    public static var outlineCurrency: Image { Image("outline-currency", bundle: UDSBundle.module) }
-    public static var outlineCylinder: Image { Image("outline-cylinder", bundle: UDSBundle.module) }
     public static var outlineDashboard: Image { Image("outline-dashboard", bundle: UDSBundle.module) }
-    public static var outlineDashboardOff: Image { Image("outline-dashboard-off", bundle: UDSBundle.module) }
     public static var outlineDatabase: Image { Image("outline-database", bundle: UDSBundle.module) }
-    public static var outlineDatabaseEdit: Image { Image("outline-database-edit", bundle: UDSBundle.module) }
-    public static var outlineDatabaseHeart: Image { Image("outline-database-heart", bundle: UDSBundle.module) }
-    public static var outlineDatabaseMinus: Image { Image("outline-database-minus", bundle: UDSBundle.module) }
-    public static var outlineDatabaseOff: Image { Image("outline-database-off", bundle: UDSBundle.module) }
-    public static var outlineDatabasePlus: Image { Image("outline-database-plus", bundle: UDSBundle.module) }
-    public static var outlineDatabaseSearch: Image { Image("outline-database-search", bundle: UDSBundle.module) }
-    public static var outlineDatabaseShare: Image { Image("outline-database-share", bundle: UDSBundle.module) }
-    public static var outlineDatabaseStar: Image { Image("outline-database-star", bundle: UDSBundle.module) }
-    public static var outlineDatabaseX: Image { Image("outline-database-x", bundle: UDSBundle.module) }
-    public static var outlineDeviceCameraPhone: Image { Image("outline-device-camera-phone", bundle: UDSBundle.module) }
     public static var outlineDeviceDesktop: Image { Image("outline-device-desktop", bundle: UDSBundle.module) }
-    public static var outlineDeviceHeartMonitor: Image { Image("outline-device-heart-monitor", bundle: UDSBundle.module) }
-    public static var outlineDeviceImacX: Image { Image("outline-device-imac-x", bundle: UDSBundle.module) }
-    public static var outlineDeviceIpadX: Image { Image("outline-device-ipad-x", bundle: UDSBundle.module) }
     public static var outlineDeviceLaptop: Image { Image("outline-device-laptop", bundle: UDSBundle.module) }
-    public static var outlineDeviceLaptopOff: Image { Image("outline-device-laptop-off", bundle: UDSBundle.module) }
     public static var outlineDeviceMobile: Image { Image("outline-device-mobile", bundle: UDSBundle.module) }
     public static var outlineDeviceMobileCheck: Image { Image("outline-device-mobile-check", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileCode: Image { Image("outline-device-mobile-code", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileDown: Image { Image("outline-device-mobile-down", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileHeart: Image { Image("outline-device-mobile-heart", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileMessage: Image { Image("outline-device-mobile-message", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileMinus: Image { Image("outline-device-mobile-minus", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileOff: Image { Image("outline-device-mobile-off", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobilePause: Image { Image("outline-device-mobile-pause", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobilePin: Image { Image("outline-device-mobile-pin", bundle: UDSBundle.module) }
     public static var outlineDeviceMobilePlus: Image { Image("outline-device-mobile-plus", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileQuestion: Image { Image("outline-device-mobile-question", bundle: UDSBundle.module) }
     public static var outlineDeviceMobileSearch: Image { Image("outline-device-mobile-search", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileShare: Image { Image("outline-device-mobile-share", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileStar: Image { Image("outline-device-mobile-star", bundle: UDSBundle.module) }
-    public static var outlineDeviceMobileUp: Image { Image("outline-device-mobile-up", bundle: UDSBundle.module) }
     public static var outlineDeviceMobileX: Image { Image("outline-device-mobile-x", bundle: UDSBundle.module) }
-    public static var outlineDeviceSpeaker: Image { Image("outline-device-speaker", bundle: UDSBundle.module) }
-    public static var outlineDeviceSpeakerOff: Image { Image("outline-device-speaker-off", bundle: UDSBundle.module) }
     public static var outlineDeviceTablet: Image { Image("outline-device-tablet", bundle: UDSBundle.module) }
-    public static var outlineDeviceTabletX: Image { Image("outline-device-tablet-x", bundle: UDSBundle.module) }
-    public static var outlineDeviceTv: Image { Image("outline-device-tv", bundle: UDSBundle.module) }
-    public static var outlineDeviceTvOff: Image { Image("outline-device-tv-off", bundle: UDSBundle.module) }
-    public static var outlineDeviceTvOld: Image { Image("outline-device-tv-old", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatch: Image { Image("outline-device-watch", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchCheck: Image { Image("outline-device-watch-check", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchCode: Image { Image("outline-device-watch-code", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchDown: Image { Image("outline-device-watch-down", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchHeart: Image { Image("outline-device-watch-heart", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchMinus: Image { Image("outline-device-watch-minus", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchOff: Image { Image("outline-device-watch-off", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchPause: Image { Image("outline-device-watch-pause", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchPin: Image { Image("outline-device-watch-pin", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchPlus: Image { Image("outline-device-watch-plus", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchQuestion: Image { Image("outline-device-watch-question", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchSearch: Image { Image("outline-device-watch-search", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchShare: Image { Image("outline-device-watch-share", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchStar: Image { Image("outline-device-watch-star", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchUp: Image { Image("outline-device-watch-up", bundle: UDSBundle.module) }
-    public static var outlineDeviceWatchX: Image { Image("outline-device-watch-x", bundle: UDSBundle.module) }
-    public static var outlineDiamond: Image { Image("outline-diamond", bundle: UDSBundle.module) }
-    public static var outlineDice1: Image { Image("outline-dice-1", bundle: UDSBundle.module) }
-    public static var outlineDice2: Image { Image("outline-dice-2", bundle: UDSBundle.module) }
-    public static var outlineDice3: Image { Image("outline-dice-3", bundle: UDSBundle.module) }
-    public static var outlineDice4: Image { Image("outline-dice-4", bundle: UDSBundle.module) }
-    public static var outlineDice5: Image { Image("outline-dice-5", bundle: UDSBundle.module) }
-    public static var outlineDice6: Image { Image("outline-dice-6", bundle: UDSBundle.module) }
-    public static var outlineDisc: Image { Image("outline-disc", bundle: UDSBundle.module) }
-    public static var outlineDivide: Image { Image("outline-divide", bundle: UDSBundle.module) }
-    public static var outlineDna: Image { Image("outline-dna", bundle: UDSBundle.module) }
-    public static var outlineDnaOff: Image { Image("outline-dna-off", bundle: UDSBundle.module) }
-    public static var outlineDog: Image { Image("outline-dog", bundle: UDSBundle.module) }
     public static var outlineDownload: Image { Image("outline-download", bundle: UDSBundle.module) }
-    public static var outlineDownloadOff: Image { Image("outline-download-off", bundle: UDSBundle.module) }
-    public static var outlineDrone: Image { Image("outline-drone", bundle: UDSBundle.module) }
-    public static var outlineDroplet: Image { Image("outline-droplet", bundle: UDSBundle.module) }
-    public static var outlineDropletOff: Image { Image("outline-droplet-off", bundle: UDSBundle.module) }
-    public static var outlineDroplets: Image { Image("outline-droplets", bundle: UDSBundle.module) }
-    public static var outlineDumbbell: Image { Image("outline-dumbbell", bundle: UDSBundle.module) }
-    public static var outlineEar: Image { Image("outline-ear", bundle: UDSBundle.module) }
-    public static var outlineEarOff: Image { Image("outline-ear-off", bundle: UDSBundle.module) }
     public static var outlineEdit: Image { Image("outline-edit", bundle: UDSBundle.module) }
-    public static var outlineEditCircle: Image { Image("outline-edit-circle", bundle: UDSBundle.module) }
-    public static var outlineEditCircleOff: Image { Image("outline-edit-circle-off", bundle: UDSBundle.module) }
-    public static var outlineEditOff: Image { Image("outline-edit-off", bundle: UDSBundle.module) }
-    public static var outlineEgg: Image { Image("outline-egg", bundle: UDSBundle.module) }
-    public static var outlineEggFried: Image { Image("outline-egg-fried", bundle: UDSBundle.module) }
-    public static var outlineEggOff: Image { Image("outline-egg-off", bundle: UDSBundle.module) }
-    public static var outlineEngine: Image { Image("outline-engine", bundle: UDSBundle.module) }
-    public static var outlineEqual: Image { Image("outline-equal", bundle: UDSBundle.module) }
-    public static var outlineEqualNot: Image { Image("outline-equal-not", bundle: UDSBundle.module) }
-    public static var outlineEraser: Image { Image("outline-eraser", bundle: UDSBundle.module) }
     public static var outlineExternalLink: Image { Image("outline-external-link", bundle: UDSBundle.module) }
     public static var outlineEye: Image { Image("outline-eye", bundle: UDSBundle.module) }
-    public static var outlineEyeCheck: Image { Image("outline-eye-check", bundle: UDSBundle.module) }
-    public static var outlineEyeClosed: Image { Image("outline-eye-closed", bundle: UDSBundle.module) }
-    public static var outlineEyeCode: Image { Image("outline-eye-code", bundle: UDSBundle.module) }
-    public static var outlineEyeDown: Image { Image("outline-eye-down", bundle: UDSBundle.module) }
-    public static var outlineEyeEdit: Image { Image("outline-eye-edit", bundle: UDSBundle.module) }
-    public static var outlineEyeHeart: Image { Image("outline-eye-heart", bundle: UDSBundle.module) }
-    public static var outlineEyeMinus: Image { Image("outline-eye-minus", bundle: UDSBundle.module) }
     public static var outlineEyeOff: Image { Image("outline-eye-off", bundle: UDSBundle.module) }
-    public static var outlineEyePause: Image { Image("outline-eye-pause", bundle: UDSBundle.module) }
-    public static var outlineEyePin: Image { Image("outline-eye-pin", bundle: UDSBundle.module) }
-    public static var outlineEyePlus: Image { Image("outline-eye-plus", bundle: UDSBundle.module) }
-    public static var outlineEyeQuestion: Image { Image("outline-eye-question", bundle: UDSBundle.module) }
-    public static var outlineEyeSearch: Image { Image("outline-eye-search", bundle: UDSBundle.module) }
-    public static var outlineEyeShare: Image { Image("outline-eye-share", bundle: UDSBundle.module) }
-    public static var outlineEyeStar: Image { Image("outline-eye-star", bundle: UDSBundle.module) }
-    public static var outlineEyeTable: Image { Image("outline-eye-table", bundle: UDSBundle.module) }
-    public static var outlineEyeUp: Image { Image("outline-eye-up", bundle: UDSBundle.module) }
-    public static var outlineEyeX: Image { Image("outline-eye-x", bundle: UDSBundle.module) }
-    public static var outlineFeather: Image { Image("outline-feather", bundle: UDSBundle.module) }
-    public static var outlineFence: Image { Image("outline-fence", bundle: UDSBundle.module) }
     public static var outlineFile: Image { Image("outline-file", bundle: UDSBundle.module) }
-    public static var outlineFileAlert: Image { Image("outline-file-alert", bundle: UDSBundle.module) }
-    public static var outlineFileArrowLeft: Image { Image("outline-file-arrow-left", bundle: UDSBundle.module) }
-    public static var outlineFileArrowRight: Image { Image("outline-file-arrow-right", bundle: UDSBundle.module) }
-    public static var outlineFileBarcode: Image { Image("outline-file-barcode", bundle: UDSBundle.module) }
     public static var outlineFileCheck: Image { Image("outline-file-check", bundle: UDSBundle.module) }
     public static var outlineFileCode: Image { Image("outline-file-code", bundle: UDSBundle.module) }
-    public static var outlineFileCode2: Image { Image("outline-file-code-2", bundle: UDSBundle.module) }
-    public static var outlineFileDatabase: Image { Image("outline-file-database", bundle: UDSBundle.module) }
-    public static var outlineFileDiff: Image { Image("outline-file-diff", bundle: UDSBundle.module) }
-    public static var outlineFileDigit: Image { Image("outline-file-digit", bundle: UDSBundle.module) }
     public static var outlineFileDownload: Image { Image("outline-file-download", bundle: UDSBundle.module) }
-    public static var outlineFileInfo: Image { Image("outline-file-info", bundle: UDSBundle.module) }
-    public static var outlineFileLock: Image { Image("outline-file-lock", bundle: UDSBundle.module) }
     public static var outlineFileMinus: Image { Image("outline-file-minus", bundle: UDSBundle.module) }
-    public static var outlineFileMusic: Image { Image("outline-file-music", bundle: UDSBundle.module) }
-    public static var outlineFileOff: Image { Image("outline-file-off", bundle: UDSBundle.module) }
-    public static var outlineFilePencil: Image { Image("outline-file-pencil", bundle: UDSBundle.module) }
-    public static var outlineFilePercent: Image { Image("outline-file-percent", bundle: UDSBundle.module) }
-    public static var outlineFilePhone: Image { Image("outline-file-phone", bundle: UDSBundle.module) }
     public static var outlineFilePlus: Image { Image("outline-file-plus", bundle: UDSBundle.module) }
     public static var outlineFileSearch: Image { Image("outline-file-search", bundle: UDSBundle.module) }
-    public static var outlineFileSettings: Image { Image("outline-file-settings", bundle: UDSBundle.module) }
-    public static var outlineFileSignal: Image { Image("outline-file-signal", bundle: UDSBundle.module) }
-    public static var outlineFileSpreadsheet: Image { Image("outline-file-spreadsheet", bundle: UDSBundle.module) }
-    public static var outlineFileStack: Image { Image("outline-file-stack", bundle: UDSBundle.module) }
-    public static var outlineFileStar: Image { Image("outline-file-star", bundle: UDSBundle.module) }
-    public static var outlineFileSymlink: Image { Image("outline-file-symlink", bundle: UDSBundle.module) }
     public static var outlineFileText: Image { Image("outline-file-text", bundle: UDSBundle.module) }
-    public static var outlineFileTextAi: Image { Image("outline-file-text-ai", bundle: UDSBundle.module) }
-    public static var outlineFileTextShield: Image { Image("outline-file-text-shield", bundle: UDSBundle.module) }
-    public static var outlineFileTextSpark: Image { Image("outline-file-text-spark", bundle: UDSBundle.module) }
-    public static var outlineFileTime: Image { Image("outline-file-time", bundle: UDSBundle.module) }
     public static var outlineFileUpload: Image { Image("outline-file-upload", bundle: UDSBundle.module) }
     public static var outlineFileX: Image { Image("outline-file-x", bundle: UDSBundle.module) }
-    public static var outlineFiles: Image { Image("outline-files", bundle: UDSBundle.module) }
     public static var outlineFilter: Image { Image("outline-filter", bundle: UDSBundle.module) }
-    public static var outlineFilter2Code: Image { Image("outline-filter-2-code", bundle: UDSBundle.module) }
-    public static var outlineFilter2Pause: Image { Image("outline-filter-2-pause", bundle: UDSBundle.module) }
-    public static var outlineFilter2X: Image { Image("outline-filter-2-x", bundle: UDSBundle.module) }
-    public static var outlineFilterCheck: Image { Image("outline-filter-check", bundle: UDSBundle.module) }
-    public static var outlineFilterCode: Image { Image("outline-filter-code", bundle: UDSBundle.module) }
-    public static var outlineFilterDown: Image { Image("outline-filter-down", bundle: UDSBundle.module) }
-    public static var outlineFilterEdit: Image { Image("outline-filter-edit", bundle: UDSBundle.module) }
-    public static var outlineFilterHeart: Image { Image("outline-filter-heart", bundle: UDSBundle.module) }
-    public static var outlineFilterMinus: Image { Image("outline-filter-minus", bundle: UDSBundle.module) }
-    public static var outlineFilterOff: Image { Image("outline-filter-off", bundle: UDSBundle.module) }
-    public static var outlineFilterPause: Image { Image("outline-filter-pause", bundle: UDSBundle.module) }
-    public static var outlineFilterPin: Image { Image("outline-filter-pin", bundle: UDSBundle.module) }
-    public static var outlineFilterPlus: Image { Image("outline-filter-plus", bundle: UDSBundle.module) }
-    public static var outlineFilterQuestion: Image { Image("outline-filter-question", bundle: UDSBundle.module) }
-    public static var outlineFilterSearch: Image { Image("outline-filter-search", bundle: UDSBundle.module) }
-    public static var outlineFilterShare: Image { Image("outline-filter-share", bundle: UDSBundle.module) }
-    public static var outlineFilterStar: Image { Image("outline-filter-star", bundle: UDSBundle.module) }
-    public static var outlineFilterUp: Image { Image("outline-filter-up", bundle: UDSBundle.module) }
-    public static var outlineFilterX: Image { Image("outline-filter-x", bundle: UDSBundle.module) }
-    public static var outlineFireExtinguisher: Image { Image("outline-fire-extinguisher", bundle: UDSBundle.module) }
-    public static var outlineFish: Image { Image("outline-fish", bundle: UDSBundle.module) }
-    public static var outlineFishOff: Image { Image("outline-fish-off", bundle: UDSBundle.module) }
     public static var outlineFlag: Image { Image("outline-flag", bundle: UDSBundle.module) }
-    public static var outlineFlagOff: Image { Image("outline-flag-off", bundle: UDSBundle.module) }
-    public static var outlineFlame: Image { Image("outline-flame", bundle: UDSBundle.module) }
-    public static var outlineFlower: Image { Image("outline-flower", bundle: UDSBundle.module) }
-    public static var outlineFocus: Image { Image("outline-focus", bundle: UDSBundle.module) }
     public static var outlineFolder: Image { Image("outline-folder", bundle: UDSBundle.module) }
     public static var outlineFolderCheck: Image { Image("outline-folder-check", bundle: UDSBundle.module) }
-    public static var outlineFolderCode: Image { Image("outline-folder-code", bundle: UDSBundle.module) }
-    public static var outlineFolderCog: Image { Image("outline-folder-cog", bundle: UDSBundle.module) }
-    public static var outlineFolderDown: Image { Image("outline-folder-down", bundle: UDSBundle.module) }
-    public static var outlineFolderHeart: Image { Image("outline-folder-heart", bundle: UDSBundle.module) }
-    public static var outlineFolderLock: Image { Image("outline-folder-lock", bundle: UDSBundle.module) }
     public static var outlineFolderMinus: Image { Image("outline-folder-minus", bundle: UDSBundle.module) }
-    public static var outlineFolderOff: Image { Image("outline-folder-off", bundle: UDSBundle.module) }
     public static var outlineFolderOpen: Image { Image("outline-folder-open", bundle: UDSBundle.module) }
-    public static var outlineFolderPause: Image { Image("outline-folder-pause", bundle: UDSBundle.module) }
-    public static var outlineFolderPin: Image { Image("outline-folder-pin", bundle: UDSBundle.module) }
     public static var outlineFolderPlus: Image { Image("outline-folder-plus", bundle: UDSBundle.module) }
-    public static var outlineFolderQuestion: Image { Image("outline-folder-question", bundle: UDSBundle.module) }
-    public static var outlineFolderRoot: Image { Image("outline-folder-root", bundle: UDSBundle.module) }
     public static var outlineFolderSearch: Image { Image("outline-folder-search", bundle: UDSBundle.module) }
-    public static var outlineFolderShare: Image { Image("outline-folder-share", bundle: UDSBundle.module) }
-    public static var outlineFolderStar: Image { Image("outline-folder-star", bundle: UDSBundle.module) }
-    public static var outlineFolderSymlink: Image { Image("outline-folder-symlink", bundle: UDSBundle.module) }
-    public static var outlineFolderUp: Image { Image("outline-folder-up", bundle: UDSBundle.module) }
-    public static var outlineFolderUser: Image { Image("outline-folder-user", bundle: UDSBundle.module) }
     public static var outlineFolderX: Image { Image("outline-folder-x", bundle: UDSBundle.module) }
-    public static var outlineFolders: Image { Image("outline-folders", bundle: UDSBundle.module) }
-    public static var outlineForklift: Image { Image("outline-forklift", bundle: UDSBundle.module) }
-    public static var outlineFrame: Image { Image("outline-frame", bundle: UDSBundle.module) }
-    public static var outlineGalaxy: Image { Image("outline-galaxy", bundle: UDSBundle.module) }
-    public static var outlineGauge: Image { Image("outline-gauge", bundle: UDSBundle.module) }
-    public static var outlineGavel: Image { Image("outline-gavel", bundle: UDSBundle.module) }
-    public static var outlineGhost: Image { Image("outline-ghost", bundle: UDSBundle.module) }
     public static var outlineGift: Image { Image("outline-gift", bundle: UDSBundle.module) }
-    public static var outlineGiftOff: Image { Image("outline-gift-off", bundle: UDSBundle.module) }
-    public static var outlineGitBranch: Image { Image("outline-git-branch", bundle: UDSBundle.module) }
-    public static var outlineGitCompare: Image { Image("outline-git-compare", bundle: UDSBundle.module) }
-    public static var outlineGitFork: Image { Image("outline-git-fork", bundle: UDSBundle.module) }
-    public static var outlineGitMerge: Image { Image("outline-git-merge", bundle: UDSBundle.module) }
-    public static var outlineGitPullRequest: Image { Image("outline-git-pull-request", bundle: UDSBundle.module) }
-    public static var outlineGitPullRequestClosed: Image { Image("outline-git-pull-request-closed", bundle: UDSBundle.module) }
-    public static var outlineGitPullRequestDraft: Image { Image("outline-git-pull-request-draft", bundle: UDSBundle.module) }
     public static var outlineGlobe: Image { Image("outline-globe", bundle: UDSBundle.module) }
-    public static var outlineGlobeOff: Image { Image("outline-globe-off", bundle: UDSBundle.module) }
-    public static var outlineGpu: Image { Image("outline-gpu", bundle: UDSBundle.module) }
-    public static var outlineGrape: Image { Image("outline-grape", bundle: UDSBundle.module) }
     public static var outlineGraph: Image { Image("outline-graph", bundle: UDSBundle.module) }
-    public static var outlineGraphOff: Image { Image("outline-graph-off", bundle: UDSBundle.module) }
-    public static var outlineGrid3x3: Image { Image("outline-grid-3x3", bundle: UDSBundle.module) }
-    public static var outlineGripHorizontal: Image { Image("outline-grip-horizontal", bundle: UDSBundle.module) }
-    public static var outlineGripVertical: Image { Image("outline-grip-vertical", bundle: UDSBundle.module) }
-    public static var outlineHammer: Image { Image("outline-hammer", bundle: UDSBundle.module) }
-    public static var outlineHandGrab: Image { Image("outline-hand-grab", bundle: UDSBundle.module) }
-    public static var outlineHash: Image { Image("outline-hash", bundle: UDSBundle.module) }
-    public static var outlineHaze: Image { Image("outline-haze", bundle: UDSBundle.module) }
-    public static var outlineHeading: Image { Image("outline-heading", bundle: UDSBundle.module) }
-    public static var outlineHeadphones: Image { Image("outline-headphones", bundle: UDSBundle.module) }
-    public static var outlineHeadset: Image { Image("outline-headset", bundle: UDSBundle.module) }
     public static var outlineHeart: Image { Image("outline-heart", bundle: UDSBundle.module) }
     public static var outlineHeartCheck: Image { Image("outline-heart-check", bundle: UDSBundle.module) }
-    public static var outlineHeartCode: Image { Image("outline-heart-code", bundle: UDSBundle.module) }
-    public static var outlineHeartDown: Image { Image("outline-heart-down", bundle: UDSBundle.module) }
     public static var outlineHeartHandshake: Image { Image("outline-heart-handshake", bundle: UDSBundle.module) }
     public static var outlineHeartMinus: Image { Image("outline-heart-minus", bundle: UDSBundle.module) }
-    public static var outlineHeartOff: Image { Image("outline-heart-off", bundle: UDSBundle.module) }
-    public static var outlineHeartPause: Image { Image("outline-heart-pause", bundle: UDSBundle.module) }
-    public static var outlineHeartPin: Image { Image("outline-heart-pin", bundle: UDSBundle.module) }
     public static var outlineHeartPlus: Image { Image("outline-heart-plus", bundle: UDSBundle.module) }
-    public static var outlineHeartQuestion: Image { Image("outline-heart-question", bundle: UDSBundle.module) }
-    public static var outlineHeartSearch: Image { Image("outline-heart-search", bundle: UDSBundle.module) }
-    public static var outlineHeartShare: Image { Image("outline-heart-share", bundle: UDSBundle.module) }
-    public static var outlineHeartStar: Image { Image("outline-heart-star", bundle: UDSBundle.module) }
-    public static var outlineHeartUp: Image { Image("outline-heart-up", bundle: UDSBundle.module) }
     public static var outlineHeartX: Image { Image("outline-heart-x", bundle: UDSBundle.module) }
-    public static var outlineHelicopter: Image { Image("outline-helicopter", bundle: UDSBundle.module) }
     public static var outlineHelp: Image { Image("outline-help", bundle: UDSBundle.module) }
-    public static var outlineHelpCircle: Image { Image("outline-help-circle", bundle: UDSBundle.module) }
-    public static var outlineHelpOff: Image { Image("outline-help-off", bundle: UDSBundle.module) }
-    public static var outlineHelpSquare: Image { Image("outline-help-square", bundle: UDSBundle.module) }
-    public static var outlineHexagon: Image { Image("outline-hexagon", bundle: UDSBundle.module) }
     public static var outlineHome: Image { Image("outline-home", bundle: UDSBundle.module) }
-    public static var outlineHomeCheck: Image { Image("outline-home-check", bundle: UDSBundle.module) }
-    public static var outlineHomeDown: Image { Image("outline-home-down", bundle: UDSBundle.module) }
     public static var outlineHomeEdit: Image { Image("outline-home-edit", bundle: UDSBundle.module) }
-    public static var outlineHomeHeart: Image { Image("outline-home-heart", bundle: UDSBundle.module) }
-    public static var outlineHomeLink: Image { Image("outline-home-link", bundle: UDSBundle.module) }
-    public static var outlineHomeLock: Image { Image("outline-home-lock", bundle: UDSBundle.module) }
-    public static var outlineHomeMinus: Image { Image("outline-home-minus", bundle: UDSBundle.module) }
-    public static var outlineHomeOff: Image { Image("outline-home-off", bundle: UDSBundle.module) }
     public static var outlineHomePlus: Image { Image("outline-home-plus", bundle: UDSBundle.module) }
-    public static var outlineHomeQuestion: Image { Image("outline-home-question", bundle: UDSBundle.module) }
-    public static var outlineHomeSearch: Image { Image("outline-home-search", bundle: UDSBundle.module) }
-    public static var outlineHomeShare: Image { Image("outline-home-share", bundle: UDSBundle.module) }
-    public static var outlineHomeShield: Image { Image("outline-home-shield", bundle: UDSBundle.module) }
-    public static var outlineHomeStar: Image { Image("outline-home-star", bundle: UDSBundle.module) }
-    public static var outlineHomeUp: Image { Image("outline-home-up", bundle: UDSBundle.module) }
     public static var outlineHomeX: Image { Image("outline-home-x", bundle: UDSBundle.module) }
-    public static var outlineHospital: Image { Image("outline-hospital", bundle: UDSBundle.module) }
-    public static var outlineHourglass: Image { Image("outline-hourglass", bundle: UDSBundle.module) }
-    public static var outlineInbox: Image { Image("outline-inbox", bundle: UDSBundle.module) }
-    public static var outlineInfinity: Image { Image("outline-infinity", bundle: UDSBundle.module) }
-    public static var outlineInfoCircle: Image { Image("outline-info-circle", bundle: UDSBundle.module) }
-    public static var outlineInfoSquare: Image { Image("outline-info-square", bundle: UDSBundle.module) }
-    public static var outlineItalic: Image { Image("outline-italic", bundle: UDSBundle.module) }
-    public static var outlineKayak: Image { Image("outline-kayak", bundle: UDSBundle.module) }
     public static var outlineKey: Image { Image("outline-key", bundle: UDSBundle.module) }
-    public static var outlineKeyOff: Image { Image("outline-key-off", bundle: UDSBundle.module) }
     public static var outlineKeyboard: Image { Image("outline-keyboard", bundle: UDSBundle.module) }
-    public static var outlineKeyboardOff: Image { Image("outline-keyboard-off", bundle: UDSBundle.module) }
-    public static var outlineLambda: Image { Image("outline-lambda", bundle: UDSBundle.module) }
-    public static var outlineLamp: Image { Image("outline-lamp", bundle: UDSBundle.module) }
-    public static var outlineLasso: Image { Image("outline-lasso", bundle: UDSBundle.module) }
-    public static var outlineLayersOff: Image { Image("outline-layers-off", bundle: UDSBundle.module) }
     public static var outlineLayout: Image { Image("outline-layout", bundle: UDSBundle.module) }
-    public static var outlineLayoutDashboard: Image { Image("outline-layout-dashboard", bundle: UDSBundle.module) }
-    public static var outlineLayoutGrid: Image { Image("outline-layout-grid", bundle: UDSBundle.module) }
-    public static var outlineLayoutGridAdd: Image { Image("outline-layout-grid-add", bundle: UDSBundle.module) }
-    public static var outlineLayoutList: Image { Image("outline-layout-list", bundle: UDSBundle.module) }
-    public static var outlineLayoutOff: Image { Image("outline-layout-off", bundle: UDSBundle.module) }
     public static var outlineLeaf: Image { Image("outline-leaf", bundle: UDSBundle.module) }
-    public static var outlineLeafOff: Image { Image("outline-leaf-off", bundle: UDSBundle.module) }
-    public static var outlineLensConcave: Image { Image("outline-lens-concave", bundle: UDSBundle.module) }
-    public static var outlineLensConvex: Image { Image("outline-lens-convex", bundle: UDSBundle.module) }
-    public static var outlineLibrary: Image { Image("outline-library", bundle: UDSBundle.module) }
     public static var outlineLink: Image { Image("outline-link", bundle: UDSBundle.module) }
-    public static var outlineLinkMinus: Image { Image("outline-link-minus", bundle: UDSBundle.module) }
-    public static var outlineLinkOff: Image { Image("outline-link-off", bundle: UDSBundle.module) }
-    public static var outlineLinkPlus: Image { Image("outline-link-plus", bundle: UDSBundle.module) }
     public static var outlineList: Image { Image("outline-list", bundle: UDSBundle.module) }
-    public static var outlineListCheck: Image { Image("outline-list-check", bundle: UDSBundle.module) }
-    public static var outlineListSearch: Image { Image("outline-list-search", bundle: UDSBundle.module) }
-    public static var outlineListTree: Image { Image("outline-list-tree", bundle: UDSBundle.module) }
-    public static var outlineLoader: Image { Image("outline-loader", bundle: UDSBundle.module) }
     public static var outlineLocation: Image { Image("outline-location", bundle: UDSBundle.module) }
-    public static var outlineLocationCheck: Image { Image("outline-location-check", bundle: UDSBundle.module) }
-    public static var outlineLocationCode: Image { Image("outline-location-code", bundle: UDSBundle.module) }
-    public static var outlineLocationDown: Image { Image("outline-location-down", bundle: UDSBundle.module) }
-    public static var outlineLocationHeart: Image { Image("outline-location-heart", bundle: UDSBundle.module) }
-    public static var outlineLocationMinus: Image { Image("outline-location-minus", bundle: UDSBundle.module) }
-    public static var outlineLocationOff: Image { Image("outline-location-off", bundle: UDSBundle.module) }
-    public static var outlineLocationPause: Image { Image("outline-location-pause", bundle: UDSBundle.module) }
-    public static var outlineLocationPin: Image { Image("outline-location-pin", bundle: UDSBundle.module) }
-    public static var outlineLocationPlus: Image { Image("outline-location-plus", bundle: UDSBundle.module) }
-    public static var outlineLocationQuestion: Image { Image("outline-location-question", bundle: UDSBundle.module) }
-    public static var outlineLocationSearch: Image { Image("outline-location-search", bundle: UDSBundle.module) }
-    public static var outlineLocationShare: Image { Image("outline-location-share", bundle: UDSBundle.module) }
-    public static var outlineLocationStar: Image { Image("outline-location-star", bundle: UDSBundle.module) }
-    public static var outlineLocationUp: Image { Image("outline-location-up", bundle: UDSBundle.module) }
-    public static var outlineLocationX: Image { Image("outline-location-x", bundle: UDSBundle.module) }
     public static var outlineLock: Image { Image("outline-lock", bundle: UDSBundle.module) }
-    public static var outlineLockCheck: Image { Image("outline-lock-check", bundle: UDSBundle.module) }
-    public static var outlineLockCode: Image { Image("outline-lock-code", bundle: UDSBundle.module) }
-    public static var outlineLockDown: Image { Image("outline-lock-down", bundle: UDSBundle.module) }
-    public static var outlineLockHeart: Image { Image("outline-lock-heart", bundle: UDSBundle.module) }
-    public static var outlineLockMinus: Image { Image("outline-lock-minus", bundle: UDSBundle.module) }
-    public static var outlineLockOff: Image { Image("outline-lock-off", bundle: UDSBundle.module) }
-    public static var outlineLockOpen: Image { Image("outline-lock-open", bundle: UDSBundle.module) }
-    public static var outlineLockPause: Image { Image("outline-lock-pause", bundle: UDSBundle.module) }
-    public static var outlineLockPin: Image { Image("outline-lock-pin", bundle: UDSBundle.module) }
-    public static var outlineLockPlus: Image { Image("outline-lock-plus", bundle: UDSBundle.module) }
-    public static var outlineLockQuestion: Image { Image("outline-lock-question", bundle: UDSBundle.module) }
-    public static var outlineLockSearch: Image { Image("outline-lock-search", bundle: UDSBundle.module) }
-    public static var outlineLockShare: Image { Image("outline-lock-share", bundle: UDSBundle.module) }
-    public static var outlineLockSquare: Image { Image("outline-lock-square", bundle: UDSBundle.module) }
-    public static var outlineLockStar: Image { Image("outline-lock-star", bundle: UDSBundle.module) }
-    public static var outlineLockUp: Image { Image("outline-lock-up", bundle: UDSBundle.module) }
-    public static var outlineLockX: Image { Image("outline-lock-x", bundle: UDSBundle.module) }
     public static var outlineLogin: Image { Image("outline-login", bundle: UDSBundle.module) }
     public static var outlineLogout: Image { Image("outline-logout", bundle: UDSBundle.module) }
-    public static var outlineLogs: Image { Image("outline-logs", bundle: UDSBundle.module) }
-    public static var outlineLollipop: Image { Image("outline-lollipop", bundle: UDSBundle.module) }
-    public static var outlineLuggage: Image { Image("outline-luggage", bundle: UDSBundle.module) }
-    public static var outlineMagnet: Image { Image("outline-magnet", bundle: UDSBundle.module) }
     public static var outlineMail: Image { Image("outline-mail", bundle: UDSBundle.module) }
     public static var outlineMailCheck: Image { Image("outline-mail-check", bundle: UDSBundle.module) }
-    public static var outlineMailCode: Image { Image("outline-mail-code", bundle: UDSBundle.module) }
-    public static var outlineMailDown: Image { Image("outline-mail-down", bundle: UDSBundle.module) }
-    public static var outlineMailHeart: Image { Image("outline-mail-heart", bundle: UDSBundle.module) }
-    public static var outlineMailMinus: Image { Image("outline-mail-minus", bundle: UDSBundle.module) }
-    public static var outlineMailOff: Image { Image("outline-mail-off", bundle: UDSBundle.module) }
-    public static var outlineMailPause: Image { Image("outline-mail-pause", bundle: UDSBundle.module) }
-    public static var outlineMailPin: Image { Image("outline-mail-pin", bundle: UDSBundle.module) }
     public static var outlineMailPlus: Image { Image("outline-mail-plus", bundle: UDSBundle.module) }
-    public static var outlineMailQuestion: Image { Image("outline-mail-question", bundle: UDSBundle.module) }
     public static var outlineMailSearch: Image { Image("outline-mail-search", bundle: UDSBundle.module) }
-    public static var outlineMailShare: Image { Image("outline-mail-share", bundle: UDSBundle.module) }
-    public static var outlineMailStar: Image { Image("outline-mail-star", bundle: UDSBundle.module) }
-    public static var outlineMailUp: Image { Image("outline-mail-up", bundle: UDSBundle.module) }
-    public static var outlineMailX: Image { Image("outline-mail-x", bundle: UDSBundle.module) }
-    public static var outlineMailbox: Image { Image("outline-mailbox", bundle: UDSBundle.module) }
     public static var outlineMap: Image { Image("outline-map", bundle: UDSBundle.module) }
-    public static var outlineMapCheck: Image { Image("outline-map-check", bundle: UDSBundle.module) }
-    public static var outlineMapCode: Image { Image("outline-map-code", bundle: UDSBundle.module) }
-    public static var outlineMapDown: Image { Image("outline-map-down", bundle: UDSBundle.module) }
-    public static var outlineMapHeart: Image { Image("outline-map-heart", bundle: UDSBundle.module) }
-    public static var outlineMapLock: Image { Image("outline-map-lock", bundle: UDSBundle.module) }
-    public static var outlineMapMinus: Image { Image("outline-map-minus", bundle: UDSBundle.module) }
-    public static var outlineMapOff: Image { Image("outline-map-off", bundle: UDSBundle.module) }
-    public static var outlineMapPause: Image { Image("outline-map-pause", bundle: UDSBundle.module) }
     public static var outlineMapPin: Image { Image("outline-map-pin", bundle: UDSBundle.module) }
-    public static var outlineMapPinCheck: Image { Image("outline-map-pin-check", bundle: UDSBundle.module) }
-    public static var outlineMapPinCode: Image { Image("outline-map-pin-code", bundle: UDSBundle.module) }
-    public static var outlineMapPinDown: Image { Image("outline-map-pin-down", bundle: UDSBundle.module) }
-    public static var outlineMapPinHeart: Image { Image("outline-map-pin-heart", bundle: UDSBundle.module) }
-    public static var outlineMapPinMinus: Image { Image("outline-map-pin-minus", bundle: UDSBundle.module) }
-    public static var outlineMapPinOff: Image { Image("outline-map-pin-off", bundle: UDSBundle.module) }
-    public static var outlineMapPinPause: Image { Image("outline-map-pin-pause", bundle: UDSBundle.module) }
-    public static var outlineMapPinPin: Image { Image("outline-map-pin-pin", bundle: UDSBundle.module) }
     public static var outlineMapPinPlus: Image { Image("outline-map-pin-plus", bundle: UDSBundle.module) }
-    public static var outlineMapPinQuestion: Image { Image("outline-map-pin-question", bundle: UDSBundle.module) }
-    public static var outlineMapPinSearch: Image { Image("outline-map-pin-search", bundle: UDSBundle.module) }
-    public static var outlineMapPinShare: Image { Image("outline-map-pin-share", bundle: UDSBundle.module) }
-    public static var outlineMapPinStar: Image { Image("outline-map-pin-star", bundle: UDSBundle.module) }
-    public static var outlineMapPinUp: Image { Image("outline-map-pin-up", bundle: UDSBundle.module) }
-    public static var outlineMapPinX: Image { Image("outline-map-pin-x", bundle: UDSBundle.module) }
-    public static var outlineMapPinned: Image { Image("outline-map-pinned", bundle: UDSBundle.module) }
-    public static var outlineMapPlus: Image { Image("outline-map-plus", bundle: UDSBundle.module) }
-    public static var outlineMapQuestion: Image { Image("outline-map-question", bundle: UDSBundle.module) }
-    public static var outlineMapRoute: Image { Image("outline-map-route", bundle: UDSBundle.module) }
-    public static var outlineMapSearch: Image { Image("outline-map-search", bundle: UDSBundle.module) }
-    public static var outlineMapShare: Image { Image("outline-map-share", bundle: UDSBundle.module) }
-    public static var outlineMapShield: Image { Image("outline-map-shield", bundle: UDSBundle.module) }
-    public static var outlineMapStar: Image { Image("outline-map-star", bundle: UDSBundle.module) }
-    public static var outlineMapUp: Image { Image("outline-map-up", bundle: UDSBundle.module) }
-    public static var outlineMapX: Image { Image("outline-map-x", bundle: UDSBundle.module) }
-    public static var outlineMars: Image { Image("outline-mars", bundle: UDSBundle.module) }
     public static var outlineMaximize: Image { Image("outline-maximize", bundle: UDSBundle.module) }
-    public static var outlineMaximizeOff: Image { Image("outline-maximize-off", bundle: UDSBundle.module) }
-    public static var outlineMedal: Image { Image("outline-medal", bundle: UDSBundle.module) }
     public static var outlineMenu: Image { Image("outline-menu", bundle: UDSBundle.module) }
     public static var outlineMessage: Image { Image("outline-message", bundle: UDSBundle.module) }
-    public static var outlineMessage2Code: Image { Image("outline-message-2-code", bundle: UDSBundle.module) }
-    public static var outlineMessage2Pause: Image { Image("outline-message-2-pause", bundle: UDSBundle.module) }
-    public static var outlineMessage2X: Image { Image("outline-message-2-x", bundle: UDSBundle.module) }
     public static var outlineMessageCheck: Image { Image("outline-message-check", bundle: UDSBundle.module) }
     public static var outlineMessageCircle: Image { Image("outline-message-circle", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleCheck: Image { Image("outline-message-circle-check", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleCode: Image { Image("outline-message-circle-code", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleDown: Image { Image("outline-message-circle-down", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleHeart: Image { Image("outline-message-circle-heart", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleMinus: Image { Image("outline-message-circle-minus", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleOff: Image { Image("outline-message-circle-off", bundle: UDSBundle.module) }
-    public static var outlineMessageCirclePause: Image { Image("outline-message-circle-pause", bundle: UDSBundle.module) }
-    public static var outlineMessageCirclePin: Image { Image("outline-message-circle-pin", bundle: UDSBundle.module) }
-    public static var outlineMessageCirclePlus: Image { Image("outline-message-circle-plus", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleQuestion: Image { Image("outline-message-circle-question", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleSearch: Image { Image("outline-message-circle-search", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleShare: Image { Image("outline-message-circle-share", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleStar: Image { Image("outline-message-circle-star", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleUp: Image { Image("outline-message-circle-up", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleUser: Image { Image("outline-message-circle-user", bundle: UDSBundle.module) }
-    public static var outlineMessageCircleX: Image { Image("outline-message-circle-x", bundle: UDSBundle.module) }
-    public static var outlineMessageCode: Image { Image("outline-message-code", bundle: UDSBundle.module) }
-    public static var outlineMessageDown: Image { Image("outline-message-down", bundle: UDSBundle.module) }
-    public static var outlineMessageHeart: Image { Image("outline-message-heart", bundle: UDSBundle.module) }
-    public static var outlineMessageMinus: Image { Image("outline-message-minus", bundle: UDSBundle.module) }
-    public static var outlineMessageOff: Image { Image("outline-message-off", bundle: UDSBundle.module) }
-    public static var outlineMessagePause: Image { Image("outline-message-pause", bundle: UDSBundle.module) }
-    public static var outlineMessagePin: Image { Image("outline-message-pin", bundle: UDSBundle.module) }
     public static var outlineMessagePlus: Image { Image("outline-message-plus", bundle: UDSBundle.module) }
-    public static var outlineMessageQuestion: Image { Image("outline-message-question", bundle: UDSBundle.module) }
     public static var outlineMessageReply: Image { Image("outline-message-reply", bundle: UDSBundle.module) }
     public static var outlineMessageSearch: Image { Image("outline-message-search", bundle: UDSBundle.module) }
-    public static var outlineMessageShare: Image { Image("outline-message-share", bundle: UDSBundle.module) }
-    public static var outlineMessageStar: Image { Image("outline-message-star", bundle: UDSBundle.module) }
-    public static var outlineMessageUp: Image { Image("outline-message-up", bundle: UDSBundle.module) }
     public static var outlineMessageUser: Image { Image("outline-message-user", bundle: UDSBundle.module) }
     public static var outlineMessageX: Image { Image("outline-message-x", bundle: UDSBundle.module) }
-    public static var outlineMetronome: Image { Image("outline-metronome", bundle: UDSBundle.module) }
     public static var outlineMicrophone: Image { Image("outline-microphone", bundle: UDSBundle.module) }
-    public static var outlineMicrophoneOff: Image { Image("outline-microphone-off", bundle: UDSBundle.module) }
-    public static var outlineMicroscope: Image { Image("outline-microscope", bundle: UDSBundle.module) }
-    public static var outlineMicrowave: Image { Image("outline-microwave", bundle: UDSBundle.module) }
-    public static var outlineMilk: Image { Image("outline-milk", bundle: UDSBundle.module) }
-    public static var outlineMilkOff: Image { Image("outline-milk-off", bundle: UDSBundle.module) }
-    public static var outlineMinimize: Image { Image("outline-minimize", bundle: UDSBundle.module) }
     public static var outlineMinus: Image { Image("outline-minus", bundle: UDSBundle.module) }
     public static var outlineMoon: Image { Image("outline-moon", bundle: UDSBundle.module) }
-    public static var outlineMoonOff: Image { Image("outline-moon-off", bundle: UDSBundle.module) }
-    public static var outlineMosque: Image { Image("outline-mosque", bundle: UDSBundle.module) }
-    public static var outlineMotorbike: Image { Image("outline-motorbike", bundle: UDSBundle.module) }
-    public static var outlineMountain: Image { Image("outline-mountain", bundle: UDSBundle.module) }
     public static var outlineMouse: Image { Image("outline-mouse", bundle: UDSBundle.module) }
-    public static var outlineMouseOff: Image { Image("outline-mouse-off", bundle: UDSBundle.module) }
     public static var outlineMusic: Image { Image("outline-music", bundle: UDSBundle.module) }
-    public static var outlineMusicCheck: Image { Image("outline-music-check", bundle: UDSBundle.module) }
-    public static var outlineMusicCode: Image { Image("outline-music-code", bundle: UDSBundle.module) }
-    public static var outlineMusicDown: Image { Image("outline-music-down", bundle: UDSBundle.module) }
-    public static var outlineMusicHeart: Image { Image("outline-music-heart", bundle: UDSBundle.module) }
-    public static var outlineMusicMinus: Image { Image("outline-music-minus", bundle: UDSBundle.module) }
-    public static var outlineMusicOff: Image { Image("outline-music-off", bundle: UDSBundle.module) }
-    public static var outlineMusicPause: Image { Image("outline-music-pause", bundle: UDSBundle.module) }
-    public static var outlineMusicPin: Image { Image("outline-music-pin", bundle: UDSBundle.module) }
-    public static var outlineMusicPlus: Image { Image("outline-music-plus", bundle: UDSBundle.module) }
-    public static var outlineMusicQuestion: Image { Image("outline-music-question", bundle: UDSBundle.module) }
-    public static var outlineMusicSearch: Image { Image("outline-music-search", bundle: UDSBundle.module) }
-    public static var outlineMusicShare: Image { Image("outline-music-share", bundle: UDSBundle.module) }
-    public static var outlineMusicStar: Image { Image("outline-music-star", bundle: UDSBundle.module) }
-    public static var outlineMusicUp: Image { Image("outline-music-up", bundle: UDSBundle.module) }
-    public static var outlineMusicX: Image { Image("outline-music-x", bundle: UDSBundle.module) }
     public static var outlineNavigation: Image { Image("outline-navigation", bundle: UDSBundle.module) }
-    public static var outlineNavigationCheck: Image { Image("outline-navigation-check", bundle: UDSBundle.module) }
-    public static var outlineNavigationCode: Image { Image("outline-navigation-code", bundle: UDSBundle.module) }
-    public static var outlineNavigationDown: Image { Image("outline-navigation-down", bundle: UDSBundle.module) }
-    public static var outlineNavigationHeart: Image { Image("outline-navigation-heart", bundle: UDSBundle.module) }
-    public static var outlineNavigationMinus: Image { Image("outline-navigation-minus", bundle: UDSBundle.module) }
-    public static var outlineNavigationOff: Image { Image("outline-navigation-off", bundle: UDSBundle.module) }
-    public static var outlineNavigationPause: Image { Image("outline-navigation-pause", bundle: UDSBundle.module) }
-    public static var outlineNavigationPin: Image { Image("outline-navigation-pin", bundle: UDSBundle.module) }
-    public static var outlineNavigationPlus: Image { Image("outline-navigation-plus", bundle: UDSBundle.module) }
-    public static var outlineNavigationQuestion: Image { Image("outline-navigation-question", bundle: UDSBundle.module) }
-    public static var outlineNavigationSearch: Image { Image("outline-navigation-search", bundle: UDSBundle.module) }
-    public static var outlineNavigationShare: Image { Image("outline-navigation-share", bundle: UDSBundle.module) }
-    public static var outlineNavigationStar: Image { Image("outline-navigation-star", bundle: UDSBundle.module) }
-    public static var outlineNavigationUp: Image { Image("outline-navigation-up", bundle: UDSBundle.module) }
-    public static var outlineNavigationX: Image { Image("outline-navigation-x", bundle: UDSBundle.module) }
-    public static var outlineNetwork: Image { Image("outline-network", bundle: UDSBundle.module) }
-    public static var outlineNfc: Image { Image("outline-nfc", bundle: UDSBundle.module) }
     public static var outlineNote: Image { Image("outline-note", bundle: UDSBundle.module) }
-    public static var outlineNoteOff: Image { Image("outline-note-off", bundle: UDSBundle.module) }
-    public static var outlineNotebook: Image { Image("outline-notebook", bundle: UDSBundle.module) }
     public static var outlineNotification: Image { Image("outline-notification", bundle: UDSBundle.module) }
-    public static var outlineNotificationOff: Image { Image("outline-notification-off", bundle: UDSBundle.module) }
-    public static var outlineNut: Image { Image("outline-nut", bundle: UDSBundle.module) }
-    public static var outlineOctagon: Image { Image("outline-octagon", bundle: UDSBundle.module) }
-    public static var outlineOctagonMinus: Image { Image("outline-octagon-minus", bundle: UDSBundle.module) }
-    public static var outlineOmega: Image { Image("outline-omega", bundle: UDSBundle.module) }
-    public static var outlineOption: Image { Image("outline-option", bundle: UDSBundle.module) }
-    public static var outlineOrbit: Image { Image("outline-orbit", bundle: UDSBundle.module) }
     public static var outlinePackage: Image { Image("outline-package", bundle: UDSBundle.module) }
-    public static var outlinePackageOff: Image { Image("outline-package-off", bundle: UDSBundle.module) }
     public static var outlinePalette: Image { Image("outline-palette", bundle: UDSBundle.module) }
-    public static var outlinePaletteOff: Image { Image("outline-palette-off", bundle: UDSBundle.module) }
-    public static var outlinePaperBag: Image { Image("outline-paper-bag", bundle: UDSBundle.module) }
     public static var outlinePaperclip: Image { Image("outline-paperclip", bundle: UDSBundle.module) }
-    public static var outlineParentheses: Image { Image("outline-parentheses", bundle: UDSBundle.module) }
-    public static var outlineParkingMeter: Image { Image("outline-parking-meter", bundle: UDSBundle.module) }
     public static var outlinePencil: Image { Image("outline-pencil", bundle: UDSBundle.module) }
-    public static var outlinePencilCheck: Image { Image("outline-pencil-check", bundle: UDSBundle.module) }
-    public static var outlinePencilCode: Image { Image("outline-pencil-code", bundle: UDSBundle.module) }
-    public static var outlinePencilDown: Image { Image("outline-pencil-down", bundle: UDSBundle.module) }
-    public static var outlinePencilHeart: Image { Image("outline-pencil-heart", bundle: UDSBundle.module) }
-    public static var outlinePencilMinus: Image { Image("outline-pencil-minus", bundle: UDSBundle.module) }
-    public static var outlinePencilOff: Image { Image("outline-pencil-off", bundle: UDSBundle.module) }
-    public static var outlinePencilPause: Image { Image("outline-pencil-pause", bundle: UDSBundle.module) }
-    public static var outlinePencilPin: Image { Image("outline-pencil-pin", bundle: UDSBundle.module) }
-    public static var outlinePencilPlus: Image { Image("outline-pencil-plus", bundle: UDSBundle.module) }
-    public static var outlinePencilQuestion: Image { Image("outline-pencil-question", bundle: UDSBundle.module) }
-    public static var outlinePencilSearch: Image { Image("outline-pencil-search", bundle: UDSBundle.module) }
-    public static var outlinePencilShare: Image { Image("outline-pencil-share", bundle: UDSBundle.module) }
-    public static var outlinePencilStar: Image { Image("outline-pencil-star", bundle: UDSBundle.module) }
-    public static var outlinePencilUp: Image { Image("outline-pencil-up", bundle: UDSBundle.module) }
-    public static var outlinePencilX: Image { Image("outline-pencil-x", bundle: UDSBundle.module) }
-    public static var outlinePentagon: Image { Image("outline-pentagon", bundle: UDSBundle.module) }
     public static var outlinePhone: Image { Image("outline-phone", bundle: UDSBundle.module) }
-    public static var outlinePhoneCall: Image { Image("outline-phone-call", bundle: UDSBundle.module) }
-    public static var outlinePhoneCheck: Image { Image("outline-phone-check", bundle: UDSBundle.module) }
-    public static var outlinePhoneIncoming: Image { Image("outline-phone-incoming", bundle: UDSBundle.module) }
-    public static var outlinePhoneOff: Image { Image("outline-phone-off", bundle: UDSBundle.module) }
-    public static var outlinePhoneOutgoing: Image { Image("outline-phone-outgoing", bundle: UDSBundle.module) }
-    public static var outlinePhonePause: Image { Image("outline-phone-pause", bundle: UDSBundle.module) }
-    public static var outlinePhonePlus: Image { Image("outline-phone-plus", bundle: UDSBundle.module) }
-    public static var outlinePhoneX: Image { Image("outline-phone-x", bundle: UDSBundle.module) }
     public static var outlinePhoto: Image { Image("outline-photo", bundle: UDSBundle.module) }
     public static var outlinePhotoCheck: Image { Image("outline-photo-check", bundle: UDSBundle.module) }
-    public static var outlinePhotoCircle: Image { Image("outline-photo-circle", bundle: UDSBundle.module) }
-    public static var outlinePhotoCircleMinus: Image { Image("outline-photo-circle-minus", bundle: UDSBundle.module) }
-    public static var outlinePhotoCirclePlus: Image { Image("outline-photo-circle-plus", bundle: UDSBundle.module) }
-    public static var outlinePhotoCode: Image { Image("outline-photo-code", bundle: UDSBundle.module) }
-    public static var outlinePhotoDown: Image { Image("outline-photo-down", bundle: UDSBundle.module) }
-    public static var outlinePhotoEdit: Image { Image("outline-photo-edit", bundle: UDSBundle.module) }
-    public static var outlinePhotoHeart: Image { Image("outline-photo-heart", bundle: UDSBundle.module) }
-    public static var outlinePhotoMinus: Image { Image("outline-photo-minus", bundle: UDSBundle.module) }
-    public static var outlinePhotoOff: Image { Image("outline-photo-off", bundle: UDSBundle.module) }
-    public static var outlinePhotoPause: Image { Image("outline-photo-pause", bundle: UDSBundle.module) }
-    public static var outlinePhotoPin: Image { Image("outline-photo-pin", bundle: UDSBundle.module) }
     public static var outlinePhotoPlus: Image { Image("outline-photo-plus", bundle: UDSBundle.module) }
-    public static var outlinePhotoQuestion: Image { Image("outline-photo-question", bundle: UDSBundle.module) }
-    public static var outlinePhotoSearch: Image { Image("outline-photo-search", bundle: UDSBundle.module) }
-    public static var outlinePhotoShare: Image { Image("outline-photo-share", bundle: UDSBundle.module) }
-    public static var outlinePhotoShield: Image { Image("outline-photo-shield", bundle: UDSBundle.module) }
-    public static var outlinePhotoStar: Image { Image("outline-photo-star", bundle: UDSBundle.module) }
-    public static var outlinePhotoUp: Image { Image("outline-photo-up", bundle: UDSBundle.module) }
-    public static var outlinePhotoVideo: Image { Image("outline-photo-video", bundle: UDSBundle.module) }
     public static var outlinePhotoX: Image { Image("outline-photo-x", bundle: UDSBundle.module) }
-    public static var outlinePiano: Image { Image("outline-piano", bundle: UDSBundle.module) }
-    public static var outlinePictureInPicture: Image { Image("outline-picture-in-picture", bundle: UDSBundle.module) }
-    public static var outlinePilcrow: Image { Image("outline-pilcrow", bundle: UDSBundle.module) }
-    public static var outlinePilcrowLeft: Image { Image("outline-pilcrow-left", bundle: UDSBundle.module) }
-    public static var outlinePilcrowRight: Image { Image("outline-pilcrow-right", bundle: UDSBundle.module) }
-    public static var outlinePill: Image { Image("outline-pill", bundle: UDSBundle.module) }
     public static var outlinePin: Image { Image("outline-pin", bundle: UDSBundle.module) }
-    public static var outlinePizza: Image { Image("outline-pizza", bundle: UDSBundle.module) }
     public static var outlinePlane: Image { Image("outline-plane", bundle: UDSBundle.module) }
-    public static var outlinePlaneOff: Image { Image("outline-plane-off", bundle: UDSBundle.module) }
-    public static var outlinePlug: Image { Image("outline-plug", bundle: UDSBundle.module) }
     public static var outlinePlus: Image { Image("outline-plus", bundle: UDSBundle.module) }
-    public static var outlinePlusMinus: Image { Image("outline-plus-minus", bundle: UDSBundle.module) }
-    public static var outlinePodium: Image { Image("outline-podium", bundle: UDSBundle.module) }
-    public static var outlinePointer: Image { Image("outline-pointer", bundle: UDSBundle.module) }
-    public static var outlinePointerOff: Image { Image("outline-pointer-off", bundle: UDSBundle.module) }
-    public static var outlinePower: Image { Image("outline-power", bundle: UDSBundle.module) }
-    public static var outlinePresentation: Image { Image("outline-presentation", bundle: UDSBundle.module) }
     public static var outlinePrinter: Image { Image("outline-printer", bundle: UDSBundle.module) }
-    public static var outlinePrinterOff: Image { Image("outline-printer-off", bundle: UDSBundle.module) }
     public static var outlinePuzzle: Image { Image("outline-puzzle", bundle: UDSBundle.module) }
-    public static var outlinePuzzleOff: Image { Image("outline-puzzle-off", bundle: UDSBundle.module) }
-    public static var outlinePyramid: Image { Image("outline-pyramid", bundle: UDSBundle.module) }
-    public static var outlineQuote: Image { Image("outline-quote", bundle: UDSBundle.module) }
-    public static var outlineRadar: Image { Image("outline-radar", bundle: UDSBundle.module) }
     public static var outlineRadio: Image { Image("outline-radio", bundle: UDSBundle.module) }
-    public static var outlineRadioOff: Image { Image("outline-radio-off", bundle: UDSBundle.module) }
-    public static var outlineRainbow: Image { Image("outline-rainbow", bundle: UDSBundle.module) }
     public static var outlineReceipt: Image { Image("outline-receipt", bundle: UDSBundle.module) }
-    public static var outlineReceiptEuro: Image { Image("outline-receipt-euro", bundle: UDSBundle.module) }
-    public static var outlineReceiptOff: Image { Image("outline-receipt-off", bundle: UDSBundle.module) }
-    public static var outlineRectangleVertical: Image { Image("outline-rectangle-vertical", bundle: UDSBundle.module) }
-    public static var outlineRecycle: Image { Image("outline-recycle", bundle: UDSBundle.module) }
     public static var outlineRefresh: Image { Image("outline-refresh", bundle: UDSBundle.module) }
-    public static var outlineRefreshAlert: Image { Image("outline-refresh-alert", bundle: UDSBundle.module) }
-    public static var outlineRefreshOff: Image { Image("outline-refresh-off", bundle: UDSBundle.module) }
-    public static var outlineRegex: Image { Image("outline-regex", bundle: UDSBundle.module) }
     public static var outlineReload: Image { Image("outline-reload", bundle: UDSBundle.module) }
-    public static var outlineRepeat: Image { Image("outline-repeat", bundle: UDSBundle.module) }
-    public static var outlineRepeatOff: Image { Image("outline-repeat-off", bundle: UDSBundle.module) }
-    public static var outlineReplace: Image { Image("outline-replace", bundle: UDSBundle.module) }
-    public static var outlineRoad: Image { Image("outline-road", bundle: UDSBundle.module) }
-    public static var outlineRocket: Image { Image("outline-rocket", bundle: UDSBundle.module) }
-    public static var outlineRockingChair: Image { Image("outline-rocking-chair", bundle: UDSBundle.module) }
-    public static var outlineRotate3d: Image { Image("outline-rotate-3d", bundle: UDSBundle.module) }
     public static var outlineRoute: Image { Image("outline-route", bundle: UDSBundle.module) }
-    public static var outlineRouteOff: Image { Image("outline-route-off", bundle: UDSBundle.module) }
-    public static var outlineRouteSquare: Image { Image("outline-route-square", bundle: UDSBundle.module) }
-    public static var outlineRouteX: Image { Image("outline-route-x", bundle: UDSBundle.module) }
-    public static var outlineRouteX2: Image { Image("outline-route-x-2", bundle: UDSBundle.module) }
-    public static var outlineRouter: Image { Image("outline-router", bundle: UDSBundle.module) }
-    public static var outlineRss: Image { Image("outline-rss", bundle: UDSBundle.module) }
-    public static var outlineRuler: Image { Image("outline-ruler", bundle: UDSBundle.module) }
-    public static var outlineSailboat: Image { Image("outline-sailboat", bundle: UDSBundle.module) }
-    public static var outlineSalad: Image { Image("outline-salad", bundle: UDSBundle.module) }
-    public static var outlineSatellite: Image { Image("outline-satellite", bundle: UDSBundle.module) }
-    public static var outlineScale: Image { Image("outline-scale", bundle: UDSBundle.module) }
-    public static var outlineScan: Image { Image("outline-scan", bundle: UDSBundle.module) }
-    public static var outlineScanEye: Image { Image("outline-scan-eye", bundle: UDSBundle.module) }
-    public static var outlineSchool: Image { Image("outline-school", bundle: UDSBundle.module) }
-    public static var outlineScissors: Image { Image("outline-scissors", bundle: UDSBundle.module) }
-    public static var outlineScooter: Image { Image("outline-scooter", bundle: UDSBundle.module) }
-    public static var outlineScreenShare: Image { Image("outline-screen-share", bundle: UDSBundle.module) }
-    public static var outlineScreenShareOff: Image { Image("outline-screen-share-off", bundle: UDSBundle.module) }
     public static var outlineSearch: Image { Image("outline-search", bundle: UDSBundle.module) }
-    public static var outlineSearchOff: Image { Image("outline-search-off", bundle: UDSBundle.module) }
-    public static var outlineSection: Image { Image("outline-section", bundle: UDSBundle.module) }
     public static var outlineSend: Image { Image("outline-send", bundle: UDSBundle.module) }
-    public static var outlineSendOff: Image { Image("outline-send-off", bundle: UDSBundle.module) }
-    public static var outlineSeparatorHorizontal: Image { Image("outline-separator-horizontal", bundle: UDSBundle.module) }
-    public static var outlineSeparatorVertical: Image { Image("outline-separator-vertical", bundle: UDSBundle.module) }
     public static var outlineServer: Image { Image("outline-server", bundle: UDSBundle.module) }
-    public static var outlineServerCog: Image { Image("outline-server-cog", bundle: UDSBundle.module) }
-    public static var outlineServerOff: Image { Image("outline-server-off", bundle: UDSBundle.module) }
     public static var outlineSettings: Image { Image("outline-settings", bundle: UDSBundle.module) }
-    public static var outlineSettings2: Image { Image("outline-settings-2", bundle: UDSBundle.module) }
-    public static var outlineSettingsCheck: Image { Image("outline-settings-check", bundle: UDSBundle.module) }
-    public static var outlineSettingsCode: Image { Image("outline-settings-code", bundle: UDSBundle.module) }
-    public static var outlineSettingsDown: Image { Image("outline-settings-down", bundle: UDSBundle.module) }
-    public static var outlineSettingsHeart: Image { Image("outline-settings-heart", bundle: UDSBundle.module) }
-    public static var outlineSettingsMinus: Image { Image("outline-settings-minus", bundle: UDSBundle.module) }
-    public static var outlineSettingsOff: Image { Image("outline-settings-off", bundle: UDSBundle.module) }
-    public static var outlineSettingsPause: Image { Image("outline-settings-pause", bundle: UDSBundle.module) }
-    public static var outlineSettingsPin: Image { Image("outline-settings-pin", bundle: UDSBundle.module) }
-    public static var outlineSettingsPlus: Image { Image("outline-settings-plus", bundle: UDSBundle.module) }
-    public static var outlineSettingsQuestion: Image { Image("outline-settings-question", bundle: UDSBundle.module) }
-    public static var outlineSettingsSearch: Image { Image("outline-settings-search", bundle: UDSBundle.module) }
-    public static var outlineSettingsShare: Image { Image("outline-settings-share", bundle: UDSBundle.module) }
-    public static var outlineSettingsStar: Image { Image("outline-settings-star", bundle: UDSBundle.module) }
-    public static var outlineSettingsUp: Image { Image("outline-settings-up", bundle: UDSBundle.module) }
-    public static var outlineSettingsX: Image { Image("outline-settings-x", bundle: UDSBundle.module) }
     public static var outlineShare: Image { Image("outline-share", bundle: UDSBundle.module) }
-    public static var outlineShare2: Image { Image("outline-share-2", bundle: UDSBundle.module) }
-    public static var outlineShareOff: Image { Image("outline-share-off", bundle: UDSBundle.module) }
     public static var outlineShield: Image { Image("outline-shield", bundle: UDSBundle.module) }
-    public static var outlineShieldCheck: Image { Image("outline-shield-check", bundle: UDSBundle.module) }
-    public static var outlineShieldCode: Image { Image("outline-shield-code", bundle: UDSBundle.module) }
-    public static var outlineShieldCog: Image { Image("outline-shield-cog", bundle: UDSBundle.module) }
-    public static var outlineShieldDown: Image { Image("outline-shield-down", bundle: UDSBundle.module) }
-    public static var outlineShieldHalf: Image { Image("outline-shield-half", bundle: UDSBundle.module) }
-    public static var outlineShieldHeart: Image { Image("outline-shield-heart", bundle: UDSBundle.module) }
-    public static var outlineShieldLock: Image { Image("outline-shield-lock", bundle: UDSBundle.module) }
-    public static var outlineShieldMinus: Image { Image("outline-shield-minus", bundle: UDSBundle.module) }
-    public static var outlineShieldOff: Image { Image("outline-shield-off", bundle: UDSBundle.module) }
-    public static var outlineShieldPause: Image { Image("outline-shield-pause", bundle: UDSBundle.module) }
-    public static var outlineShieldPin: Image { Image("outline-shield-pin", bundle: UDSBundle.module) }
-    public static var outlineShieldPlus: Image { Image("outline-shield-plus", bundle: UDSBundle.module) }
-    public static var outlineShieldQuestion: Image { Image("outline-shield-question", bundle: UDSBundle.module) }
-    public static var outlineShieldSearch: Image { Image("outline-shield-search", bundle: UDSBundle.module) }
-    public static var outlineShieldShare: Image { Image("outline-shield-share", bundle: UDSBundle.module) }
-    public static var outlineShieldStar: Image { Image("outline-shield-star", bundle: UDSBundle.module) }
-    public static var outlineShieldUp: Image { Image("outline-shield-up", bundle: UDSBundle.module) }
-    public static var outlineShieldX: Image { Image("outline-shield-x", bundle: UDSBundle.module) }
-    public static var outlineShip: Image { Image("outline-ship", bundle: UDSBundle.module) }
-    public static var outlineShirt: Image { Image("outline-shirt", bundle: UDSBundle.module) }
-    public static var outlineShoppingBag: Image { Image("outline-shopping-bag", bundle: UDSBundle.module) }
     public static var outlineShoppingCart: Image { Image("outline-shopping-cart", bundle: UDSBundle.module) }
-    public static var outlineShoppingCartMinus: Image { Image("outline-shopping-cart-minus", bundle: UDSBundle.module) }
     public static var outlineShoppingCartPlus: Image { Image("outline-shopping-cart-plus", bundle: UDSBundle.module) }
-    public static var outlineShovel: Image { Image("outline-shovel", bundle: UDSBundle.module) }
-    public static var outlineShredder: Image { Image("outline-shredder", bundle: UDSBundle.module) }
-    public static var outlineSignature: Image { Image("outline-signature", bundle: UDSBundle.module) }
-    public static var outlineSkull: Image { Image("outline-skull", bundle: UDSBundle.module) }
-    public static var outlineSlash: Image { Image("outline-slash", bundle: UDSBundle.module) }
-    public static var outlineSlice: Image { Image("outline-slice", bundle: UDSBundle.module) }
-    public static var outlineSnowflake: Image { Image("outline-snowflake", bundle: UDSBundle.module) }
-    public static var outlineSofa: Image { Image("outline-sofa", bundle: UDSBundle.module) }
-    public static var outlineSolarPanel: Image { Image("outline-solar-panel", bundle: UDSBundle.module) }
-    public static var outlineSoup: Image { Image("outline-soup", bundle: UDSBundle.module) }
-    public static var outlineSpace: Image { Image("outline-space", bundle: UDSBundle.module) }
-    public static var outlineSpade: Image { Image("outline-spade", bundle: UDSBundle.module) }
-    public static var outlineSparkle: Image { Image("outline-sparkle", bundle: UDSBundle.module) }
-    public static var outlineSparkles: Image { Image("outline-sparkles", bundle: UDSBundle.module) }
     public static var outlineSquare: Image { Image("outline-square", bundle: UDSBundle.module) }
-    public static var outlineSquareArrowDown: Image { Image("outline-square-arrow-down", bundle: UDSBundle.module) }
-    public static var outlineSquareArrowLeft: Image { Image("outline-square-arrow-left", bundle: UDSBundle.module) }
-    public static var outlineSquareArrowRight: Image { Image("outline-square-arrow-right", bundle: UDSBundle.module) }
-    public static var outlineSquareArrowUp: Image { Image("outline-square-arrow-up", bundle: UDSBundle.module) }
-    public static var outlineSquareAsterisk: Image { Image("outline-square-asterisk", bundle: UDSBundle.module) }
-    public static var outlineSquareCheck: Image { Image("outline-square-check", bundle: UDSBundle.module) }
-    public static var outlineSquareChevronDown: Image { Image("outline-square-chevron-down", bundle: UDSBundle.module) }
-    public static var outlineSquareChevronLeft: Image { Image("outline-square-chevron-left", bundle: UDSBundle.module) }
-    public static var outlineSquareChevronRight: Image { Image("outline-square-chevron-right", bundle: UDSBundle.module) }
-    public static var outlineSquareChevronUp: Image { Image("outline-square-chevron-up", bundle: UDSBundle.module) }
-    public static var outlineSquareDashed: Image { Image("outline-square-dashed", bundle: UDSBundle.module) }
-    public static var outlineSquareDashedTopSolid: Image { Image("outline-square-dashed-top-solid", bundle: UDSBundle.module) }
-    public static var outlineSquareDashedX: Image { Image("outline-square-dashed-x", bundle: UDSBundle.module) }
-    public static var outlineSquareDot: Image { Image("outline-square-dot", bundle: UDSBundle.module) }
-    public static var outlineSquareKey: Image { Image("outline-square-key", bundle: UDSBundle.module) }
-    public static var outlineSquareMinus: Image { Image("outline-square-minus", bundle: UDSBundle.module) }
-    public static var outlineSquareOff: Image { Image("outline-square-off", bundle: UDSBundle.module) }
-    public static var outlineSquarePlus: Image { Image("outline-square-plus", bundle: UDSBundle.module) }
-    public static var outlineSquareToggle: Image { Image("outline-square-toggle", bundle: UDSBundle.module) }
-    public static var outlineSquareX: Image { Image("outline-square-x", bundle: UDSBundle.module) }
     public static var outlineStack: Image { Image("outline-stack", bundle: UDSBundle.module) }
-    public static var outlineStackBack: Image { Image("outline-stack-back", bundle: UDSBundle.module) }
-    public static var outlineStackCheck: Image { Image("outline-stack-check", bundle: UDSBundle.module) }
-    public static var outlineStackMinus: Image { Image("outline-stack-minus", bundle: UDSBundle.module) }
-    public static var outlineStackPlus: Image { Image("outline-stack-plus", bundle: UDSBundle.module) }
-    public static var outlineStackX: Image { Image("outline-stack-x", bundle: UDSBundle.module) }
     public static var outlineStar: Image { Image("outline-star", bundle: UDSBundle.module) }
-    public static var outlineStarHalf: Image { Image("outline-star-half", bundle: UDSBundle.module) }
-    public static var outlineStarOff: Image { Image("outline-star-off", bundle: UDSBundle.module) }
-    public static var outlineStethoscope: Image { Image("outline-stethoscope", bundle: UDSBundle.module) }
-    public static var outlineSticker: Image { Image("outline-sticker", bundle: UDSBundle.module) }
-    public static var outlineStrikethrough: Image { Image("outline-strikethrough", bundle: UDSBundle.module) }
-    public static var outlineSubscript: Image { Image("outline-subscript", bundle: UDSBundle.module) }
     public static var outlineSun: Image { Image("outline-sun", bundle: UDSBundle.module) }
-    public static var outlineSunMoon: Image { Image("outline-sun-moon", bundle: UDSBundle.module) }
-    public static var outlineSunOff: Image { Image("outline-sun-off", bundle: UDSBundle.module) }
-    public static var outlineSunWind: Image { Image("outline-sun-wind", bundle: UDSBundle.module) }
-    public static var outlineSunrise: Image { Image("outline-sunrise", bundle: UDSBundle.module) }
-    public static var outlineSunset: Image { Image("outline-sunset", bundle: UDSBundle.module) }
-    public static var outlineSuperscript: Image { Image("outline-superscript", bundle: UDSBundle.module) }
-    public static var outlineSword: Image { Image("outline-sword", bundle: UDSBundle.module) }
-    public static var outlineSwords: Image { Image("outline-swords", bundle: UDSBundle.module) }
     public static var outlineTable: Image { Image("outline-table", bundle: UDSBundle.module) }
-    public static var outlineTableDown: Image { Image("outline-table-down", bundle: UDSBundle.module) }
-    public static var outlineTableHeart: Image { Image("outline-table-heart", bundle: UDSBundle.module) }
-    public static var outlineTableMinus: Image { Image("outline-table-minus", bundle: UDSBundle.module) }
-    public static var outlineTableOff: Image { Image("outline-table-off", bundle: UDSBundle.module) }
-    public static var outlineTablePlus: Image { Image("outline-table-plus", bundle: UDSBundle.module) }
-    public static var outlineTableShare: Image { Image("outline-table-share", bundle: UDSBundle.module) }
     public static var outlineTag: Image { Image("outline-tag", bundle: UDSBundle.module) }
-    public static var outlineTagMinus: Image { Image("outline-tag-minus", bundle: UDSBundle.module) }
-    public static var outlineTagOff: Image { Image("outline-tag-off", bundle: UDSBundle.module) }
-    public static var outlineTagPlus: Image { Image("outline-tag-plus", bundle: UDSBundle.module) }
-    public static var outlineTags: Image { Image("outline-tags", bundle: UDSBundle.module) }
     public static var outlineTarget: Image { Image("outline-target", bundle: UDSBundle.module) }
-    public static var outlineTargetArrow: Image { Image("outline-target-arrow", bundle: UDSBundle.module) }
-    public static var outlineTargetOff: Image { Image("outline-target-off", bundle: UDSBundle.module) }
-    public static var outlineTelescope: Image { Image("outline-telescope", bundle: UDSBundle.module) }
-    public static var outlineTent: Image { Image("outline-tent", bundle: UDSBundle.module) }
     public static var outlineTerminal: Image { Image("outline-terminal", bundle: UDSBundle.module) }
-    public static var outlineTextPlus: Image { Image("outline-text-plus", bundle: UDSBundle.module) }
-    public static var outlineTextWrap: Image { Image("outline-text-wrap", bundle: UDSBundle.module) }
-    public static var outlineTheater: Image { Image("outline-theater", bundle: UDSBundle.module) }
-    public static var outlineThermometer: Image { Image("outline-thermometer", bundle: UDSBundle.module) }
-    public static var outlineThumbDown: Image { Image("outline-thumb-down", bundle: UDSBundle.module) }
-    public static var outlineThumbDownOff: Image { Image("outline-thumb-down-off", bundle: UDSBundle.module) }
-    public static var outlineThumbUp: Image { Image("outline-thumb-up", bundle: UDSBundle.module) }
-    public static var outlineThumbUpOff: Image { Image("outline-thumb-up-off", bundle: UDSBundle.module) }
     public static var outlineTicket: Image { Image("outline-ticket", bundle: UDSBundle.module) }
-    public static var outlineTicketOff: Image { Image("outline-ticket-off", bundle: UDSBundle.module) }
-    public static var outlineTimeline: Image { Image("outline-timeline", bundle: UDSBundle.module) }
-    public static var outlineToggleLeft: Image { Image("outline-toggle-left", bundle: UDSBundle.module) }
-    public static var outlineToggleRight: Image { Image("outline-toggle-right", bundle: UDSBundle.module) }
     public static var outlineTool: Image { Image("outline-tool", bundle: UDSBundle.module) }
-    public static var outlineTornado: Image { Image("outline-tornado", bundle: UDSBundle.module) }
-    public static var outlineTractor: Image { Image("outline-tractor", bundle: UDSBundle.module) }
-    public static var outlineTrafficCone: Image { Image("outline-traffic-cone", bundle: UDSBundle.module) }
     public static var outlineTrain: Image { Image("outline-train", bundle: UDSBundle.module) }
     public static var outlineTrash: Image { Image("outline-trash", bundle: UDSBundle.module) }
-    public static var outlineTrashOff: Image { Image("outline-trash-off", bundle: UDSBundle.module) }
-    public static var outlineTrashX: Image { Image("outline-trash-x", bundle: UDSBundle.module) }
-    public static var outlineTrees: Image { Image("outline-trees", bundle: UDSBundle.module) }
-    public static var outlineTrendingDown: Image { Image("outline-trending-down", bundle: UDSBundle.module) }
-    public static var outlineTrendingUp: Image { Image("outline-trending-up", bundle: UDSBundle.module) }
-    public static var outlineTrendingUpDown: Image { Image("outline-trending-up-down", bundle: UDSBundle.module) }
-    public static var outlineTriangle: Image { Image("outline-triangle", bundle: UDSBundle.module) }
-    public static var outlineTriangleDashed: Image { Image("outline-triangle-dashed", bundle: UDSBundle.module) }
-    public static var outlineTrophy: Image { Image("outline-trophy", bundle: UDSBundle.module) }
     public static var outlineTruck: Image { Image("outline-truck", bundle: UDSBundle.module) }
-    public static var outlineTruckOff: Image { Image("outline-truck-off", bundle: UDSBundle.module) }
-    public static var outlineUmbrella: Image { Image("outline-umbrella", bundle: UDSBundle.module) }
-    public static var outlineUmbrellaOff: Image { Image("outline-umbrella-off", bundle: UDSBundle.module) }
-    public static var outlineUnderline: Image { Image("outline-underline", bundle: UDSBundle.module) }
-    public static var outlineUnlink: Image { Image("outline-unlink", bundle: UDSBundle.module) }
     public static var outlineUpload: Image { Image("outline-upload", bundle: UDSBundle.module) }
-    public static var outlineUsb: Image { Image("outline-usb", bundle: UDSBundle.module) }
     public static var outlineUser: Image { Image("outline-user", bundle: UDSBundle.module) }
     public static var outlineUserCheck: Image { Image("outline-user-check", bundle: UDSBundle.module) }
     public static var outlineUserCircle: Image { Image("outline-user-circle", bundle: UDSBundle.module) }
-    public static var outlineUserCode: Image { Image("outline-user-code", bundle: UDSBundle.module) }
-    public static var outlineUserCog: Image { Image("outline-user-cog", bundle: UDSBundle.module) }
-    public static var outlineUserDown: Image { Image("outline-user-down", bundle: UDSBundle.module) }
     public static var outlineUserEdit: Image { Image("outline-user-edit", bundle: UDSBundle.module) }
     public static var outlineUserHeart: Image { Image("outline-user-heart", bundle: UDSBundle.module) }
-    public static var outlineUserKey: Image { Image("outline-user-key", bundle: UDSBundle.module) }
     public static var outlineUserMinus: Image { Image("outline-user-minus", bundle: UDSBundle.module) }
-    public static var outlineUserOff: Image { Image("outline-user-off", bundle: UDSBundle.module) }
-    public static var outlineUserPause: Image { Image("outline-user-pause", bundle: UDSBundle.module) }
     public static var outlineUserPin: Image { Image("outline-user-pin", bundle: UDSBundle.module) }
     public static var outlineUserPlus: Image { Image("outline-user-plus", bundle: UDSBundle.module) }
-    public static var outlineUserQuestion: Image { Image("outline-user-question", bundle: UDSBundle.module) }
     public static var outlineUserSearch: Image { Image("outline-user-search", bundle: UDSBundle.module) }
-    public static var outlineUserShare: Image { Image("outline-user-share", bundle: UDSBundle.module) }
     public static var outlineUserShield: Image { Image("outline-user-shield", bundle: UDSBundle.module) }
-    public static var outlineUserSquare: Image { Image("outline-user-square", bundle: UDSBundle.module) }
     public static var outlineUserStar: Image { Image("outline-user-star", bundle: UDSBundle.module) }
-    public static var outlineUserUp: Image { Image("outline-user-up", bundle: UDSBundle.module) }
     public static var outlineUserX: Image { Image("outline-user-x", bundle: UDSBundle.module) }
     public static var outlineUsers: Image { Image("outline-users", bundle: UDSBundle.module) }
-    public static var outlineUsersMinus: Image { Image("outline-users-minus", bundle: UDSBundle.module) }
-    public static var outlineUsersPlus: Image { Image("outline-users-plus", bundle: UDSBundle.module) }
-    public static var outlineVariable: Image { Image("outline-variable", bundle: UDSBundle.module) }
-    public static var outlineVault: Image { Image("outline-vault", bundle: UDSBundle.module) }
-    public static var outlineVenus: Image { Image("outline-venus", bundle: UDSBundle.module) }
     public static var outlineVideo: Image { Image("outline-video", bundle: UDSBundle.module) }
-    public static var outlineVideoMinus: Image { Image("outline-video-minus", bundle: UDSBundle.module) }
-    public static var outlineVideoOff: Image { Image("outline-video-off", bundle: UDSBundle.module) }
-    public static var outlineVideoPlus: Image { Image("outline-video-plus", bundle: UDSBundle.module) }
-    public static var outlineVirus: Image { Image("outline-virus", bundle: UDSBundle.module) }
-    public static var outlineVirusOff: Image { Image("outline-virus-off", bundle: UDSBundle.module) }
     public static var outlineVolume: Image { Image("outline-volume", bundle: UDSBundle.module) }
-    public static var outlineVolume2: Image { Image("outline-volume-2", bundle: UDSBundle.module) }
-    public static var outlineVolumeOff: Image { Image("outline-volume-off", bundle: UDSBundle.module) }
     public static var outlineWallet: Image { Image("outline-wallet", bundle: UDSBundle.module) }
-    public static var outlineWalletOff: Image { Image("outline-wallet-off", bundle: UDSBundle.module) }
-    public static var outlineWallpaper: Image { Image("outline-wallpaper", bundle: UDSBundle.module) }
-    public static var outlineWand: Image { Image("outline-wand", bundle: UDSBundle.module) }
-    public static var outlineWebhook: Image { Image("outline-webhook", bundle: UDSBundle.module) }
-    public static var outlineWebhookOff: Image { Image("outline-webhook-off", bundle: UDSBundle.module) }
-    public static var outlineWeight: Image { Image("outline-weight", bundle: UDSBundle.module) }
-    public static var outlineWheat: Image { Image("outline-wheat", bundle: UDSBundle.module) }
-    public static var outlineWheatOff: Image { Image("outline-wheat-off", bundle: UDSBundle.module) }
     public static var outlineWifi: Image { Image("outline-wifi", bundle: UDSBundle.module) }
-    public static var outlineWifiOff: Image { Image("outline-wifi-off", bundle: UDSBundle.module) }
     public static var outlineWind: Image { Image("outline-wind", bundle: UDSBundle.module) }
-    public static var outlineWindOff: Image { Image("outline-wind-off", bundle: UDSBundle.module) }
     public static var outlineWindow: Image { Image("outline-window", bundle: UDSBundle.module) }
-    public static var outlineWindowMaximize: Image { Image("outline-window-maximize", bundle: UDSBundle.module) }
-    public static var outlineWindowOff: Image { Image("outline-window-off", bundle: UDSBundle.module) }
     public static var outlineWorld: Image { Image("outline-world", bundle: UDSBundle.module) }
-    public static var outlineWorldCheck: Image { Image("outline-world-check", bundle: UDSBundle.module) }
-    public static var outlineWorldCode: Image { Image("outline-world-code", bundle: UDSBundle.module) }
-    public static var outlineWorldDown: Image { Image("outline-world-down", bundle: UDSBundle.module) }
-    public static var outlineWorldDownload: Image { Image("outline-world-download", bundle: UDSBundle.module) }
-    public static var outlineWorldHeart: Image { Image("outline-world-heart", bundle: UDSBundle.module) }
-    public static var outlineWorldMap: Image { Image("outline-world-map", bundle: UDSBundle.module) }
-    public static var outlineWorldMinus: Image { Image("outline-world-minus", bundle: UDSBundle.module) }
-    public static var outlineWorldOff: Image { Image("outline-world-off", bundle: UDSBundle.module) }
-    public static var outlineWorldPause: Image { Image("outline-world-pause", bundle: UDSBundle.module) }
-    public static var outlineWorldPin: Image { Image("outline-world-pin", bundle: UDSBundle.module) }
-    public static var outlineWorldPlus: Image { Image("outline-world-plus", bundle: UDSBundle.module) }
-    public static var outlineWorldQuestion: Image { Image("outline-world-question", bundle: UDSBundle.module) }
-    public static var outlineWorldSearch: Image { Image("outline-world-search", bundle: UDSBundle.module) }
-    public static var outlineWorldShare: Image { Image("outline-world-share", bundle: UDSBundle.module) }
-    public static var outlineWorldStar: Image { Image("outline-world-star", bundle: UDSBundle.module) }
-    public static var outlineWorldUp: Image { Image("outline-world-up", bundle: UDSBundle.module) }
-    public static var outlineWorldUpload: Image { Image("outline-world-upload", bundle: UDSBundle.module) }
-    public static var outlineWorldX: Image { Image("outline-world-x", bundle: UDSBundle.module) }
     public static var outlineX: Image { Image("outline-x", bundle: UDSBundle.module) }
-    public static var outlineZodiacAquarius: Image { Image("outline-zodiac-aquarius", bundle: UDSBundle.module) }
-    public static var outlineZodiacAries: Image { Image("outline-zodiac-aries", bundle: UDSBundle.module) }
-    public static var outlineZodiacCancer: Image { Image("outline-zodiac-cancer", bundle: UDSBundle.module) }
-    public static var outlineZodiacCapricorn: Image { Image("outline-zodiac-capricorn", bundle: UDSBundle.module) }
-    public static var outlineZodiacGemini: Image { Image("outline-zodiac-gemini", bundle: UDSBundle.module) }
-    public static var outlineZodiacLeo: Image { Image("outline-zodiac-leo", bundle: UDSBundle.module) }
-    public static var outlineZodiacLibra: Image { Image("outline-zodiac-libra", bundle: UDSBundle.module) }
-    public static var outlineZodiacPisces: Image { Image("outline-zodiac-pisces", bundle: UDSBundle.module) }
-    public static var outlineZodiacSagittarius: Image { Image("outline-zodiac-sagittarius", bundle: UDSBundle.module) }
-    public static var outlineZodiacScorpio: Image { Image("outline-zodiac-scorpio", bundle: UDSBundle.module) }
-    public static var outlineZodiacTaurus: Image { Image("outline-zodiac-taurus", bundle: UDSBundle.module) }
-    public static var outlineZodiacVirgo: Image { Image("outline-zodiac-virgo", bundle: UDSBundle.module) }
-    public static var outlineZoomIn: Image { Image("outline-zoom-in", bundle: UDSBundle.module) }
-    public static var outlineZoomOut: Image { Image("outline-zoom-out", bundle: UDSBundle.module) }
 }
 
 public struct UDSImageUIKitProxy: Sendable {
@@ -1300,100 +300,19 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineActivity: UIImage? { UIImage(named: "outline-activity", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineAd: UIImage? { UIImage(named: "outline-ad", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlarmSmoke: UIImage? { UIImage(named: "outline-alarm-smoke", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineAlertCircle: UIImage? { UIImage(named: "outline-alert-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlertCircleOff: UIImage? { UIImage(named: "outline-alert-circle-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlertSquare: UIImage? { UIImage(named: "outline-alert-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlignCenter: UIImage? { UIImage(named: "outline-align-center", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlignLeft: UIImage? { UIImage(named: "outline-align-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAlignRight: UIImage? { UIImage(named: "outline-align-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAmbulance: UIImage? { UIImage(named: "outline-ambulance", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAmpersand: UIImage? { UIImage(named: "outline-ampersand", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAnchor: UIImage? { UIImage(named: "outline-anchor", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAngle: UIImage? { UIImage(named: "outline-angle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAntenna: UIImage? { UIImage(named: "outline-antenna", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAperture: UIImage? { UIImage(named: "outline-aperture", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAppWindow: UIImage? { UIImage(named: "outline-app-window", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineApple: UIImage? { UIImage(named: "outline-apple", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineApps: UIImage? { UIImage(named: "outline-apps", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineAppsOff: UIImage? { UIImage(named: "outline-apps-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineArchive: UIImage? { UIImage(named: "outline-archive", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArchiveOff: UIImage? { UIImage(named: "outline-archive-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArmchair: UIImage? { UIImage(named: "outline-armchair", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineArrowBack: UIImage? { UIImage(named: "outline-arrow-back", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineArrowBackUp: UIImage? { UIImage(named: "outline-arrow-back-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowBigDown: UIImage? { UIImage(named: "outline-arrow-big-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowBigLeft: UIImage? { UIImage(named: "outline-arrow-big-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowBigRight: UIImage? { UIImage(named: "outline-arrow-big-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowBigUp: UIImage? { UIImage(named: "outline-arrow-big-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineArrowDown: UIImage? { UIImage(named: "outline-arrow-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowDownCircle: UIImage? { UIImage(named: "outline-arrow-down-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowDownLeft: UIImage? { UIImage(named: "outline-arrow-down-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowDownRight: UIImage? { UIImage(named: "outline-arrow-down-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowDownSquare: UIImage? { UIImage(named: "outline-arrow-down-square", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineArrowForward: UIImage? { UIImage(named: "outline-arrow-forward", in: UDSBundle.module, compatibleWith: nil) }
@@ -1402,103 +321,16 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineArrowLeft: UIImage? { UIImage(named: "outline-arrow-left", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineArrowLeftCircle: UIImage? { UIImage(named: "outline-arrow-left-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowLeftRight: UIImage? { UIImage(named: "outline-arrow-left-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowLeftSquare: UIImage? { UIImage(named: "outline-arrow-left-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineArrowRight: UIImage? { UIImage(named: "outline-arrow-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowRightCircle: UIImage? { UIImage(named: "outline-arrow-right-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowRightSquare: UIImage? { UIImage(named: "outline-arrow-right-square", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineArrowUp: UIImage? { UIImage(named: "outline-arrow-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineArrowUpCircle: UIImage? { UIImage(named: "outline-arrow-up-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowUpLeft: UIImage? { UIImage(named: "outline-arrow-up-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowUpRight: UIImage? { UIImage(named: "outline-arrow-up-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineArrowUpSquare: UIImage? { UIImage(named: "outline-arrow-up-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAsterisk: UIImage? { UIImage(named: "outline-asterisk", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAtom: UIImage? { UIImage(named: "outline-atom", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAward: UIImage? { UIImage(named: "outline-award", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAwardOff: UIImage? { UIImage(named: "outline-award-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineAxe: UIImage? { UIImage(named: "outline-axe", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBackpack: UIImage? { UIImage(named: "outline-backpack", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBadge: UIImage? { UIImage(named: "outline-badge", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBalloon: UIImage? { UIImage(named: "outline-balloon", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBan: UIImage? { UIImage(named: "outline-ban", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBanana: UIImage? { UIImage(named: "outline-banana", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBandage: UIImage? { UIImage(named: "outline-bandage", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBarcode: UIImage? { UIImage(named: "outline-barcode", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBarcodeOff: UIImage? { UIImage(named: "outline-barcode-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBarrel: UIImage? { UIImage(named: "outline-barrel", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBaseline: UIImage? { UIImage(named: "outline-baseline", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBath: UIImage? { UIImage(named: "outline-bath", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBattery: UIImage? { UIImage(named: "outline-battery", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBatteryCharging: UIImage? { UIImage(named: "outline-battery-charging", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBatteryOff: UIImage? { UIImage(named: "outline-battery-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBed: UIImage? { UIImage(named: "outline-bed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBeer: UIImage? { UIImage(named: "outline-beer", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBeerOff: UIImage? { UIImage(named: "outline-beer-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineBell: UIImage? { UIImage(named: "outline-bell", in: UDSBundle.module, compatibleWith: nil) }
@@ -1507,172 +339,34 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineBellCheck: UIImage? { UIImage(named: "outline-bell-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBellCode: UIImage? { UIImage(named: "outline-bell-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellDown: UIImage? { UIImage(named: "outline-bell-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellHeart: UIImage? { UIImage(named: "outline-bell-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellMinus: UIImage? { UIImage(named: "outline-bell-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBellOff: UIImage? { UIImage(named: "outline-bell-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellPause: UIImage? { UIImage(named: "outline-bell-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellPin: UIImage? { UIImage(named: "outline-bell-pin", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineBellPlus: UIImage? { UIImage(named: "outline-bell-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBellQuestion: UIImage? { UIImage(named: "outline-bell-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellSearch: UIImage? { UIImage(named: "outline-bell-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellShare: UIImage? { UIImage(named: "outline-bell-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellStar: UIImage? { UIImage(named: "outline-bell-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBellUp: UIImage? { UIImage(named: "outline-bell-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBellX: UIImage? { UIImage(named: "outline-bell-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBike: UIImage? { UIImage(named: "outline-bike", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBinary: UIImage? { UIImage(named: "outline-binary", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBinoculars: UIImage? { UIImage(named: "outline-binoculars", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBiohazard: UIImage? { UIImage(named: "outline-biohazard", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBlender: UIImage? { UIImage(named: "outline-blender", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBlocks: UIImage? { UIImage(named: "outline-blocks", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineBluetooth: UIImage? { UIImage(named: "outline-bluetooth", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBluetoothConnected: UIImage? { UIImage(named: "outline-bluetooth-connected", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBluetoothOff: UIImage? { UIImage(named: "outline-bluetooth-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBluetoothX: UIImage? { UIImage(named: "outline-bluetooth-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBold: UIImage? { UIImage(named: "outline-bold", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBolt: UIImage? { UIImage(named: "outline-bolt", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBomb: UIImage? { UIImage(named: "outline-bomb", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBone: UIImage? { UIImage(named: "outline-bone", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBook: UIImage? { UIImage(named: "outline-book", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookDownload: UIImage? { UIImage(named: "outline-book-download", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookOff: UIImage? { UIImage(named: "outline-book-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookUpload: UIImage? { UIImage(named: "outline-book-upload", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineBookmark: UIImage? { UIImage(named: "outline-bookmark", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBookmarkEdit: UIImage? { UIImage(named: "outline-bookmark-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookmarkMinus: UIImage? { UIImage(named: "outline-bookmark-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookmarkOff: UIImage? { UIImage(named: "outline-bookmark-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBookmarkPlus: UIImage? { UIImage(named: "outline-bookmark-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBookmarkQuestion: UIImage? { UIImage(named: "outline-bookmark-question", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineBox: UIImage? { UIImage(named: "outline-box", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBoxOff: UIImage? { UIImage(named: "outline-box-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBraces: UIImage? { UIImage(named: "outline-braces", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBrackets: UIImage? { UIImage(named: "outline-brackets", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBrain: UIImage? { UIImage(named: "outline-brain", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBriefcase: UIImage? { UIImage(named: "outline-briefcase", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineBriefcaseOff: UIImage? { UIImage(named: "outline-briefcase-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBrush: UIImage? { UIImage(named: "outline-brush", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBug: UIImage? { UIImage(named: "outline-bug", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBugOff: UIImage? { UIImage(named: "outline-bug-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineBuilding: UIImage? { UIImage(named: "outline-building", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBuildingMinus: UIImage? { UIImage(named: "outline-building-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBuildingOff: UIImage? { UIImage(named: "outline-building-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBuildingPlus: UIImage? { UIImage(named: "outline-building-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBuildingStore: UIImage? { UIImage(named: "outline-building-store", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineBus: UIImage? { UIImage(named: "outline-bus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCake: UIImage? { UIImage(named: "outline-cake", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalculator: UIImage? { UIImage(named: "outline-calculator", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCalendar: UIImage? { UIImage(named: "outline-calendar", in: UDSBundle.module, compatibleWith: nil) }
@@ -1684,52 +378,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineCalendarClock: UIImage? { UIImage(named: "outline-calendar-clock", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCalendarCode: UIImage? { UIImage(named: "outline-calendar-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarCog: UIImage? { UIImage(named: "outline-calendar-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarDown: UIImage? { UIImage(named: "outline-calendar-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarHeart: UIImage? { UIImage(named: "outline-calendar-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCalendarMinus: UIImage? { UIImage(named: "outline-calendar-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarOff: UIImage? { UIImage(named: "outline-calendar-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarPause: UIImage? { UIImage(named: "outline-calendar-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarPin: UIImage? { UIImage(named: "outline-calendar-pin", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCalendarPlus: UIImage? { UIImage(named: "outline-calendar-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCalendarQuestion: UIImage? { UIImage(named: "outline-calendar-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCalendarSearch: UIImage? { UIImage(named: "outline-calendar-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarShare: UIImage? { UIImage(named: "outline-calendar-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarStar: UIImage? { UIImage(named: "outline-calendar-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarTime: UIImage? { UIImage(named: "outline-calendar-time", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarUp: UIImage? { UIImage(named: "outline-calendar-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCalendarUser: UIImage? { UIImage(named: "outline-calendar-user", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCalendarX: UIImage? { UIImage(named: "outline-calendar-x", in: UDSBundle.module, compatibleWith: nil) }
@@ -1741,142 +396,19 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineCameraCheck: UIImage? { UIImage(named: "outline-camera-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCameraCode: UIImage? { UIImage(named: "outline-camera-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraDown: UIImage? { UIImage(named: "outline-camera-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraHeart: UIImage? { UIImage(named: "outline-camera-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraMinus: UIImage? { UIImage(named: "outline-camera-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraMoon: UIImage? { UIImage(named: "outline-camera-moon", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraOff: UIImage? { UIImage(named: "outline-camera-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraPause: UIImage? { UIImage(named: "outline-camera-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraPin: UIImage? { UIImage(named: "outline-camera-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCameraPlus: UIImage? { UIImage(named: "outline-camera-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraQuestion: UIImage? { UIImage(named: "outline-camera-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraSearch: UIImage? { UIImage(named: "outline-camera-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraShare: UIImage? { UIImage(named: "outline-camera-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraStar: UIImage? { UIImage(named: "outline-camera-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCameraUp: UIImage? { UIImage(named: "outline-camera-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCameraX: UIImage? { UIImage(named: "outline-camera-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCandy: UIImage? { UIImage(named: "outline-candy", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCandyOff: UIImage? { UIImage(named: "outline-candy-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCannabis: UIImage? { UIImage(named: "outline-cannabis", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCar: UIImage? { UIImage(named: "outline-car", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCarOff: UIImage? { UIImage(named: "outline-car-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCaravan: UIImage? { UIImage(named: "outline-caravan", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCarrot: UIImage? { UIImage(named: "outline-carrot", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCash: UIImage? { UIImage(named: "outline-cash", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCashCoin: UIImage? { UIImage(named: "outline-cash-coin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashEdit: UIImage? { UIImage(named: "outline-cash-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashHeart: UIImage? { UIImage(named: "outline-cash-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashMinus: UIImage? { UIImage(named: "outline-cash-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashMoveBack: UIImage? { UIImage(named: "outline-cash-move-back", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashOff: UIImage? { UIImage(named: "outline-cash-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCashPlus: UIImage? { UIImage(named: "outline-cash-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCast: UIImage? { UIImage(named: "outline-cast", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCat: UIImage? { UIImage(named: "outline-cat", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartArea: UIImage? { UIImage(named: "outline-chart-area", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartBar: UIImage? { UIImage(named: "outline-chart-bar", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartColumn: UIImage? { UIImage(named: "outline-chart-column", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartLine: UIImage? { UIImage(named: "outline-chart-line", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartPie: UIImage? { UIImage(named: "outline-chart-pie", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChartScatter: UIImage? { UIImage(named: "outline-chart-scatter", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCheck: UIImage? { UIImage(named: "outline-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChefHat: UIImage? { UIImage(named: "outline-chef-hat", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCherry: UIImage? { UIImage(named: "outline-cherry", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChessBishop: UIImage? { UIImage(named: "outline-chess-bishop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChessKing: UIImage? { UIImage(named: "outline-chess-king", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChessKnight: UIImage? { UIImage(named: "outline-chess-knight", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChessQueen: UIImage? { UIImage(named: "outline-chess-queen", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChessRook: UIImage? { UIImage(named: "outline-chess-rook", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineChevronDown: UIImage? { UIImage(named: "outline-chevron-down", in: UDSBundle.module, compatibleWith: nil) }
@@ -1891,184 +423,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineChevronUp: UIImage? { UIImage(named: "outline-chevron-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineChevronsDown: UIImage? { UIImage(named: "outline-chevrons-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChevronsLeft: UIImage? { UIImage(named: "outline-chevrons-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChevronsRight: UIImage? { UIImage(named: "outline-chevrons-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineChevronsUp: UIImage? { UIImage(named: "outline-chevrons-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCircle: UIImage? { UIImage(named: "outline-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleArrowDown: UIImage? { UIImage(named: "outline-circle-arrow-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleArrowLeft: UIImage? { UIImage(named: "outline-circle-arrow-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleArrowRight: UIImage? { UIImage(named: "outline-circle-arrow-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleArrowUp: UIImage? { UIImage(named: "outline-circle-arrow-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleCheck: UIImage? { UIImage(named: "outline-circle-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleChevronDown: UIImage? { UIImage(named: "outline-circle-chevron-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleChevronLeft: UIImage? { UIImage(named: "outline-circle-chevron-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleChevronRight: UIImage? { UIImage(named: "outline-circle-chevron-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleChevronUp: UIImage? { UIImage(named: "outline-circle-chevron-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleDashed: UIImage? { UIImage(named: "outline-circle-dashed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleDashedCheck: UIImage? { UIImage(named: "outline-circle-dashed-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleDot: UIImage? { UIImage(named: "outline-circle-dot", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleHeart: UIImage? { UIImage(named: "outline-circle-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleKey: UIImage? { UIImage(named: "outline-circle-key", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleMinus: UIImage? { UIImage(named: "outline-circle-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleOff: UIImage? { UIImage(named: "outline-circle-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCirclePause: UIImage? { UIImage(named: "outline-circle-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCirclePlay: UIImage? { UIImage(named: "outline-circle-play", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCirclePlus: UIImage? { UIImage(named: "outline-circle-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCirclePlusMinus: UIImage? { UIImage(named: "outline-circle-plus-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleSquare: UIImage? { UIImage(named: "outline-circle-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleStop: UIImage? { UIImage(named: "outline-circle-stop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCircleX: UIImage? { UIImage(named: "outline-circle-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineClipboard: UIImage? { UIImage(named: "outline-clipboard", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineClipboardCheck: UIImage? { UIImage(named: "outline-clipboard-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardCopy: UIImage? { UIImage(named: "outline-clipboard-copy", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardHeart: UIImage? { UIImage(named: "outline-clipboard-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardList: UIImage? { UIImage(named: "outline-clipboard-list", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardOff: UIImage? { UIImage(named: "outline-clipboard-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardPlus: UIImage? { UIImage(named: "outline-clipboard-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardSearch: UIImage? { UIImage(named: "outline-clipboard-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardText: UIImage? { UIImage(named: "outline-clipboard-text", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClipboardX: UIImage? { UIImage(named: "outline-clipboard-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineClock: UIImage? { UIImage(named: "outline-clock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClock12: UIImage? { UIImage(named: "outline-clock-12", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClock2: UIImage? { UIImage(named: "outline-clock-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockCheck: UIImage? { UIImage(named: "outline-clock-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockCode: UIImage? { UIImage(named: "outline-clock-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockDown: UIImage? { UIImage(named: "outline-clock-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockEdit: UIImage? { UIImage(named: "outline-clock-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockHeart: UIImage? { UIImage(named: "outline-clock-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockMinus: UIImage? { UIImage(named: "outline-clock-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockOff: UIImage? { UIImage(named: "outline-clock-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockPause: UIImage? { UIImage(named: "outline-clock-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockPin: UIImage? { UIImage(named: "outline-clock-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockPlay: UIImage? { UIImage(named: "outline-clock-play", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockPlus: UIImage? { UIImage(named: "outline-clock-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockQuestion: UIImage? { UIImage(named: "outline-clock-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockSearch: UIImage? { UIImage(named: "outline-clock-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockShare: UIImage? { UIImage(named: "outline-clock-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockShield: UIImage? { UIImage(named: "outline-clock-shield", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockStar: UIImage? { UIImage(named: "outline-clock-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockStop: UIImage? { UIImage(named: "outline-clock-stop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockUp: UIImage? { UIImage(named: "outline-clock-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineClockX: UIImage? { UIImage(named: "outline-clock-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCloud: UIImage? { UIImage(named: "outline-cloud", in: UDSBundle.module, compatibleWith: nil) }
@@ -2077,61 +438,7 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineCloudCheck: UIImage? { UIImage(named: "outline-cloud-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCloudCode: UIImage? { UIImage(named: "outline-cloud-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudCog: UIImage? { UIImage(named: "outline-cloud-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudDown: UIImage? { UIImage(named: "outline-cloud-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCloudDownload: UIImage? { UIImage(named: "outline-cloud-download", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudFog: UIImage? { UIImage(named: "outline-cloud-fog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudHeart: UIImage? { UIImage(named: "outline-cloud-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudLock: UIImage? { UIImage(named: "outline-cloud-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudMinus: UIImage? { UIImage(named: "outline-cloud-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudOff: UIImage? { UIImage(named: "outline-cloud-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudPause: UIImage? { UIImage(named: "outline-cloud-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudPin: UIImage? { UIImage(named: "outline-cloud-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudPlus: UIImage? { UIImage(named: "outline-cloud-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudQuestion: UIImage? { UIImage(named: "outline-cloud-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudRain: UIImage? { UIImage(named: "outline-cloud-rain", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudSearch: UIImage? { UIImage(named: "outline-cloud-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudShare: UIImage? { UIImage(named: "outline-cloud-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudSnow: UIImage? { UIImage(named: "outline-cloud-snow", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudStar: UIImage? { UIImage(named: "outline-cloud-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCloudUp: UIImage? { UIImage(named: "outline-cloud-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCloudUpload: UIImage? { UIImage(named: "outline-cloud-upload", in: UDSBundle.module, compatibleWith: nil) }
@@ -2140,193 +447,31 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineCloudX: UIImage? { UIImage(named: "outline-cloud-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineClover: UIImage? { UIImage(named: "outline-clover", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCode: UIImage? { UIImage(named: "outline-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCodeCircle: UIImage? { UIImage(named: "outline-code-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCodeMinus: UIImage? { UIImage(named: "outline-code-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCodeOff: UIImage? { UIImage(named: "outline-code-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCodePlus: UIImage? { UIImage(named: "outline-code-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCoffee: UIImage? { UIImage(named: "outline-coffee", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCoin: UIImage? { UIImage(named: "outline-coin", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCoinOff: UIImage? { UIImage(named: "outline-coin-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCoins: UIImage? { UIImage(named: "outline-coins", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineColumns2: UIImage? { UIImage(named: "outline-columns-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineColumns3: UIImage? { UIImage(named: "outline-columns-3", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCommand: UIImage? { UIImage(named: "outline-command", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCompass: UIImage? { UIImage(named: "outline-compass", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCompassOff: UIImage? { UIImage(named: "outline-compass-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCone: UIImage? { UIImage(named: "outline-cone", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineContainer: UIImage? { UIImage(named: "outline-container", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineContrast: UIImage? { UIImage(named: "outline-contrast", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCookie: UIImage? { UIImage(named: "outline-cookie", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineCopy: UIImage? { UIImage(named: "outline-copy", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineCopyCheck: UIImage? { UIImage(named: "outline-copy-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyMinus: UIImage? { UIImage(named: "outline-copy-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyOff: UIImage? { UIImage(named: "outline-copy-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyPlus: UIImage? { UIImage(named: "outline-copy-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyX: UIImage? { UIImage(named: "outline-copy-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyleft: UIImage? { UIImage(named: "outline-copyleft", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCopyright: UIImage? { UIImage(named: "outline-copyright", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerDownLeft: UIImage? { UIImage(named: "outline-corner-down-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerDownRight: UIImage? { UIImage(named: "outline-corner-down-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerLeftDown: UIImage? { UIImage(named: "outline-corner-left-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerLeftUp: UIImage? { UIImage(named: "outline-corner-left-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerRightDown: UIImage? { UIImage(named: "outline-corner-right-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerRightUp: UIImage? { UIImage(named: "outline-corner-right-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerUpLeft: UIImage? { UIImage(named: "outline-corner-up-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCornerUpRight: UIImage? { UIImage(named: "outline-corner-up-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCpu: UIImage? { UIImage(named: "outline-cpu", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCreativeCommons: UIImage? { UIImage(named: "outline-creative-commons", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineCreditCard: UIImage? { UIImage(named: "outline-credit-card", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCrop: UIImage? { UIImage(named: "outline-crop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCross: UIImage? { UIImage(named: "outline-cross", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCrosshair: UIImage? { UIImage(named: "outline-crosshair", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCrown: UIImage? { UIImage(named: "outline-crown", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCurrency: UIImage? { UIImage(named: "outline-currency", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineCylinder: UIImage? { UIImage(named: "outline-cylinder", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineDashboard: UIImage? { UIImage(named: "outline-dashboard", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDashboardOff: UIImage? { UIImage(named: "outline-dashboard-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineDatabase: UIImage? { UIImage(named: "outline-database", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseEdit: UIImage? { UIImage(named: "outline-database-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseHeart: UIImage? { UIImage(named: "outline-database-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseMinus: UIImage? { UIImage(named: "outline-database-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseOff: UIImage? { UIImage(named: "outline-database-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabasePlus: UIImage? { UIImage(named: "outline-database-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseSearch: UIImage? { UIImage(named: "outline-database-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseShare: UIImage? { UIImage(named: "outline-database-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseStar: UIImage? { UIImage(named: "outline-database-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDatabaseX: UIImage? { UIImage(named: "outline-database-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceCameraPhone: UIImage? { UIImage(named: "outline-device-camera-phone", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineDeviceDesktop: UIImage? { UIImage(named: "outline-device-desktop", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDeviceHeartMonitor: UIImage? { UIImage(named: "outline-device-heart-monitor", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceImacX: UIImage? { UIImage(named: "outline-device-imac-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceIpadX: UIImage? { UIImage(named: "outline-device-ipad-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineDeviceLaptop: UIImage? { UIImage(named: "outline-device-laptop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceLaptopOff: UIImage? { UIImage(named: "outline-device-laptop-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineDeviceMobile: UIImage? { UIImage(named: "outline-device-mobile", in: UDSBundle.module, compatibleWith: nil) }
@@ -2335,214 +480,22 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineDeviceMobileCheck: UIImage? { UIImage(named: "outline-device-mobile-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDeviceMobileCode: UIImage? { UIImage(named: "outline-device-mobile-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileDown: UIImage? { UIImage(named: "outline-device-mobile-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileHeart: UIImage? { UIImage(named: "outline-device-mobile-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileMessage: UIImage? { UIImage(named: "outline-device-mobile-message", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileMinus: UIImage? { UIImage(named: "outline-device-mobile-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileOff: UIImage? { UIImage(named: "outline-device-mobile-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobilePause: UIImage? { UIImage(named: "outline-device-mobile-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobilePin: UIImage? { UIImage(named: "outline-device-mobile-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineDeviceMobilePlus: UIImage? { UIImage(named: "outline-device-mobile-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileQuestion: UIImage? { UIImage(named: "outline-device-mobile-question", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineDeviceMobileSearch: UIImage? { UIImage(named: "outline-device-mobile-search", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDeviceMobileShare: UIImage? { UIImage(named: "outline-device-mobile-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileStar: UIImage? { UIImage(named: "outline-device-mobile-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceMobileUp: UIImage? { UIImage(named: "outline-device-mobile-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineDeviceMobileX: UIImage? { UIImage(named: "outline-device-mobile-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceSpeaker: UIImage? { UIImage(named: "outline-device-speaker", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceSpeakerOff: UIImage? { UIImage(named: "outline-device-speaker-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineDeviceTablet: UIImage? { UIImage(named: "outline-device-tablet", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDeviceTabletX: UIImage? { UIImage(named: "outline-device-tablet-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceTv: UIImage? { UIImage(named: "outline-device-tv", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceTvOff: UIImage? { UIImage(named: "outline-device-tv-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceTvOld: UIImage? { UIImage(named: "outline-device-tv-old", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatch: UIImage? { UIImage(named: "outline-device-watch", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchCheck: UIImage? { UIImage(named: "outline-device-watch-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchCode: UIImage? { UIImage(named: "outline-device-watch-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchDown: UIImage? { UIImage(named: "outline-device-watch-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchHeart: UIImage? { UIImage(named: "outline-device-watch-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchMinus: UIImage? { UIImage(named: "outline-device-watch-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchOff: UIImage? { UIImage(named: "outline-device-watch-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchPause: UIImage? { UIImage(named: "outline-device-watch-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchPin: UIImage? { UIImage(named: "outline-device-watch-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchPlus: UIImage? { UIImage(named: "outline-device-watch-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchQuestion: UIImage? { UIImage(named: "outline-device-watch-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchSearch: UIImage? { UIImage(named: "outline-device-watch-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchShare: UIImage? { UIImage(named: "outline-device-watch-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchStar: UIImage? { UIImage(named: "outline-device-watch-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchUp: UIImage? { UIImage(named: "outline-device-watch-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDeviceWatchX: UIImage? { UIImage(named: "outline-device-watch-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDiamond: UIImage? { UIImage(named: "outline-diamond", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice1: UIImage? { UIImage(named: "outline-dice-1", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice2: UIImage? { UIImage(named: "outline-dice-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice3: UIImage? { UIImage(named: "outline-dice-3", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice4: UIImage? { UIImage(named: "outline-dice-4", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice5: UIImage? { UIImage(named: "outline-dice-5", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDice6: UIImage? { UIImage(named: "outline-dice-6", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDisc: UIImage? { UIImage(named: "outline-disc", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDivide: UIImage? { UIImage(named: "outline-divide", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDna: UIImage? { UIImage(named: "outline-dna", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDnaOff: UIImage? { UIImage(named: "outline-dna-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDog: UIImage? { UIImage(named: "outline-dog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineDownload: UIImage? { UIImage(named: "outline-download", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineDownloadOff: UIImage? { UIImage(named: "outline-download-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDrone: UIImage? { UIImage(named: "outline-drone", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDroplet: UIImage? { UIImage(named: "outline-droplet", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDropletOff: UIImage? { UIImage(named: "outline-droplet-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDroplets: UIImage? { UIImage(named: "outline-droplets", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineDumbbell: UIImage? { UIImage(named: "outline-dumbbell", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEar: UIImage? { UIImage(named: "outline-ear", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEarOff: UIImage? { UIImage(named: "outline-ear-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineEdit: UIImage? { UIImage(named: "outline-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEditCircle: UIImage? { UIImage(named: "outline-edit-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEditCircleOff: UIImage? { UIImage(named: "outline-edit-circle-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEditOff: UIImage? { UIImage(named: "outline-edit-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEgg: UIImage? { UIImage(named: "outline-egg", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEggFried: UIImage? { UIImage(named: "outline-egg-fried", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEggOff: UIImage? { UIImage(named: "outline-egg-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEngine: UIImage? { UIImage(named: "outline-engine", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEqual: UIImage? { UIImage(named: "outline-equal", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEqualNot: UIImage? { UIImage(named: "outline-equal-not", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEraser: UIImage? { UIImage(named: "outline-eraser", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineExternalLink: UIImage? { UIImage(named: "outline-external-link", in: UDSBundle.module, compatibleWith: nil) }
@@ -2551,79 +504,10 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineEye: UIImage? { UIImage(named: "outline-eye", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineEyeCheck: UIImage? { UIImage(named: "outline-eye-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeClosed: UIImage? { UIImage(named: "outline-eye-closed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeCode: UIImage? { UIImage(named: "outline-eye-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeDown: UIImage? { UIImage(named: "outline-eye-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeEdit: UIImage? { UIImage(named: "outline-eye-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeHeart: UIImage? { UIImage(named: "outline-eye-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeMinus: UIImage? { UIImage(named: "outline-eye-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineEyeOff: UIImage? { UIImage(named: "outline-eye-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineEyePause: UIImage? { UIImage(named: "outline-eye-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyePin: UIImage? { UIImage(named: "outline-eye-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyePlus: UIImage? { UIImage(named: "outline-eye-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeQuestion: UIImage? { UIImage(named: "outline-eye-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeSearch: UIImage? { UIImage(named: "outline-eye-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeShare: UIImage? { UIImage(named: "outline-eye-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeStar: UIImage? { UIImage(named: "outline-eye-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeTable: UIImage? { UIImage(named: "outline-eye-table", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeUp: UIImage? { UIImage(named: "outline-eye-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineEyeX: UIImage? { UIImage(named: "outline-eye-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFeather: UIImage? { UIImage(named: "outline-feather", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFence: UIImage? { UIImage(named: "outline-fence", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFile: UIImage? { UIImage(named: "outline-file", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileAlert: UIImage? { UIImage(named: "outline-file-alert", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileArrowLeft: UIImage? { UIImage(named: "outline-file-arrow-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileArrowRight: UIImage? { UIImage(named: "outline-file-arrow-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileBarcode: UIImage? { UIImage(named: "outline-file-barcode", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFileCheck: UIImage? { UIImage(named: "outline-file-check", in: UDSBundle.module, compatibleWith: nil) }
@@ -2632,43 +516,10 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineFileCode: UIImage? { UIImage(named: "outline-file-code", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFileCode2: UIImage? { UIImage(named: "outline-file-code-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileDatabase: UIImage? { UIImage(named: "outline-file-database", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileDiff: UIImage? { UIImage(named: "outline-file-diff", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileDigit: UIImage? { UIImage(named: "outline-file-digit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFileDownload: UIImage? { UIImage(named: "outline-file-download", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFileInfo: UIImage? { UIImage(named: "outline-file-info", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileLock: UIImage? { UIImage(named: "outline-file-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFileMinus: UIImage? { UIImage(named: "outline-file-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileMusic: UIImage? { UIImage(named: "outline-file-music", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileOff: UIImage? { UIImage(named: "outline-file-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilePencil: UIImage? { UIImage(named: "outline-file-pencil", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilePercent: UIImage? { UIImage(named: "outline-file-percent", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilePhone: UIImage? { UIImage(named: "outline-file-phone", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFilePlus: UIImage? { UIImage(named: "outline-file-plus", in: UDSBundle.module, compatibleWith: nil) }
@@ -2677,37 +528,7 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineFileSearch: UIImage? { UIImage(named: "outline-file-search", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFileSettings: UIImage? { UIImage(named: "outline-file-settings", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileSignal: UIImage? { UIImage(named: "outline-file-signal", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileSpreadsheet: UIImage? { UIImage(named: "outline-file-spreadsheet", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileStack: UIImage? { UIImage(named: "outline-file-stack", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileStar: UIImage? { UIImage(named: "outline-file-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileSymlink: UIImage? { UIImage(named: "outline-file-symlink", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFileText: UIImage? { UIImage(named: "outline-file-text", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileTextAi: UIImage? { UIImage(named: "outline-file-text-ai", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileTextShield: UIImage? { UIImage(named: "outline-file-text-shield", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileTextSpark: UIImage? { UIImage(named: "outline-file-text-spark", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFileTime: UIImage? { UIImage(named: "outline-file-time", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFileUpload: UIImage? { UIImage(named: "outline-file-upload", in: UDSBundle.module, compatibleWith: nil) }
@@ -2716,91 +537,10 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineFileX: UIImage? { UIImage(named: "outline-file-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFiles: UIImage? { UIImage(named: "outline-files", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFilter: UIImage? { UIImage(named: "outline-filter", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFilter2Code: UIImage? { UIImage(named: "outline-filter-2-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilter2Pause: UIImage? { UIImage(named: "outline-filter-2-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilter2X: UIImage? { UIImage(named: "outline-filter-2-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterCheck: UIImage? { UIImage(named: "outline-filter-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterCode: UIImage? { UIImage(named: "outline-filter-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterDown: UIImage? { UIImage(named: "outline-filter-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterEdit: UIImage? { UIImage(named: "outline-filter-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterHeart: UIImage? { UIImage(named: "outline-filter-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterMinus: UIImage? { UIImage(named: "outline-filter-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterOff: UIImage? { UIImage(named: "outline-filter-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterPause: UIImage? { UIImage(named: "outline-filter-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterPin: UIImage? { UIImage(named: "outline-filter-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterPlus: UIImage? { UIImage(named: "outline-filter-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterQuestion: UIImage? { UIImage(named: "outline-filter-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterSearch: UIImage? { UIImage(named: "outline-filter-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterShare: UIImage? { UIImage(named: "outline-filter-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterStar: UIImage? { UIImage(named: "outline-filter-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterUp: UIImage? { UIImage(named: "outline-filter-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFilterX: UIImage? { UIImage(named: "outline-filter-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFireExtinguisher: UIImage? { UIImage(named: "outline-fire-extinguisher", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFish: UIImage? { UIImage(named: "outline-fish", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFishOff: UIImage? { UIImage(named: "outline-fish-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFlag: UIImage? { UIImage(named: "outline-flag", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFlagOff: UIImage? { UIImage(named: "outline-flag-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFlame: UIImage? { UIImage(named: "outline-flame", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFlower: UIImage? { UIImage(named: "outline-flower", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFocus: UIImage? { UIImage(named: "outline-focus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFolder: UIImage? { UIImage(named: "outline-folder", in: UDSBundle.module, compatibleWith: nil) }
@@ -2809,160 +549,28 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineFolderCheck: UIImage? { UIImage(named: "outline-folder-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFolderCode: UIImage? { UIImage(named: "outline-folder-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderCog: UIImage? { UIImage(named: "outline-folder-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderDown: UIImage? { UIImage(named: "outline-folder-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderHeart: UIImage? { UIImage(named: "outline-folder-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderLock: UIImage? { UIImage(named: "outline-folder-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFolderMinus: UIImage? { UIImage(named: "outline-folder-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderOff: UIImage? { UIImage(named: "outline-folder-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFolderOpen: UIImage? { UIImage(named: "outline-folder-open", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFolderPause: UIImage? { UIImage(named: "outline-folder-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderPin: UIImage? { UIImage(named: "outline-folder-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFolderPlus: UIImage? { UIImage(named: "outline-folder-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderQuestion: UIImage? { UIImage(named: "outline-folder-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderRoot: UIImage? { UIImage(named: "outline-folder-root", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineFolderSearch: UIImage? { UIImage(named: "outline-folder-search", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineFolderShare: UIImage? { UIImage(named: "outline-folder-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderStar: UIImage? { UIImage(named: "outline-folder-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderSymlink: UIImage? { UIImage(named: "outline-folder-symlink", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderUp: UIImage? { UIImage(named: "outline-folder-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolderUser: UIImage? { UIImage(named: "outline-folder-user", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineFolderX: UIImage? { UIImage(named: "outline-folder-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFolders: UIImage? { UIImage(named: "outline-folders", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineForklift: UIImage? { UIImage(named: "outline-forklift", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineFrame: UIImage? { UIImage(named: "outline-frame", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGalaxy: UIImage? { UIImage(named: "outline-galaxy", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGauge: UIImage? { UIImage(named: "outline-gauge", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGavel: UIImage? { UIImage(named: "outline-gavel", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGhost: UIImage? { UIImage(named: "outline-ghost", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineGift: UIImage? { UIImage(named: "outline-gift", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineGiftOff: UIImage? { UIImage(named: "outline-gift-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitBranch: UIImage? { UIImage(named: "outline-git-branch", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitCompare: UIImage? { UIImage(named: "outline-git-compare", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitFork: UIImage? { UIImage(named: "outline-git-fork", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitMerge: UIImage? { UIImage(named: "outline-git-merge", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitPullRequest: UIImage? { UIImage(named: "outline-git-pull-request", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitPullRequestClosed: UIImage? { UIImage(named: "outline-git-pull-request-closed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGitPullRequestDraft: UIImage? { UIImage(named: "outline-git-pull-request-draft", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineGlobe: UIImage? { UIImage(named: "outline-globe", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineGlobeOff: UIImage? { UIImage(named: "outline-globe-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGpu: UIImage? { UIImage(named: "outline-gpu", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGrape: UIImage? { UIImage(named: "outline-grape", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineGraph: UIImage? { UIImage(named: "outline-graph", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGraphOff: UIImage? { UIImage(named: "outline-graph-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGrid3x3: UIImage? { UIImage(named: "outline-grid-3x3", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGripHorizontal: UIImage? { UIImage(named: "outline-grip-horizontal", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineGripVertical: UIImage? { UIImage(named: "outline-grip-vertical", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHammer: UIImage? { UIImage(named: "outline-hammer", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHandGrab: UIImage? { UIImage(named: "outline-hand-grab", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHash: UIImage? { UIImage(named: "outline-hash", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHaze: UIImage? { UIImage(named: "outline-haze", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeading: UIImage? { UIImage(named: "outline-heading", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeadphones: UIImage? { UIImage(named: "outline-headphones", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeadset: UIImage? { UIImage(named: "outline-headset", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineHeart: UIImage? { UIImage(named: "outline-heart", in: UDSBundle.module, compatibleWith: nil) }
@@ -2971,325 +579,55 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineHeartCheck: UIImage? { UIImage(named: "outline-heart-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineHeartCode: UIImage? { UIImage(named: "outline-heart-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartDown: UIImage? { UIImage(named: "outline-heart-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineHeartHandshake: UIImage? { UIImage(named: "outline-heart-handshake", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineHeartMinus: UIImage? { UIImage(named: "outline-heart-minus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineHeartOff: UIImage? { UIImage(named: "outline-heart-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartPause: UIImage? { UIImage(named: "outline-heart-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartPin: UIImage? { UIImage(named: "outline-heart-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineHeartPlus: UIImage? { UIImage(named: "outline-heart-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartQuestion: UIImage? { UIImage(named: "outline-heart-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartSearch: UIImage? { UIImage(named: "outline-heart-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartShare: UIImage? { UIImage(named: "outline-heart-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartStar: UIImage? { UIImage(named: "outline-heart-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHeartUp: UIImage? { UIImage(named: "outline-heart-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineHeartX: UIImage? { UIImage(named: "outline-heart-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineHelicopter: UIImage? { UIImage(named: "outline-helicopter", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineHelp: UIImage? { UIImage(named: "outline-help", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHelpCircle: UIImage? { UIImage(named: "outline-help-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHelpOff: UIImage? { UIImage(named: "outline-help-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHelpSquare: UIImage? { UIImage(named: "outline-help-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHexagon: UIImage? { UIImage(named: "outline-hexagon", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineHome: UIImage? { UIImage(named: "outline-home", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineHomeCheck: UIImage? { UIImage(named: "outline-home-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeDown: UIImage? { UIImage(named: "outline-home-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineHomeEdit: UIImage? { UIImage(named: "outline-home-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeHeart: UIImage? { UIImage(named: "outline-home-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeLink: UIImage? { UIImage(named: "outline-home-link", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeLock: UIImage? { UIImage(named: "outline-home-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeMinus: UIImage? { UIImage(named: "outline-home-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeOff: UIImage? { UIImage(named: "outline-home-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineHomePlus: UIImage? { UIImage(named: "outline-home-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineHomeQuestion: UIImage? { UIImage(named: "outline-home-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeSearch: UIImage? { UIImage(named: "outline-home-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeShare: UIImage? { UIImage(named: "outline-home-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeShield: UIImage? { UIImage(named: "outline-home-shield", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeStar: UIImage? { UIImage(named: "outline-home-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHomeUp: UIImage? { UIImage(named: "outline-home-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineHomeX: UIImage? { UIImage(named: "outline-home-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHospital: UIImage? { UIImage(named: "outline-hospital", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineHourglass: UIImage? { UIImage(named: "outline-hourglass", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineInbox: UIImage? { UIImage(named: "outline-inbox", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineInfinity: UIImage? { UIImage(named: "outline-infinity", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineInfoCircle: UIImage? { UIImage(named: "outline-info-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineInfoSquare: UIImage? { UIImage(named: "outline-info-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineItalic: UIImage? { UIImage(named: "outline-italic", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineKayak: UIImage? { UIImage(named: "outline-kayak", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineKey: UIImage? { UIImage(named: "outline-key", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineKeyOff: UIImage? { UIImage(named: "outline-key-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineKeyboard: UIImage? { UIImage(named: "outline-keyboard", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineKeyboardOff: UIImage? { UIImage(named: "outline-keyboard-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLambda: UIImage? { UIImage(named: "outline-lambda", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLamp: UIImage? { UIImage(named: "outline-lamp", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLasso: UIImage? { UIImage(named: "outline-lasso", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLayersOff: UIImage? { UIImage(named: "outline-layers-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineLayout: UIImage? { UIImage(named: "outline-layout", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineLayoutDashboard: UIImage? { UIImage(named: "outline-layout-dashboard", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLayoutGrid: UIImage? { UIImage(named: "outline-layout-grid", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLayoutGridAdd: UIImage? { UIImage(named: "outline-layout-grid-add", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLayoutList: UIImage? { UIImage(named: "outline-layout-list", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLayoutOff: UIImage? { UIImage(named: "outline-layout-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineLeaf: UIImage? { UIImage(named: "outline-leaf", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLeafOff: UIImage? { UIImage(named: "outline-leaf-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLensConcave: UIImage? { UIImage(named: "outline-lens-concave", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLensConvex: UIImage? { UIImage(named: "outline-lens-convex", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLibrary: UIImage? { UIImage(named: "outline-library", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineLink: UIImage? { UIImage(named: "outline-link", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineLinkMinus: UIImage? { UIImage(named: "outline-link-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLinkOff: UIImage? { UIImage(named: "outline-link-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLinkPlus: UIImage? { UIImage(named: "outline-link-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineList: UIImage? { UIImage(named: "outline-list", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineListCheck: UIImage? { UIImage(named: "outline-list-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineListSearch: UIImage? { UIImage(named: "outline-list-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineListTree: UIImage? { UIImage(named: "outline-list-tree", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLoader: UIImage? { UIImage(named: "outline-loader", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineLocation: UIImage? { UIImage(named: "outline-location", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineLocationCheck: UIImage? { UIImage(named: "outline-location-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationCode: UIImage? { UIImage(named: "outline-location-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationDown: UIImage? { UIImage(named: "outline-location-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationHeart: UIImage? { UIImage(named: "outline-location-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationMinus: UIImage? { UIImage(named: "outline-location-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationOff: UIImage? { UIImage(named: "outline-location-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationPause: UIImage? { UIImage(named: "outline-location-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationPin: UIImage? { UIImage(named: "outline-location-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationPlus: UIImage? { UIImage(named: "outline-location-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationQuestion: UIImage? { UIImage(named: "outline-location-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationSearch: UIImage? { UIImage(named: "outline-location-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationShare: UIImage? { UIImage(named: "outline-location-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationStar: UIImage? { UIImage(named: "outline-location-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationUp: UIImage? { UIImage(named: "outline-location-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLocationX: UIImage? { UIImage(named: "outline-location-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineLock: UIImage? { UIImage(named: "outline-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockCheck: UIImage? { UIImage(named: "outline-lock-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockCode: UIImage? { UIImage(named: "outline-lock-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockDown: UIImage? { UIImage(named: "outline-lock-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockHeart: UIImage? { UIImage(named: "outline-lock-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockMinus: UIImage? { UIImage(named: "outline-lock-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockOff: UIImage? { UIImage(named: "outline-lock-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockOpen: UIImage? { UIImage(named: "outline-lock-open", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockPause: UIImage? { UIImage(named: "outline-lock-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockPin: UIImage? { UIImage(named: "outline-lock-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockPlus: UIImage? { UIImage(named: "outline-lock-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockQuestion: UIImage? { UIImage(named: "outline-lock-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockSearch: UIImage? { UIImage(named: "outline-lock-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockShare: UIImage? { UIImage(named: "outline-lock-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockSquare: UIImage? { UIImage(named: "outline-lock-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockStar: UIImage? { UIImage(named: "outline-lock-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockUp: UIImage? { UIImage(named: "outline-lock-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLockX: UIImage? { UIImage(named: "outline-lock-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineLogin: UIImage? { UIImage(named: "outline-login", in: UDSBundle.module, compatibleWith: nil) }
@@ -3298,184 +636,28 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineLogout: UIImage? { UIImage(named: "outline-logout", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineLogs: UIImage? { UIImage(named: "outline-logs", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLollipop: UIImage? { UIImage(named: "outline-lollipop", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineLuggage: UIImage? { UIImage(named: "outline-luggage", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMagnet: UIImage? { UIImage(named: "outline-magnet", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMail: UIImage? { UIImage(named: "outline-mail", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMailCheck: UIImage? { UIImage(named: "outline-mail-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMailCode: UIImage? { UIImage(named: "outline-mail-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailDown: UIImage? { UIImage(named: "outline-mail-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailHeart: UIImage? { UIImage(named: "outline-mail-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailMinus: UIImage? { UIImage(named: "outline-mail-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailOff: UIImage? { UIImage(named: "outline-mail-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailPause: UIImage? { UIImage(named: "outline-mail-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailPin: UIImage? { UIImage(named: "outline-mail-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMailPlus: UIImage? { UIImage(named: "outline-mail-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailQuestion: UIImage? { UIImage(named: "outline-mail-question", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMailSearch: UIImage? { UIImage(named: "outline-mail-search", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMailShare: UIImage? { UIImage(named: "outline-mail-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailStar: UIImage? { UIImage(named: "outline-mail-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailUp: UIImage? { UIImage(named: "outline-mail-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailX: UIImage? { UIImage(named: "outline-mail-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMailbox: UIImage? { UIImage(named: "outline-mailbox", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMap: UIImage? { UIImage(named: "outline-map", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapCheck: UIImage? { UIImage(named: "outline-map-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapCode: UIImage? { UIImage(named: "outline-map-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapDown: UIImage? { UIImage(named: "outline-map-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapHeart: UIImage? { UIImage(named: "outline-map-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapLock: UIImage? { UIImage(named: "outline-map-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapMinus: UIImage? { UIImage(named: "outline-map-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapOff: UIImage? { UIImage(named: "outline-map-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPause: UIImage? { UIImage(named: "outline-map-pause", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMapPin: UIImage? { UIImage(named: "outline-map-pin", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMapPinCheck: UIImage? { UIImage(named: "outline-map-pin-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinCode: UIImage? { UIImage(named: "outline-map-pin-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinDown: UIImage? { UIImage(named: "outline-map-pin-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinHeart: UIImage? { UIImage(named: "outline-map-pin-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinMinus: UIImage? { UIImage(named: "outline-map-pin-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinOff: UIImage? { UIImage(named: "outline-map-pin-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinPause: UIImage? { UIImage(named: "outline-map-pin-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinPin: UIImage? { UIImage(named: "outline-map-pin-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMapPinPlus: UIImage? { UIImage(named: "outline-map-pin-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMapPinQuestion: UIImage? { UIImage(named: "outline-map-pin-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinSearch: UIImage? { UIImage(named: "outline-map-pin-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinShare: UIImage? { UIImage(named: "outline-map-pin-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinStar: UIImage? { UIImage(named: "outline-map-pin-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinUp: UIImage? { UIImage(named: "outline-map-pin-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinX: UIImage? { UIImage(named: "outline-map-pin-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPinned: UIImage? { UIImage(named: "outline-map-pinned", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapPlus: UIImage? { UIImage(named: "outline-map-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapQuestion: UIImage? { UIImage(named: "outline-map-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapRoute: UIImage? { UIImage(named: "outline-map-route", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapSearch: UIImage? { UIImage(named: "outline-map-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapShare: UIImage? { UIImage(named: "outline-map-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapShield: UIImage? { UIImage(named: "outline-map-shield", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapStar: UIImage? { UIImage(named: "outline-map-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapUp: UIImage? { UIImage(named: "outline-map-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMapX: UIImage? { UIImage(named: "outline-map-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMars: UIImage? { UIImage(named: "outline-mars", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMaximize: UIImage? { UIImage(named: "outline-maximize", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMaximizeOff: UIImage? { UIImage(named: "outline-maximize-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMedal: UIImage? { UIImage(named: "outline-medal", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMenu: UIImage? { UIImage(named: "outline-menu", in: UDSBundle.module, compatibleWith: nil) }
@@ -3484,94 +666,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineMessage: UIImage? { UIImage(named: "outline-message", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMessage2Code: UIImage? { UIImage(named: "outline-message-2-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessage2Pause: UIImage? { UIImage(named: "outline-message-2-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessage2X: UIImage? { UIImage(named: "outline-message-2-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMessageCheck: UIImage? { UIImage(named: "outline-message-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMessageCircle: UIImage? { UIImage(named: "outline-message-circle", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMessageCircleCheck: UIImage? { UIImage(named: "outline-message-circle-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleCode: UIImage? { UIImage(named: "outline-message-circle-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleDown: UIImage? { UIImage(named: "outline-message-circle-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleHeart: UIImage? { UIImage(named: "outline-message-circle-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleMinus: UIImage? { UIImage(named: "outline-message-circle-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleOff: UIImage? { UIImage(named: "outline-message-circle-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCirclePause: UIImage? { UIImage(named: "outline-message-circle-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCirclePin: UIImage? { UIImage(named: "outline-message-circle-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCirclePlus: UIImage? { UIImage(named: "outline-message-circle-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleQuestion: UIImage? { UIImage(named: "outline-message-circle-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleSearch: UIImage? { UIImage(named: "outline-message-circle-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleShare: UIImage? { UIImage(named: "outline-message-circle-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleStar: UIImage? { UIImage(named: "outline-message-circle-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleUp: UIImage? { UIImage(named: "outline-message-circle-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleUser: UIImage? { UIImage(named: "outline-message-circle-user", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCircleX: UIImage? { UIImage(named: "outline-message-circle-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageCode: UIImage? { UIImage(named: "outline-message-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageDown: UIImage? { UIImage(named: "outline-message-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageHeart: UIImage? { UIImage(named: "outline-message-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageMinus: UIImage? { UIImage(named: "outline-message-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageOff: UIImage? { UIImage(named: "outline-message-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessagePause: UIImage? { UIImage(named: "outline-message-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessagePin: UIImage? { UIImage(named: "outline-message-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMessagePlus: UIImage? { UIImage(named: "outline-message-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageQuestion: UIImage? { UIImage(named: "outline-message-question", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMessageReply: UIImage? { UIImage(named: "outline-message-reply", in: UDSBundle.module, compatibleWith: nil) }
@@ -3580,43 +681,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineMessageSearch: UIImage? { UIImage(named: "outline-message-search", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMessageShare: UIImage? { UIImage(named: "outline-message-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageStar: UIImage? { UIImage(named: "outline-message-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMessageUp: UIImage? { UIImage(named: "outline-message-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMessageUser: UIImage? { UIImage(named: "outline-message-user", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMessageX: UIImage? { UIImage(named: "outline-message-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMetronome: UIImage? { UIImage(named: "outline-metronome", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMicrophone: UIImage? { UIImage(named: "outline-microphone", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMicrophoneOff: UIImage? { UIImage(named: "outline-microphone-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMicroscope: UIImage? { UIImage(named: "outline-microscope", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMicrowave: UIImage? { UIImage(named: "outline-microwave", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMilk: UIImage? { UIImage(named: "outline-milk", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMilkOff: UIImage? { UIImage(named: "outline-milk-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMinimize: UIImage? { UIImage(named: "outline-minimize", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMinus: UIImage? { UIImage(named: "outline-minus", in: UDSBundle.module, compatibleWith: nil) }
@@ -3625,259 +696,34 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineMoon: UIImage? { UIImage(named: "outline-moon", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMoonOff: UIImage? { UIImage(named: "outline-moon-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMosque: UIImage? { UIImage(named: "outline-mosque", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMotorbike: UIImage? { UIImage(named: "outline-motorbike", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMountain: UIImage? { UIImage(named: "outline-mountain", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineMouse: UIImage? { UIImage(named: "outline-mouse", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMouseOff: UIImage? { UIImage(named: "outline-mouse-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineMusic: UIImage? { UIImage(named: "outline-music", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineMusicCheck: UIImage? { UIImage(named: "outline-music-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicCode: UIImage? { UIImage(named: "outline-music-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicDown: UIImage? { UIImage(named: "outline-music-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicHeart: UIImage? { UIImage(named: "outline-music-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicMinus: UIImage? { UIImage(named: "outline-music-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicOff: UIImage? { UIImage(named: "outline-music-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicPause: UIImage? { UIImage(named: "outline-music-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicPin: UIImage? { UIImage(named: "outline-music-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicPlus: UIImage? { UIImage(named: "outline-music-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicQuestion: UIImage? { UIImage(named: "outline-music-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicSearch: UIImage? { UIImage(named: "outline-music-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicShare: UIImage? { UIImage(named: "outline-music-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicStar: UIImage? { UIImage(named: "outline-music-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicUp: UIImage? { UIImage(named: "outline-music-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineMusicX: UIImage? { UIImage(named: "outline-music-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineNavigation: UIImage? { UIImage(named: "outline-navigation", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationCheck: UIImage? { UIImage(named: "outline-navigation-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationCode: UIImage? { UIImage(named: "outline-navigation-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationDown: UIImage? { UIImage(named: "outline-navigation-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationHeart: UIImage? { UIImage(named: "outline-navigation-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationMinus: UIImage? { UIImage(named: "outline-navigation-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationOff: UIImage? { UIImage(named: "outline-navigation-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationPause: UIImage? { UIImage(named: "outline-navigation-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationPin: UIImage? { UIImage(named: "outline-navigation-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationPlus: UIImage? { UIImage(named: "outline-navigation-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationQuestion: UIImage? { UIImage(named: "outline-navigation-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationSearch: UIImage? { UIImage(named: "outline-navigation-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationShare: UIImage? { UIImage(named: "outline-navigation-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationStar: UIImage? { UIImage(named: "outline-navigation-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationUp: UIImage? { UIImage(named: "outline-navigation-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNavigationX: UIImage? { UIImage(named: "outline-navigation-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNetwork: UIImage? { UIImage(named: "outline-network", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNfc: UIImage? { UIImage(named: "outline-nfc", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineNote: UIImage? { UIImage(named: "outline-note", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineNoteOff: UIImage? { UIImage(named: "outline-note-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNotebook: UIImage? { UIImage(named: "outline-notebook", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineNotification: UIImage? { UIImage(named: "outline-notification", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNotificationOff: UIImage? { UIImage(named: "outline-notification-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineNut: UIImage? { UIImage(named: "outline-nut", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineOctagon: UIImage? { UIImage(named: "outline-octagon", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineOctagonMinus: UIImage? { UIImage(named: "outline-octagon-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineOmega: UIImage? { UIImage(named: "outline-omega", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineOption: UIImage? { UIImage(named: "outline-option", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineOrbit: UIImage? { UIImage(named: "outline-orbit", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePackage: UIImage? { UIImage(named: "outline-package", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePackageOff: UIImage? { UIImage(named: "outline-package-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePalette: UIImage? { UIImage(named: "outline-palette", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePaletteOff: UIImage? { UIImage(named: "outline-palette-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePaperBag: UIImage? { UIImage(named: "outline-paper-bag", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePaperclip: UIImage? { UIImage(named: "outline-paperclip", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineParentheses: UIImage? { UIImage(named: "outline-parentheses", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineParkingMeter: UIImage? { UIImage(named: "outline-parking-meter", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePencil: UIImage? { UIImage(named: "outline-pencil", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePencilCheck: UIImage? { UIImage(named: "outline-pencil-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilCode: UIImage? { UIImage(named: "outline-pencil-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilDown: UIImage? { UIImage(named: "outline-pencil-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilHeart: UIImage? { UIImage(named: "outline-pencil-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilMinus: UIImage? { UIImage(named: "outline-pencil-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilOff: UIImage? { UIImage(named: "outline-pencil-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilPause: UIImage? { UIImage(named: "outline-pencil-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilPin: UIImage? { UIImage(named: "outline-pencil-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilPlus: UIImage? { UIImage(named: "outline-pencil-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilQuestion: UIImage? { UIImage(named: "outline-pencil-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilSearch: UIImage? { UIImage(named: "outline-pencil-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilShare: UIImage? { UIImage(named: "outline-pencil-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilStar: UIImage? { UIImage(named: "outline-pencil-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilUp: UIImage? { UIImage(named: "outline-pencil-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePencilX: UIImage? { UIImage(named: "outline-pencil-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePentagon: UIImage? { UIImage(named: "outline-pentagon", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePhone: UIImage? { UIImage(named: "outline-phone", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneCall: UIImage? { UIImage(named: "outline-phone-call", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneCheck: UIImage? { UIImage(named: "outline-phone-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneIncoming: UIImage? { UIImage(named: "outline-phone-incoming", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneOff: UIImage? { UIImage(named: "outline-phone-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneOutgoing: UIImage? { UIImage(named: "outline-phone-outgoing", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhonePause: UIImage? { UIImage(named: "outline-phone-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhonePlus: UIImage? { UIImage(named: "outline-phone-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhoneX: UIImage? { UIImage(named: "outline-phone-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePhoto: UIImage? { UIImage(named: "outline-photo", in: UDSBundle.module, compatibleWith: nil) }
@@ -3886,697 +732,94 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlinePhotoCheck: UIImage? { UIImage(named: "outline-photo-check", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePhotoCircle: UIImage? { UIImage(named: "outline-photo-circle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoCircleMinus: UIImage? { UIImage(named: "outline-photo-circle-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoCirclePlus: UIImage? { UIImage(named: "outline-photo-circle-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoCode: UIImage? { UIImage(named: "outline-photo-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoDown: UIImage? { UIImage(named: "outline-photo-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoEdit: UIImage? { UIImage(named: "outline-photo-edit", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoHeart: UIImage? { UIImage(named: "outline-photo-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoMinus: UIImage? { UIImage(named: "outline-photo-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoOff: UIImage? { UIImage(named: "outline-photo-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoPause: UIImage? { UIImage(named: "outline-photo-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoPin: UIImage? { UIImage(named: "outline-photo-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePhotoPlus: UIImage? { UIImage(named: "outline-photo-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoQuestion: UIImage? { UIImage(named: "outline-photo-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoSearch: UIImage? { UIImage(named: "outline-photo-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoShare: UIImage? { UIImage(named: "outline-photo-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoShield: UIImage? { UIImage(named: "outline-photo-shield", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoStar: UIImage? { UIImage(named: "outline-photo-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoUp: UIImage? { UIImage(named: "outline-photo-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePhotoVideo: UIImage? { UIImage(named: "outline-photo-video", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePhotoX: UIImage? { UIImage(named: "outline-photo-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePiano: UIImage? { UIImage(named: "outline-piano", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePictureInPicture: UIImage? { UIImage(named: "outline-picture-in-picture", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePilcrow: UIImage? { UIImage(named: "outline-pilcrow", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePilcrowLeft: UIImage? { UIImage(named: "outline-pilcrow-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePilcrowRight: UIImage? { UIImage(named: "outline-pilcrow-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePill: UIImage? { UIImage(named: "outline-pill", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePin: UIImage? { UIImage(named: "outline-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePizza: UIImage? { UIImage(named: "outline-pizza", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePlane: UIImage? { UIImage(named: "outline-plane", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePlaneOff: UIImage? { UIImage(named: "outline-plane-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePlug: UIImage? { UIImage(named: "outline-plug", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePlus: UIImage? { UIImage(named: "outline-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePlusMinus: UIImage? { UIImage(named: "outline-plus-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePodium: UIImage? { UIImage(named: "outline-podium", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePointer: UIImage? { UIImage(named: "outline-pointer", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePointerOff: UIImage? { UIImage(named: "outline-pointer-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePower: UIImage? { UIImage(named: "outline-power", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePresentation: UIImage? { UIImage(named: "outline-presentation", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlinePrinter: UIImage? { UIImage(named: "outline-printer", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlinePrinterOff: UIImage? { UIImage(named: "outline-printer-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlinePuzzle: UIImage? { UIImage(named: "outline-puzzle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePuzzleOff: UIImage? { UIImage(named: "outline-puzzle-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlinePyramid: UIImage? { UIImage(named: "outline-pyramid", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineQuote: UIImage? { UIImage(named: "outline-quote", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRadar: UIImage? { UIImage(named: "outline-radar", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineRadio: UIImage? { UIImage(named: "outline-radio", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineRadioOff: UIImage? { UIImage(named: "outline-radio-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRainbow: UIImage? { UIImage(named: "outline-rainbow", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineReceipt: UIImage? { UIImage(named: "outline-receipt", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineReceiptEuro: UIImage? { UIImage(named: "outline-receipt-euro", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineReceiptOff: UIImage? { UIImage(named: "outline-receipt-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRectangleVertical: UIImage? { UIImage(named: "outline-rectangle-vertical", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRecycle: UIImage? { UIImage(named: "outline-recycle", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineRefresh: UIImage? { UIImage(named: "outline-refresh", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineRefreshAlert: UIImage? { UIImage(named: "outline-refresh-alert", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRefreshOff: UIImage? { UIImage(named: "outline-refresh-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRegex: UIImage? { UIImage(named: "outline-regex", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineReload: UIImage? { UIImage(named: "outline-reload", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRepeat: UIImage? { UIImage(named: "outline-repeat", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRepeatOff: UIImage? { UIImage(named: "outline-repeat-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineReplace: UIImage? { UIImage(named: "outline-replace", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRoad: UIImage? { UIImage(named: "outline-road", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRocket: UIImage? { UIImage(named: "outline-rocket", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRockingChair: UIImage? { UIImage(named: "outline-rocking-chair", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRotate3d: UIImage? { UIImage(named: "outline-rotate-3d", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineRoute: UIImage? { UIImage(named: "outline-route", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineRouteOff: UIImage? { UIImage(named: "outline-route-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRouteSquare: UIImage? { UIImage(named: "outline-route-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRouteX: UIImage? { UIImage(named: "outline-route-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRouteX2: UIImage? { UIImage(named: "outline-route-x-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRouter: UIImage? { UIImage(named: "outline-router", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRss: UIImage? { UIImage(named: "outline-rss", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineRuler: UIImage? { UIImage(named: "outline-ruler", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSailboat: UIImage? { UIImage(named: "outline-sailboat", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSalad: UIImage? { UIImage(named: "outline-salad", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSatellite: UIImage? { UIImage(named: "outline-satellite", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScale: UIImage? { UIImage(named: "outline-scale", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScan: UIImage? { UIImage(named: "outline-scan", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScanEye: UIImage? { UIImage(named: "outline-scan-eye", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSchool: UIImage? { UIImage(named: "outline-school", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScissors: UIImage? { UIImage(named: "outline-scissors", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScooter: UIImage? { UIImage(named: "outline-scooter", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScreenShare: UIImage? { UIImage(named: "outline-screen-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineScreenShareOff: UIImage? { UIImage(named: "outline-screen-share-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineSearch: UIImage? { UIImage(named: "outline-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSearchOff: UIImage? { UIImage(named: "outline-search-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSection: UIImage? { UIImage(named: "outline-section", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineSend: UIImage? { UIImage(named: "outline-send", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineSendOff: UIImage? { UIImage(named: "outline-send-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSeparatorHorizontal: UIImage? { UIImage(named: "outline-separator-horizontal", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSeparatorVertical: UIImage? { UIImage(named: "outline-separator-vertical", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineServer: UIImage? { UIImage(named: "outline-server", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineServerCog: UIImage? { UIImage(named: "outline-server-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineServerOff: UIImage? { UIImage(named: "outline-server-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineSettings: UIImage? { UIImage(named: "outline-settings", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineSettings2: UIImage? { UIImage(named: "outline-settings-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsCheck: UIImage? { UIImage(named: "outline-settings-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsCode: UIImage? { UIImage(named: "outline-settings-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsDown: UIImage? { UIImage(named: "outline-settings-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsHeart: UIImage? { UIImage(named: "outline-settings-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsMinus: UIImage? { UIImage(named: "outline-settings-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsOff: UIImage? { UIImage(named: "outline-settings-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsPause: UIImage? { UIImage(named: "outline-settings-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsPin: UIImage? { UIImage(named: "outline-settings-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsPlus: UIImage? { UIImage(named: "outline-settings-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsQuestion: UIImage? { UIImage(named: "outline-settings-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsSearch: UIImage? { UIImage(named: "outline-settings-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsShare: UIImage? { UIImage(named: "outline-settings-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsStar: UIImage? { UIImage(named: "outline-settings-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsUp: UIImage? { UIImage(named: "outline-settings-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSettingsX: UIImage? { UIImage(named: "outline-settings-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineShare: UIImage? { UIImage(named: "outline-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShare2: UIImage? { UIImage(named: "outline-share-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShareOff: UIImage? { UIImage(named: "outline-share-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineShield: UIImage? { UIImage(named: "outline-shield", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineShieldCheck: UIImage? { UIImage(named: "outline-shield-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldCode: UIImage? { UIImage(named: "outline-shield-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldCog: UIImage? { UIImage(named: "outline-shield-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldDown: UIImage? { UIImage(named: "outline-shield-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldHalf: UIImage? { UIImage(named: "outline-shield-half", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldHeart: UIImage? { UIImage(named: "outline-shield-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldLock: UIImage? { UIImage(named: "outline-shield-lock", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldMinus: UIImage? { UIImage(named: "outline-shield-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldOff: UIImage? { UIImage(named: "outline-shield-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldPause: UIImage? { UIImage(named: "outline-shield-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldPin: UIImage? { UIImage(named: "outline-shield-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldPlus: UIImage? { UIImage(named: "outline-shield-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldQuestion: UIImage? { UIImage(named: "outline-shield-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldSearch: UIImage? { UIImage(named: "outline-shield-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldShare: UIImage? { UIImage(named: "outline-shield-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldStar: UIImage? { UIImage(named: "outline-shield-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldUp: UIImage? { UIImage(named: "outline-shield-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShieldX: UIImage? { UIImage(named: "outline-shield-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShip: UIImage? { UIImage(named: "outline-ship", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShirt: UIImage? { UIImage(named: "outline-shirt", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShoppingBag: UIImage? { UIImage(named: "outline-shopping-bag", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineShoppingCart: UIImage? { UIImage(named: "outline-shopping-cart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShoppingCartMinus: UIImage? { UIImage(named: "outline-shopping-cart-minus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineShoppingCartPlus: UIImage? { UIImage(named: "outline-shopping-cart-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineShovel: UIImage? { UIImage(named: "outline-shovel", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineShredder: UIImage? { UIImage(named: "outline-shredder", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSignature: UIImage? { UIImage(named: "outline-signature", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSkull: UIImage? { UIImage(named: "outline-skull", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSlash: UIImage? { UIImage(named: "outline-slash", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSlice: UIImage? { UIImage(named: "outline-slice", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSnowflake: UIImage? { UIImage(named: "outline-snowflake", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSofa: UIImage? { UIImage(named: "outline-sofa", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSolarPanel: UIImage? { UIImage(named: "outline-solar-panel", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSoup: UIImage? { UIImage(named: "outline-soup", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSpace: UIImage? { UIImage(named: "outline-space", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSpade: UIImage? { UIImage(named: "outline-spade", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSparkle: UIImage? { UIImage(named: "outline-sparkle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSparkles: UIImage? { UIImage(named: "outline-sparkles", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineSquare: UIImage? { UIImage(named: "outline-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareArrowDown: UIImage? { UIImage(named: "outline-square-arrow-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareArrowLeft: UIImage? { UIImage(named: "outline-square-arrow-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareArrowRight: UIImage? { UIImage(named: "outline-square-arrow-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareArrowUp: UIImage? { UIImage(named: "outline-square-arrow-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareAsterisk: UIImage? { UIImage(named: "outline-square-asterisk", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareCheck: UIImage? { UIImage(named: "outline-square-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareChevronDown: UIImage? { UIImage(named: "outline-square-chevron-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareChevronLeft: UIImage? { UIImage(named: "outline-square-chevron-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareChevronRight: UIImage? { UIImage(named: "outline-square-chevron-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareChevronUp: UIImage? { UIImage(named: "outline-square-chevron-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareDashed: UIImage? { UIImage(named: "outline-square-dashed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareDashedTopSolid: UIImage? { UIImage(named: "outline-square-dashed-top-solid", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareDashedX: UIImage? { UIImage(named: "outline-square-dashed-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareDot: UIImage? { UIImage(named: "outline-square-dot", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareKey: UIImage? { UIImage(named: "outline-square-key", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareMinus: UIImage? { UIImage(named: "outline-square-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareOff: UIImage? { UIImage(named: "outline-square-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquarePlus: UIImage? { UIImage(named: "outline-square-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareToggle: UIImage? { UIImage(named: "outline-square-toggle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSquareX: UIImage? { UIImage(named: "outline-square-x", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineStack: UIImage? { UIImage(named: "outline-stack", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineStackBack: UIImage? { UIImage(named: "outline-stack-back", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStackCheck: UIImage? { UIImage(named: "outline-stack-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStackMinus: UIImage? { UIImage(named: "outline-stack-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStackPlus: UIImage? { UIImage(named: "outline-stack-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStackX: UIImage? { UIImage(named: "outline-stack-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineStar: UIImage? { UIImage(named: "outline-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStarHalf: UIImage? { UIImage(named: "outline-star-half", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStarOff: UIImage? { UIImage(named: "outline-star-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStethoscope: UIImage? { UIImage(named: "outline-stethoscope", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSticker: UIImage? { UIImage(named: "outline-sticker", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineStrikethrough: UIImage? { UIImage(named: "outline-strikethrough", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSubscript: UIImage? { UIImage(named: "outline-subscript", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineSun: UIImage? { UIImage(named: "outline-sun", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineSunMoon: UIImage? { UIImage(named: "outline-sun-moon", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSunOff: UIImage? { UIImage(named: "outline-sun-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSunWind: UIImage? { UIImage(named: "outline-sun-wind", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSunrise: UIImage? { UIImage(named: "outline-sunrise", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSunset: UIImage? { UIImage(named: "outline-sunset", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSuperscript: UIImage? { UIImage(named: "outline-superscript", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSword: UIImage? { UIImage(named: "outline-sword", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineSwords: UIImage? { UIImage(named: "outline-swords", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineTable: UIImage? { UIImage(named: "outline-table", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTableDown: UIImage? { UIImage(named: "outline-table-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTableHeart: UIImage? { UIImage(named: "outline-table-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTableMinus: UIImage? { UIImage(named: "outline-table-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTableOff: UIImage? { UIImage(named: "outline-table-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTablePlus: UIImage? { UIImage(named: "outline-table-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTableShare: UIImage? { UIImage(named: "outline-table-share", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineTag: UIImage? { UIImage(named: "outline-tag", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineTagMinus: UIImage? { UIImage(named: "outline-tag-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTagOff: UIImage? { UIImage(named: "outline-tag-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTagPlus: UIImage? { UIImage(named: "outline-tag-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTags: UIImage? { UIImage(named: "outline-tags", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineTarget: UIImage? { UIImage(named: "outline-target", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTargetArrow: UIImage? { UIImage(named: "outline-target-arrow", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTargetOff: UIImage? { UIImage(named: "outline-target-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTelescope: UIImage? { UIImage(named: "outline-telescope", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTent: UIImage? { UIImage(named: "outline-tent", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineTerminal: UIImage? { UIImage(named: "outline-terminal", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineTextPlus: UIImage? { UIImage(named: "outline-text-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTextWrap: UIImage? { UIImage(named: "outline-text-wrap", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTheater: UIImage? { UIImage(named: "outline-theater", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineThermometer: UIImage? { UIImage(named: "outline-thermometer", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineThumbDown: UIImage? { UIImage(named: "outline-thumb-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineThumbDownOff: UIImage? { UIImage(named: "outline-thumb-down-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineThumbUp: UIImage? { UIImage(named: "outline-thumb-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineThumbUpOff: UIImage? { UIImage(named: "outline-thumb-up-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineTicket: UIImage? { UIImage(named: "outline-ticket", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineTicketOff: UIImage? { UIImage(named: "outline-ticket-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTimeline: UIImage? { UIImage(named: "outline-timeline", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineToggleLeft: UIImage? { UIImage(named: "outline-toggle-left", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineToggleRight: UIImage? { UIImage(named: "outline-toggle-right", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineTool: UIImage? { UIImage(named: "outline-tool", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTornado: UIImage? { UIImage(named: "outline-tornado", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTractor: UIImage? { UIImage(named: "outline-tractor", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrafficCone: UIImage? { UIImage(named: "outline-traffic-cone", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineTrain: UIImage? { UIImage(named: "outline-train", in: UDSBundle.module, compatibleWith: nil) }
@@ -4585,55 +828,10 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineTrash: UIImage? { UIImage(named: "outline-trash", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineTrashOff: UIImage? { UIImage(named: "outline-trash-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrashX: UIImage? { UIImage(named: "outline-trash-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrees: UIImage? { UIImage(named: "outline-trees", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrendingDown: UIImage? { UIImage(named: "outline-trending-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrendingUp: UIImage? { UIImage(named: "outline-trending-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrendingUpDown: UIImage? { UIImage(named: "outline-trending-up-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTriangle: UIImage? { UIImage(named: "outline-triangle", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTriangleDashed: UIImage? { UIImage(named: "outline-triangle-dashed", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineTrophy: UIImage? { UIImage(named: "outline-trophy", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineTruck: UIImage? { UIImage(named: "outline-truck", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineTruckOff: UIImage? { UIImage(named: "outline-truck-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUmbrella: UIImage? { UIImage(named: "outline-umbrella", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUmbrellaOff: UIImage? { UIImage(named: "outline-umbrella-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUnderline: UIImage? { UIImage(named: "outline-underline", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUnlink: UIImage? { UIImage(named: "outline-unlink", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineUpload: UIImage? { UIImage(named: "outline-upload", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUsb: UIImage? { UIImage(named: "outline-usb", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineUser: UIImage? { UIImage(named: "outline-user", in: UDSBundle.module, compatibleWith: nil) }
@@ -4645,31 +843,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineUserCircle: UIImage? { UIImage(named: "outline-user-circle", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineUserCode: UIImage? { UIImage(named: "outline-user-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserCog: UIImage? { UIImage(named: "outline-user-cog", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserDown: UIImage? { UIImage(named: "outline-user-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineUserEdit: UIImage? { UIImage(named: "outline-user-edit", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineUserHeart: UIImage? { UIImage(named: "outline-user-heart", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineUserKey: UIImage? { UIImage(named: "outline-user-key", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineUserMinus: UIImage? { UIImage(named: "outline-user-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserOff: UIImage? { UIImage(named: "outline-user-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserPause: UIImage? { UIImage(named: "outline-user-pause", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineUserPin: UIImage? { UIImage(named: "outline-user-pin", in: UDSBundle.module, compatibleWith: nil) }
@@ -4678,25 +858,13 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineUserPlus: UIImage? { UIImage(named: "outline-user-plus", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineUserQuestion: UIImage? { UIImage(named: "outline-user-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineUserSearch: UIImage? { UIImage(named: "outline-user-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserShare: UIImage? { UIImage(named: "outline-user-share", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineUserShield: UIImage? { UIImage(named: "outline-user-shield", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineUserSquare: UIImage? { UIImage(named: "outline-user-square", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineUserStar: UIImage? { UIImage(named: "outline-user-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUserUp: UIImage? { UIImage(named: "outline-user-up", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineUserX: UIImage? { UIImage(named: "outline-user-x", in: UDSBundle.module, compatibleWith: nil) }
@@ -4705,196 +873,28 @@ public struct UDSImageUIKitProxy: Sendable {
     public var outlineUsers: UIImage? { UIImage(named: "outline-users", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineUsersMinus: UIImage? { UIImage(named: "outline-users-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineUsersPlus: UIImage? { UIImage(named: "outline-users-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVariable: UIImage? { UIImage(named: "outline-variable", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVault: UIImage? { UIImage(named: "outline-vault", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVenus: UIImage? { UIImage(named: "outline-venus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineVideo: UIImage? { UIImage(named: "outline-video", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVideoMinus: UIImage? { UIImage(named: "outline-video-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVideoOff: UIImage? { UIImage(named: "outline-video-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVideoPlus: UIImage? { UIImage(named: "outline-video-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVirus: UIImage? { UIImage(named: "outline-virus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVirusOff: UIImage? { UIImage(named: "outline-virus-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineVolume: UIImage? { UIImage(named: "outline-volume", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineVolume2: UIImage? { UIImage(named: "outline-volume-2", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineVolumeOff: UIImage? { UIImage(named: "outline-volume-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineWallet: UIImage? { UIImage(named: "outline-wallet", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWalletOff: UIImage? { UIImage(named: "outline-wallet-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWallpaper: UIImage? { UIImage(named: "outline-wallpaper", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWand: UIImage? { UIImage(named: "outline-wand", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWebhook: UIImage? { UIImage(named: "outline-webhook", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWebhookOff: UIImage? { UIImage(named: "outline-webhook-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWeight: UIImage? { UIImage(named: "outline-weight", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWheat: UIImage? { UIImage(named: "outline-wheat", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWheatOff: UIImage? { UIImage(named: "outline-wheat-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineWifi: UIImage? { UIImage(named: "outline-wifi", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineWifiOff: UIImage? { UIImage(named: "outline-wifi-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineWind: UIImage? { UIImage(named: "outline-wind", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWindOff: UIImage? { UIImage(named: "outline-wind-off", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
     public var outlineWindow: UIImage? { UIImage(named: "outline-window", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineWindowMaximize: UIImage? { UIImage(named: "outline-window-maximize", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWindowOff: UIImage? { UIImage(named: "outline-window-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineWorld: UIImage? { UIImage(named: "outline-world", in: UDSBundle.module, compatibleWith: nil) }
     #endif
     #if canImport(UIKit)
-    public var outlineWorldCheck: UIImage? { UIImage(named: "outline-world-check", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldCode: UIImage? { UIImage(named: "outline-world-code", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldDown: UIImage? { UIImage(named: "outline-world-down", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldDownload: UIImage? { UIImage(named: "outline-world-download", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldHeart: UIImage? { UIImage(named: "outline-world-heart", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldMap: UIImage? { UIImage(named: "outline-world-map", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldMinus: UIImage? { UIImage(named: "outline-world-minus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldOff: UIImage? { UIImage(named: "outline-world-off", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldPause: UIImage? { UIImage(named: "outline-world-pause", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldPin: UIImage? { UIImage(named: "outline-world-pin", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldPlus: UIImage? { UIImage(named: "outline-world-plus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldQuestion: UIImage? { UIImage(named: "outline-world-question", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldSearch: UIImage? { UIImage(named: "outline-world-search", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldShare: UIImage? { UIImage(named: "outline-world-share", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldStar: UIImage? { UIImage(named: "outline-world-star", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldUp: UIImage? { UIImage(named: "outline-world-up", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldUpload: UIImage? { UIImage(named: "outline-world-upload", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineWorldX: UIImage? { UIImage(named: "outline-world-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
     public var outlineX: UIImage? { UIImage(named: "outline-x", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacAquarius: UIImage? { UIImage(named: "outline-zodiac-aquarius", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacAries: UIImage? { UIImage(named: "outline-zodiac-aries", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacCancer: UIImage? { UIImage(named: "outline-zodiac-cancer", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacCapricorn: UIImage? { UIImage(named: "outline-zodiac-capricorn", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacGemini: UIImage? { UIImage(named: "outline-zodiac-gemini", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacLeo: UIImage? { UIImage(named: "outline-zodiac-leo", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacLibra: UIImage? { UIImage(named: "outline-zodiac-libra", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacPisces: UIImage? { UIImage(named: "outline-zodiac-pisces", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacSagittarius: UIImage? { UIImage(named: "outline-zodiac-sagittarius", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacScorpio: UIImage? { UIImage(named: "outline-zodiac-scorpio", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacTaurus: UIImage? { UIImage(named: "outline-zodiac-taurus", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZodiacVirgo: UIImage? { UIImage(named: "outline-zodiac-virgo", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZoomIn: UIImage? { UIImage(named: "outline-zoom-in", in: UDSBundle.module, compatibleWith: nil) }
-    #endif
-    #if canImport(UIKit)
-    public var outlineZoomOut: UIImage? { UIImage(named: "outline-zoom-out", in: UDSBundle.module, compatibleWith: nil) }
     #endif
 }
 
@@ -4923,2409 +923,409 @@ public extension UDSIconToken {
 // MARK: - Typed Bundled SVG Icon Tokens
 public extension UDSIconToken {
     static let outlineActivity = UDSIconToken.asset("outline-activity")
-    static let outlineAd = UDSIconToken.asset("outline-ad")
-    static let outlineAlarmSmoke = UDSIconToken.asset("outline-alarm-smoke")
     static let outlineAlertCircle = UDSIconToken.asset("outline-alert-circle")
-    static let outlineAlertCircleOff = UDSIconToken.asset("outline-alert-circle-off")
-    static let outlineAlertSquare = UDSIconToken.asset("outline-alert-square")
-    static let outlineAlignCenter = UDSIconToken.asset("outline-align-center")
-    static let outlineAlignLeft = UDSIconToken.asset("outline-align-left")
-    static let outlineAlignRight = UDSIconToken.asset("outline-align-right")
-    static let outlineAmbulance = UDSIconToken.asset("outline-ambulance")
-    static let outlineAmpersand = UDSIconToken.asset("outline-ampersand")
-    static let outlineAnchor = UDSIconToken.asset("outline-anchor")
-    static let outlineAngle = UDSIconToken.asset("outline-angle")
-    static let outlineAntenna = UDSIconToken.asset("outline-antenna")
-    static let outlineAperture = UDSIconToken.asset("outline-aperture")
-    static let outlineAppWindow = UDSIconToken.asset("outline-app-window")
-    static let outlineApple = UDSIconToken.asset("outline-apple")
     static let outlineApps = UDSIconToken.asset("outline-apps")
-    static let outlineAppsOff = UDSIconToken.asset("outline-apps-off")
     static let outlineArchive = UDSIconToken.asset("outline-archive")
-    static let outlineArchiveOff = UDSIconToken.asset("outline-archive-off")
-    static let outlineArmchair = UDSIconToken.asset("outline-armchair")
     static let outlineArrowBack = UDSIconToken.asset("outline-arrow-back")
-    static let outlineArrowBackUp = UDSIconToken.asset("outline-arrow-back-up")
-    static let outlineArrowBigDown = UDSIconToken.asset("outline-arrow-big-down")
-    static let outlineArrowBigLeft = UDSIconToken.asset("outline-arrow-big-left")
-    static let outlineArrowBigRight = UDSIconToken.asset("outline-arrow-big-right")
-    static let outlineArrowBigUp = UDSIconToken.asset("outline-arrow-big-up")
     static let outlineArrowDown = UDSIconToken.asset("outline-arrow-down")
-    static let outlineArrowDownCircle = UDSIconToken.asset("outline-arrow-down-circle")
-    static let outlineArrowDownLeft = UDSIconToken.asset("outline-arrow-down-left")
-    static let outlineArrowDownRight = UDSIconToken.asset("outline-arrow-down-right")
-    static let outlineArrowDownSquare = UDSIconToken.asset("outline-arrow-down-square")
     static let outlineArrowForward = UDSIconToken.asset("outline-arrow-forward")
     static let outlineArrowLeft = UDSIconToken.asset("outline-arrow-left")
-    static let outlineArrowLeftCircle = UDSIconToken.asset("outline-arrow-left-circle")
-    static let outlineArrowLeftRight = UDSIconToken.asset("outline-arrow-left-right")
-    static let outlineArrowLeftSquare = UDSIconToken.asset("outline-arrow-left-square")
     static let outlineArrowRight = UDSIconToken.asset("outline-arrow-right")
-    static let outlineArrowRightCircle = UDSIconToken.asset("outline-arrow-right-circle")
-    static let outlineArrowRightSquare = UDSIconToken.asset("outline-arrow-right-square")
     static let outlineArrowUp = UDSIconToken.asset("outline-arrow-up")
-    static let outlineArrowUpCircle = UDSIconToken.asset("outline-arrow-up-circle")
-    static let outlineArrowUpLeft = UDSIconToken.asset("outline-arrow-up-left")
-    static let outlineArrowUpRight = UDSIconToken.asset("outline-arrow-up-right")
-    static let outlineArrowUpSquare = UDSIconToken.asset("outline-arrow-up-square")
-    static let outlineAsterisk = UDSIconToken.asset("outline-asterisk")
-    static let outlineAtom = UDSIconToken.asset("outline-atom")
-    static let outlineAward = UDSIconToken.asset("outline-award")
-    static let outlineAwardOff = UDSIconToken.asset("outline-award-off")
-    static let outlineAxe = UDSIconToken.asset("outline-axe")
-    static let outlineBackpack = UDSIconToken.asset("outline-backpack")
-    static let outlineBadge = UDSIconToken.asset("outline-badge")
-    static let outlineBalloon = UDSIconToken.asset("outline-balloon")
-    static let outlineBan = UDSIconToken.asset("outline-ban")
-    static let outlineBanana = UDSIconToken.asset("outline-banana")
-    static let outlineBandage = UDSIconToken.asset("outline-bandage")
     static let outlineBarcode = UDSIconToken.asset("outline-barcode")
-    static let outlineBarcodeOff = UDSIconToken.asset("outline-barcode-off")
-    static let outlineBarrel = UDSIconToken.asset("outline-barrel")
-    static let outlineBaseline = UDSIconToken.asset("outline-baseline")
-    static let outlineBath = UDSIconToken.asset("outline-bath")
     static let outlineBattery = UDSIconToken.asset("outline-battery")
-    static let outlineBatteryCharging = UDSIconToken.asset("outline-battery-charging")
-    static let outlineBatteryOff = UDSIconToken.asset("outline-battery-off")
-    static let outlineBed = UDSIconToken.asset("outline-bed")
-    static let outlineBeer = UDSIconToken.asset("outline-beer")
-    static let outlineBeerOff = UDSIconToken.asset("outline-beer-off")
     static let outlineBell = UDSIconToken.asset("outline-bell")
     static let outlineBellCheck = UDSIconToken.asset("outline-bell-check")
-    static let outlineBellCode = UDSIconToken.asset("outline-bell-code")
-    static let outlineBellDown = UDSIconToken.asset("outline-bell-down")
-    static let outlineBellHeart = UDSIconToken.asset("outline-bell-heart")
-    static let outlineBellMinus = UDSIconToken.asset("outline-bell-minus")
     static let outlineBellOff = UDSIconToken.asset("outline-bell-off")
-    static let outlineBellPause = UDSIconToken.asset("outline-bell-pause")
-    static let outlineBellPin = UDSIconToken.asset("outline-bell-pin")
     static let outlineBellPlus = UDSIconToken.asset("outline-bell-plus")
-    static let outlineBellQuestion = UDSIconToken.asset("outline-bell-question")
-    static let outlineBellSearch = UDSIconToken.asset("outline-bell-search")
-    static let outlineBellShare = UDSIconToken.asset("outline-bell-share")
-    static let outlineBellStar = UDSIconToken.asset("outline-bell-star")
-    static let outlineBellUp = UDSIconToken.asset("outline-bell-up")
     static let outlineBellX = UDSIconToken.asset("outline-bell-x")
-    static let outlineBike = UDSIconToken.asset("outline-bike")
-    static let outlineBinary = UDSIconToken.asset("outline-binary")
-    static let outlineBinoculars = UDSIconToken.asset("outline-binoculars")
-    static let outlineBiohazard = UDSIconToken.asset("outline-biohazard")
-    static let outlineBlender = UDSIconToken.asset("outline-blender")
-    static let outlineBlocks = UDSIconToken.asset("outline-blocks")
     static let outlineBluetooth = UDSIconToken.asset("outline-bluetooth")
-    static let outlineBluetoothConnected = UDSIconToken.asset("outline-bluetooth-connected")
-    static let outlineBluetoothOff = UDSIconToken.asset("outline-bluetooth-off")
-    static let outlineBluetoothX = UDSIconToken.asset("outline-bluetooth-x")
-    static let outlineBold = UDSIconToken.asset("outline-bold")
-    static let outlineBolt = UDSIconToken.asset("outline-bolt")
-    static let outlineBomb = UDSIconToken.asset("outline-bomb")
-    static let outlineBone = UDSIconToken.asset("outline-bone")
     static let outlineBook = UDSIconToken.asset("outline-book")
-    static let outlineBookDownload = UDSIconToken.asset("outline-book-download")
-    static let outlineBookOff = UDSIconToken.asset("outline-book-off")
-    static let outlineBookUpload = UDSIconToken.asset("outline-book-upload")
     static let outlineBookmark = UDSIconToken.asset("outline-bookmark")
-    static let outlineBookmarkEdit = UDSIconToken.asset("outline-bookmark-edit")
-    static let outlineBookmarkMinus = UDSIconToken.asset("outline-bookmark-minus")
-    static let outlineBookmarkOff = UDSIconToken.asset("outline-bookmark-off")
     static let outlineBookmarkPlus = UDSIconToken.asset("outline-bookmark-plus")
-    static let outlineBookmarkQuestion = UDSIconToken.asset("outline-bookmark-question")
     static let outlineBox = UDSIconToken.asset("outline-box")
-    static let outlineBoxOff = UDSIconToken.asset("outline-box-off")
-    static let outlineBraces = UDSIconToken.asset("outline-braces")
-    static let outlineBrackets = UDSIconToken.asset("outline-brackets")
-    static let outlineBrain = UDSIconToken.asset("outline-brain")
     static let outlineBriefcase = UDSIconToken.asset("outline-briefcase")
-    static let outlineBriefcaseOff = UDSIconToken.asset("outline-briefcase-off")
-    static let outlineBrush = UDSIconToken.asset("outline-brush")
-    static let outlineBug = UDSIconToken.asset("outline-bug")
-    static let outlineBugOff = UDSIconToken.asset("outline-bug-off")
     static let outlineBuilding = UDSIconToken.asset("outline-building")
-    static let outlineBuildingMinus = UDSIconToken.asset("outline-building-minus")
-    static let outlineBuildingOff = UDSIconToken.asset("outline-building-off")
-    static let outlineBuildingPlus = UDSIconToken.asset("outline-building-plus")
-    static let outlineBuildingStore = UDSIconToken.asset("outline-building-store")
-    static let outlineBus = UDSIconToken.asset("outline-bus")
-    static let outlineCake = UDSIconToken.asset("outline-cake")
-    static let outlineCalculator = UDSIconToken.asset("outline-calculator")
     static let outlineCalendar = UDSIconToken.asset("outline-calendar")
     static let outlineCalendarCheck = UDSIconToken.asset("outline-calendar-check")
     static let outlineCalendarClock = UDSIconToken.asset("outline-calendar-clock")
-    static let outlineCalendarCode = UDSIconToken.asset("outline-calendar-code")
-    static let outlineCalendarCog = UDSIconToken.asset("outline-calendar-cog")
-    static let outlineCalendarDown = UDSIconToken.asset("outline-calendar-down")
-    static let outlineCalendarHeart = UDSIconToken.asset("outline-calendar-heart")
     static let outlineCalendarMinus = UDSIconToken.asset("outline-calendar-minus")
-    static let outlineCalendarOff = UDSIconToken.asset("outline-calendar-off")
-    static let outlineCalendarPause = UDSIconToken.asset("outline-calendar-pause")
-    static let outlineCalendarPin = UDSIconToken.asset("outline-calendar-pin")
     static let outlineCalendarPlus = UDSIconToken.asset("outline-calendar-plus")
-    static let outlineCalendarQuestion = UDSIconToken.asset("outline-calendar-question")
     static let outlineCalendarSearch = UDSIconToken.asset("outline-calendar-search")
-    static let outlineCalendarShare = UDSIconToken.asset("outline-calendar-share")
-    static let outlineCalendarStar = UDSIconToken.asset("outline-calendar-star")
-    static let outlineCalendarTime = UDSIconToken.asset("outline-calendar-time")
-    static let outlineCalendarUp = UDSIconToken.asset("outline-calendar-up")
-    static let outlineCalendarUser = UDSIconToken.asset("outline-calendar-user")
     static let outlineCalendarX = UDSIconToken.asset("outline-calendar-x")
     static let outlineCamera = UDSIconToken.asset("outline-camera")
     static let outlineCameraCheck = UDSIconToken.asset("outline-camera-check")
-    static let outlineCameraCode = UDSIconToken.asset("outline-camera-code")
-    static let outlineCameraDown = UDSIconToken.asset("outline-camera-down")
-    static let outlineCameraHeart = UDSIconToken.asset("outline-camera-heart")
-    static let outlineCameraMinus = UDSIconToken.asset("outline-camera-minus")
-    static let outlineCameraMoon = UDSIconToken.asset("outline-camera-moon")
-    static let outlineCameraOff = UDSIconToken.asset("outline-camera-off")
-    static let outlineCameraPause = UDSIconToken.asset("outline-camera-pause")
-    static let outlineCameraPin = UDSIconToken.asset("outline-camera-pin")
     static let outlineCameraPlus = UDSIconToken.asset("outline-camera-plus")
-    static let outlineCameraQuestion = UDSIconToken.asset("outline-camera-question")
-    static let outlineCameraSearch = UDSIconToken.asset("outline-camera-search")
-    static let outlineCameraShare = UDSIconToken.asset("outline-camera-share")
-    static let outlineCameraStar = UDSIconToken.asset("outline-camera-star")
-    static let outlineCameraUp = UDSIconToken.asset("outline-camera-up")
     static let outlineCameraX = UDSIconToken.asset("outline-camera-x")
-    static let outlineCandy = UDSIconToken.asset("outline-candy")
-    static let outlineCandyOff = UDSIconToken.asset("outline-candy-off")
-    static let outlineCannabis = UDSIconToken.asset("outline-cannabis")
     static let outlineCar = UDSIconToken.asset("outline-car")
-    static let outlineCarOff = UDSIconToken.asset("outline-car-off")
-    static let outlineCaravan = UDSIconToken.asset("outline-caravan")
-    static let outlineCarrot = UDSIconToken.asset("outline-carrot")
     static let outlineCash = UDSIconToken.asset("outline-cash")
-    static let outlineCashCoin = UDSIconToken.asset("outline-cash-coin")
-    static let outlineCashEdit = UDSIconToken.asset("outline-cash-edit")
-    static let outlineCashHeart = UDSIconToken.asset("outline-cash-heart")
-    static let outlineCashMinus = UDSIconToken.asset("outline-cash-minus")
-    static let outlineCashMoveBack = UDSIconToken.asset("outline-cash-move-back")
-    static let outlineCashOff = UDSIconToken.asset("outline-cash-off")
-    static let outlineCashPlus = UDSIconToken.asset("outline-cash-plus")
-    static let outlineCast = UDSIconToken.asset("outline-cast")
-    static let outlineCat = UDSIconToken.asset("outline-cat")
-    static let outlineChartArea = UDSIconToken.asset("outline-chart-area")
-    static let outlineChartBar = UDSIconToken.asset("outline-chart-bar")
-    static let outlineChartColumn = UDSIconToken.asset("outline-chart-column")
-    static let outlineChartLine = UDSIconToken.asset("outline-chart-line")
-    static let outlineChartPie = UDSIconToken.asset("outline-chart-pie")
-    static let outlineChartScatter = UDSIconToken.asset("outline-chart-scatter")
     static let outlineCheck = UDSIconToken.asset("outline-check")
-    static let outlineChefHat = UDSIconToken.asset("outline-chef-hat")
-    static let outlineCherry = UDSIconToken.asset("outline-cherry")
-    static let outlineChessBishop = UDSIconToken.asset("outline-chess-bishop")
-    static let outlineChessKing = UDSIconToken.asset("outline-chess-king")
-    static let outlineChessKnight = UDSIconToken.asset("outline-chess-knight")
-    static let outlineChessQueen = UDSIconToken.asset("outline-chess-queen")
-    static let outlineChessRook = UDSIconToken.asset("outline-chess-rook")
     static let outlineChevronDown = UDSIconToken.asset("outline-chevron-down")
     static let outlineChevronLeft = UDSIconToken.asset("outline-chevron-left")
     static let outlineChevronRight = UDSIconToken.asset("outline-chevron-right")
     static let outlineChevronUp = UDSIconToken.asset("outline-chevron-up")
-    static let outlineChevronsDown = UDSIconToken.asset("outline-chevrons-down")
-    static let outlineChevronsLeft = UDSIconToken.asset("outline-chevrons-left")
-    static let outlineChevronsRight = UDSIconToken.asset("outline-chevrons-right")
-    static let outlineChevronsUp = UDSIconToken.asset("outline-chevrons-up")
     static let outlineCircle = UDSIconToken.asset("outline-circle")
-    static let outlineCircleArrowDown = UDSIconToken.asset("outline-circle-arrow-down")
-    static let outlineCircleArrowLeft = UDSIconToken.asset("outline-circle-arrow-left")
-    static let outlineCircleArrowRight = UDSIconToken.asset("outline-circle-arrow-right")
-    static let outlineCircleArrowUp = UDSIconToken.asset("outline-circle-arrow-up")
-    static let outlineCircleCheck = UDSIconToken.asset("outline-circle-check")
-    static let outlineCircleChevronDown = UDSIconToken.asset("outline-circle-chevron-down")
-    static let outlineCircleChevronLeft = UDSIconToken.asset("outline-circle-chevron-left")
-    static let outlineCircleChevronRight = UDSIconToken.asset("outline-circle-chevron-right")
-    static let outlineCircleChevronUp = UDSIconToken.asset("outline-circle-chevron-up")
-    static let outlineCircleDashed = UDSIconToken.asset("outline-circle-dashed")
-    static let outlineCircleDashedCheck = UDSIconToken.asset("outline-circle-dashed-check")
-    static let outlineCircleDot = UDSIconToken.asset("outline-circle-dot")
-    static let outlineCircleHeart = UDSIconToken.asset("outline-circle-heart")
-    static let outlineCircleKey = UDSIconToken.asset("outline-circle-key")
-    static let outlineCircleMinus = UDSIconToken.asset("outline-circle-minus")
-    static let outlineCircleOff = UDSIconToken.asset("outline-circle-off")
-    static let outlineCirclePause = UDSIconToken.asset("outline-circle-pause")
-    static let outlineCirclePlay = UDSIconToken.asset("outline-circle-play")
-    static let outlineCirclePlus = UDSIconToken.asset("outline-circle-plus")
-    static let outlineCirclePlusMinus = UDSIconToken.asset("outline-circle-plus-minus")
-    static let outlineCircleSquare = UDSIconToken.asset("outline-circle-square")
-    static let outlineCircleStop = UDSIconToken.asset("outline-circle-stop")
-    static let outlineCircleX = UDSIconToken.asset("outline-circle-x")
     static let outlineClipboard = UDSIconToken.asset("outline-clipboard")
-    static let outlineClipboardCheck = UDSIconToken.asset("outline-clipboard-check")
-    static let outlineClipboardCopy = UDSIconToken.asset("outline-clipboard-copy")
-    static let outlineClipboardHeart = UDSIconToken.asset("outline-clipboard-heart")
-    static let outlineClipboardList = UDSIconToken.asset("outline-clipboard-list")
-    static let outlineClipboardOff = UDSIconToken.asset("outline-clipboard-off")
-    static let outlineClipboardPlus = UDSIconToken.asset("outline-clipboard-plus")
-    static let outlineClipboardSearch = UDSIconToken.asset("outline-clipboard-search")
-    static let outlineClipboardText = UDSIconToken.asset("outline-clipboard-text")
-    static let outlineClipboardX = UDSIconToken.asset("outline-clipboard-x")
     static let outlineClock = UDSIconToken.asset("outline-clock")
-    static let outlineClock12 = UDSIconToken.asset("outline-clock-12")
-    static let outlineClock2 = UDSIconToken.asset("outline-clock-2")
-    static let outlineClockCheck = UDSIconToken.asset("outline-clock-check")
-    static let outlineClockCode = UDSIconToken.asset("outline-clock-code")
-    static let outlineClockDown = UDSIconToken.asset("outline-clock-down")
-    static let outlineClockEdit = UDSIconToken.asset("outline-clock-edit")
-    static let outlineClockHeart = UDSIconToken.asset("outline-clock-heart")
-    static let outlineClockMinus = UDSIconToken.asset("outline-clock-minus")
-    static let outlineClockOff = UDSIconToken.asset("outline-clock-off")
-    static let outlineClockPause = UDSIconToken.asset("outline-clock-pause")
-    static let outlineClockPin = UDSIconToken.asset("outline-clock-pin")
-    static let outlineClockPlay = UDSIconToken.asset("outline-clock-play")
-    static let outlineClockPlus = UDSIconToken.asset("outline-clock-plus")
-    static let outlineClockQuestion = UDSIconToken.asset("outline-clock-question")
-    static let outlineClockSearch = UDSIconToken.asset("outline-clock-search")
-    static let outlineClockShare = UDSIconToken.asset("outline-clock-share")
-    static let outlineClockShield = UDSIconToken.asset("outline-clock-shield")
-    static let outlineClockStar = UDSIconToken.asset("outline-clock-star")
-    static let outlineClockStop = UDSIconToken.asset("outline-clock-stop")
-    static let outlineClockUp = UDSIconToken.asset("outline-clock-up")
-    static let outlineClockX = UDSIconToken.asset("outline-clock-x")
     static let outlineCloud = UDSIconToken.asset("outline-cloud")
     static let outlineCloudCheck = UDSIconToken.asset("outline-cloud-check")
-    static let outlineCloudCode = UDSIconToken.asset("outline-cloud-code")
-    static let outlineCloudCog = UDSIconToken.asset("outline-cloud-cog")
-    static let outlineCloudDown = UDSIconToken.asset("outline-cloud-down")
     static let outlineCloudDownload = UDSIconToken.asset("outline-cloud-download")
-    static let outlineCloudFog = UDSIconToken.asset("outline-cloud-fog")
-    static let outlineCloudHeart = UDSIconToken.asset("outline-cloud-heart")
-    static let outlineCloudLock = UDSIconToken.asset("outline-cloud-lock")
-    static let outlineCloudMinus = UDSIconToken.asset("outline-cloud-minus")
-    static let outlineCloudOff = UDSIconToken.asset("outline-cloud-off")
-    static let outlineCloudPause = UDSIconToken.asset("outline-cloud-pause")
-    static let outlineCloudPin = UDSIconToken.asset("outline-cloud-pin")
-    static let outlineCloudPlus = UDSIconToken.asset("outline-cloud-plus")
-    static let outlineCloudQuestion = UDSIconToken.asset("outline-cloud-question")
-    static let outlineCloudRain = UDSIconToken.asset("outline-cloud-rain")
-    static let outlineCloudSearch = UDSIconToken.asset("outline-cloud-search")
-    static let outlineCloudShare = UDSIconToken.asset("outline-cloud-share")
-    static let outlineCloudSnow = UDSIconToken.asset("outline-cloud-snow")
-    static let outlineCloudStar = UDSIconToken.asset("outline-cloud-star")
-    static let outlineCloudUp = UDSIconToken.asset("outline-cloud-up")
     static let outlineCloudUpload = UDSIconToken.asset("outline-cloud-upload")
     static let outlineCloudX = UDSIconToken.asset("outline-cloud-x")
-    static let outlineClover = UDSIconToken.asset("outline-clover")
     static let outlineCode = UDSIconToken.asset("outline-code")
-    static let outlineCodeCircle = UDSIconToken.asset("outline-code-circle")
-    static let outlineCodeMinus = UDSIconToken.asset("outline-code-minus")
-    static let outlineCodeOff = UDSIconToken.asset("outline-code-off")
-    static let outlineCodePlus = UDSIconToken.asset("outline-code-plus")
-    static let outlineCoffee = UDSIconToken.asset("outline-coffee")
     static let outlineCoin = UDSIconToken.asset("outline-coin")
-    static let outlineCoinOff = UDSIconToken.asset("outline-coin-off")
-    static let outlineCoins = UDSIconToken.asset("outline-coins")
-    static let outlineColumns2 = UDSIconToken.asset("outline-columns-2")
-    static let outlineColumns3 = UDSIconToken.asset("outline-columns-3")
-    static let outlineCommand = UDSIconToken.asset("outline-command")
     static let outlineCompass = UDSIconToken.asset("outline-compass")
-    static let outlineCompassOff = UDSIconToken.asset("outline-compass-off")
-    static let outlineCone = UDSIconToken.asset("outline-cone")
-    static let outlineContainer = UDSIconToken.asset("outline-container")
-    static let outlineContrast = UDSIconToken.asset("outline-contrast")
-    static let outlineCookie = UDSIconToken.asset("outline-cookie")
     static let outlineCopy = UDSIconToken.asset("outline-copy")
-    static let outlineCopyCheck = UDSIconToken.asset("outline-copy-check")
-    static let outlineCopyMinus = UDSIconToken.asset("outline-copy-minus")
-    static let outlineCopyOff = UDSIconToken.asset("outline-copy-off")
-    static let outlineCopyPlus = UDSIconToken.asset("outline-copy-plus")
-    static let outlineCopyX = UDSIconToken.asset("outline-copy-x")
-    static let outlineCopyleft = UDSIconToken.asset("outline-copyleft")
-    static let outlineCopyright = UDSIconToken.asset("outline-copyright")
-    static let outlineCornerDownLeft = UDSIconToken.asset("outline-corner-down-left")
-    static let outlineCornerDownRight = UDSIconToken.asset("outline-corner-down-right")
-    static let outlineCornerLeftDown = UDSIconToken.asset("outline-corner-left-down")
-    static let outlineCornerLeftUp = UDSIconToken.asset("outline-corner-left-up")
-    static let outlineCornerRightDown = UDSIconToken.asset("outline-corner-right-down")
-    static let outlineCornerRightUp = UDSIconToken.asset("outline-corner-right-up")
-    static let outlineCornerUpLeft = UDSIconToken.asset("outline-corner-up-left")
-    static let outlineCornerUpRight = UDSIconToken.asset("outline-corner-up-right")
-    static let outlineCpu = UDSIconToken.asset("outline-cpu")
-    static let outlineCreativeCommons = UDSIconToken.asset("outline-creative-commons")
     static let outlineCreditCard = UDSIconToken.asset("outline-credit-card")
-    static let outlineCrop = UDSIconToken.asset("outline-crop")
-    static let outlineCross = UDSIconToken.asset("outline-cross")
-    static let outlineCrosshair = UDSIconToken.asset("outline-crosshair")
-    static let outlineCrown = UDSIconToken.asset("outline-crown")
-    static let outlineCurrency = UDSIconToken.asset("outline-currency")
-    static let outlineCylinder = UDSIconToken.asset("outline-cylinder")
     static let outlineDashboard = UDSIconToken.asset("outline-dashboard")
-    static let outlineDashboardOff = UDSIconToken.asset("outline-dashboard-off")
     static let outlineDatabase = UDSIconToken.asset("outline-database")
-    static let outlineDatabaseEdit = UDSIconToken.asset("outline-database-edit")
-    static let outlineDatabaseHeart = UDSIconToken.asset("outline-database-heart")
-    static let outlineDatabaseMinus = UDSIconToken.asset("outline-database-minus")
-    static let outlineDatabaseOff = UDSIconToken.asset("outline-database-off")
-    static let outlineDatabasePlus = UDSIconToken.asset("outline-database-plus")
-    static let outlineDatabaseSearch = UDSIconToken.asset("outline-database-search")
-    static let outlineDatabaseShare = UDSIconToken.asset("outline-database-share")
-    static let outlineDatabaseStar = UDSIconToken.asset("outline-database-star")
-    static let outlineDatabaseX = UDSIconToken.asset("outline-database-x")
-    static let outlineDeviceCameraPhone = UDSIconToken.asset("outline-device-camera-phone")
     static let outlineDeviceDesktop = UDSIconToken.asset("outline-device-desktop")
-    static let outlineDeviceHeartMonitor = UDSIconToken.asset("outline-device-heart-monitor")
-    static let outlineDeviceImacX = UDSIconToken.asset("outline-device-imac-x")
-    static let outlineDeviceIpadX = UDSIconToken.asset("outline-device-ipad-x")
     static let outlineDeviceLaptop = UDSIconToken.asset("outline-device-laptop")
-    static let outlineDeviceLaptopOff = UDSIconToken.asset("outline-device-laptop-off")
     static let outlineDeviceMobile = UDSIconToken.asset("outline-device-mobile")
     static let outlineDeviceMobileCheck = UDSIconToken.asset("outline-device-mobile-check")
-    static let outlineDeviceMobileCode = UDSIconToken.asset("outline-device-mobile-code")
-    static let outlineDeviceMobileDown = UDSIconToken.asset("outline-device-mobile-down")
-    static let outlineDeviceMobileHeart = UDSIconToken.asset("outline-device-mobile-heart")
-    static let outlineDeviceMobileMessage = UDSIconToken.asset("outline-device-mobile-message")
-    static let outlineDeviceMobileMinus = UDSIconToken.asset("outline-device-mobile-minus")
-    static let outlineDeviceMobileOff = UDSIconToken.asset("outline-device-mobile-off")
-    static let outlineDeviceMobilePause = UDSIconToken.asset("outline-device-mobile-pause")
-    static let outlineDeviceMobilePin = UDSIconToken.asset("outline-device-mobile-pin")
     static let outlineDeviceMobilePlus = UDSIconToken.asset("outline-device-mobile-plus")
-    static let outlineDeviceMobileQuestion = UDSIconToken.asset("outline-device-mobile-question")
     static let outlineDeviceMobileSearch = UDSIconToken.asset("outline-device-mobile-search")
-    static let outlineDeviceMobileShare = UDSIconToken.asset("outline-device-mobile-share")
-    static let outlineDeviceMobileStar = UDSIconToken.asset("outline-device-mobile-star")
-    static let outlineDeviceMobileUp = UDSIconToken.asset("outline-device-mobile-up")
     static let outlineDeviceMobileX = UDSIconToken.asset("outline-device-mobile-x")
-    static let outlineDeviceSpeaker = UDSIconToken.asset("outline-device-speaker")
-    static let outlineDeviceSpeakerOff = UDSIconToken.asset("outline-device-speaker-off")
     static let outlineDeviceTablet = UDSIconToken.asset("outline-device-tablet")
-    static let outlineDeviceTabletX = UDSIconToken.asset("outline-device-tablet-x")
-    static let outlineDeviceTv = UDSIconToken.asset("outline-device-tv")
-    static let outlineDeviceTvOff = UDSIconToken.asset("outline-device-tv-off")
-    static let outlineDeviceTvOld = UDSIconToken.asset("outline-device-tv-old")
-    static let outlineDeviceWatch = UDSIconToken.asset("outline-device-watch")
-    static let outlineDeviceWatchCheck = UDSIconToken.asset("outline-device-watch-check")
-    static let outlineDeviceWatchCode = UDSIconToken.asset("outline-device-watch-code")
-    static let outlineDeviceWatchDown = UDSIconToken.asset("outline-device-watch-down")
-    static let outlineDeviceWatchHeart = UDSIconToken.asset("outline-device-watch-heart")
-    static let outlineDeviceWatchMinus = UDSIconToken.asset("outline-device-watch-minus")
-    static let outlineDeviceWatchOff = UDSIconToken.asset("outline-device-watch-off")
-    static let outlineDeviceWatchPause = UDSIconToken.asset("outline-device-watch-pause")
-    static let outlineDeviceWatchPin = UDSIconToken.asset("outline-device-watch-pin")
-    static let outlineDeviceWatchPlus = UDSIconToken.asset("outline-device-watch-plus")
-    static let outlineDeviceWatchQuestion = UDSIconToken.asset("outline-device-watch-question")
-    static let outlineDeviceWatchSearch = UDSIconToken.asset("outline-device-watch-search")
-    static let outlineDeviceWatchShare = UDSIconToken.asset("outline-device-watch-share")
-    static let outlineDeviceWatchStar = UDSIconToken.asset("outline-device-watch-star")
-    static let outlineDeviceWatchUp = UDSIconToken.asset("outline-device-watch-up")
-    static let outlineDeviceWatchX = UDSIconToken.asset("outline-device-watch-x")
-    static let outlineDiamond = UDSIconToken.asset("outline-diamond")
-    static let outlineDice1 = UDSIconToken.asset("outline-dice-1")
-    static let outlineDice2 = UDSIconToken.asset("outline-dice-2")
-    static let outlineDice3 = UDSIconToken.asset("outline-dice-3")
-    static let outlineDice4 = UDSIconToken.asset("outline-dice-4")
-    static let outlineDice5 = UDSIconToken.asset("outline-dice-5")
-    static let outlineDice6 = UDSIconToken.asset("outline-dice-6")
-    static let outlineDisc = UDSIconToken.asset("outline-disc")
-    static let outlineDivide = UDSIconToken.asset("outline-divide")
-    static let outlineDna = UDSIconToken.asset("outline-dna")
-    static let outlineDnaOff = UDSIconToken.asset("outline-dna-off")
-    static let outlineDog = UDSIconToken.asset("outline-dog")
     static let outlineDownload = UDSIconToken.asset("outline-download")
-    static let outlineDownloadOff = UDSIconToken.asset("outline-download-off")
-    static let outlineDrone = UDSIconToken.asset("outline-drone")
-    static let outlineDroplet = UDSIconToken.asset("outline-droplet")
-    static let outlineDropletOff = UDSIconToken.asset("outline-droplet-off")
-    static let outlineDroplets = UDSIconToken.asset("outline-droplets")
-    static let outlineDumbbell = UDSIconToken.asset("outline-dumbbell")
-    static let outlineEar = UDSIconToken.asset("outline-ear")
-    static let outlineEarOff = UDSIconToken.asset("outline-ear-off")
     static let outlineEdit = UDSIconToken.asset("outline-edit")
-    static let outlineEditCircle = UDSIconToken.asset("outline-edit-circle")
-    static let outlineEditCircleOff = UDSIconToken.asset("outline-edit-circle-off")
-    static let outlineEditOff = UDSIconToken.asset("outline-edit-off")
-    static let outlineEgg = UDSIconToken.asset("outline-egg")
-    static let outlineEggFried = UDSIconToken.asset("outline-egg-fried")
-    static let outlineEggOff = UDSIconToken.asset("outline-egg-off")
-    static let outlineEngine = UDSIconToken.asset("outline-engine")
-    static let outlineEqual = UDSIconToken.asset("outline-equal")
-    static let outlineEqualNot = UDSIconToken.asset("outline-equal-not")
-    static let outlineEraser = UDSIconToken.asset("outline-eraser")
     static let outlineExternalLink = UDSIconToken.asset("outline-external-link")
     static let outlineEye = UDSIconToken.asset("outline-eye")
-    static let outlineEyeCheck = UDSIconToken.asset("outline-eye-check")
-    static let outlineEyeClosed = UDSIconToken.asset("outline-eye-closed")
-    static let outlineEyeCode = UDSIconToken.asset("outline-eye-code")
-    static let outlineEyeDown = UDSIconToken.asset("outline-eye-down")
-    static let outlineEyeEdit = UDSIconToken.asset("outline-eye-edit")
-    static let outlineEyeHeart = UDSIconToken.asset("outline-eye-heart")
-    static let outlineEyeMinus = UDSIconToken.asset("outline-eye-minus")
     static let outlineEyeOff = UDSIconToken.asset("outline-eye-off")
-    static let outlineEyePause = UDSIconToken.asset("outline-eye-pause")
-    static let outlineEyePin = UDSIconToken.asset("outline-eye-pin")
-    static let outlineEyePlus = UDSIconToken.asset("outline-eye-plus")
-    static let outlineEyeQuestion = UDSIconToken.asset("outline-eye-question")
-    static let outlineEyeSearch = UDSIconToken.asset("outline-eye-search")
-    static let outlineEyeShare = UDSIconToken.asset("outline-eye-share")
-    static let outlineEyeStar = UDSIconToken.asset("outline-eye-star")
-    static let outlineEyeTable = UDSIconToken.asset("outline-eye-table")
-    static let outlineEyeUp = UDSIconToken.asset("outline-eye-up")
-    static let outlineEyeX = UDSIconToken.asset("outline-eye-x")
-    static let outlineFeather = UDSIconToken.asset("outline-feather")
-    static let outlineFence = UDSIconToken.asset("outline-fence")
     static let outlineFile = UDSIconToken.asset("outline-file")
-    static let outlineFileAlert = UDSIconToken.asset("outline-file-alert")
-    static let outlineFileArrowLeft = UDSIconToken.asset("outline-file-arrow-left")
-    static let outlineFileArrowRight = UDSIconToken.asset("outline-file-arrow-right")
-    static let outlineFileBarcode = UDSIconToken.asset("outline-file-barcode")
     static let outlineFileCheck = UDSIconToken.asset("outline-file-check")
     static let outlineFileCode = UDSIconToken.asset("outline-file-code")
-    static let outlineFileCode2 = UDSIconToken.asset("outline-file-code-2")
-    static let outlineFileDatabase = UDSIconToken.asset("outline-file-database")
-    static let outlineFileDiff = UDSIconToken.asset("outline-file-diff")
-    static let outlineFileDigit = UDSIconToken.asset("outline-file-digit")
     static let outlineFileDownload = UDSIconToken.asset("outline-file-download")
-    static let outlineFileInfo = UDSIconToken.asset("outline-file-info")
-    static let outlineFileLock = UDSIconToken.asset("outline-file-lock")
     static let outlineFileMinus = UDSIconToken.asset("outline-file-minus")
-    static let outlineFileMusic = UDSIconToken.asset("outline-file-music")
-    static let outlineFileOff = UDSIconToken.asset("outline-file-off")
-    static let outlineFilePencil = UDSIconToken.asset("outline-file-pencil")
-    static let outlineFilePercent = UDSIconToken.asset("outline-file-percent")
-    static let outlineFilePhone = UDSIconToken.asset("outline-file-phone")
     static let outlineFilePlus = UDSIconToken.asset("outline-file-plus")
     static let outlineFileSearch = UDSIconToken.asset("outline-file-search")
-    static let outlineFileSettings = UDSIconToken.asset("outline-file-settings")
-    static let outlineFileSignal = UDSIconToken.asset("outline-file-signal")
-    static let outlineFileSpreadsheet = UDSIconToken.asset("outline-file-spreadsheet")
-    static let outlineFileStack = UDSIconToken.asset("outline-file-stack")
-    static let outlineFileStar = UDSIconToken.asset("outline-file-star")
-    static let outlineFileSymlink = UDSIconToken.asset("outline-file-symlink")
     static let outlineFileText = UDSIconToken.asset("outline-file-text")
-    static let outlineFileTextAi = UDSIconToken.asset("outline-file-text-ai")
-    static let outlineFileTextShield = UDSIconToken.asset("outline-file-text-shield")
-    static let outlineFileTextSpark = UDSIconToken.asset("outline-file-text-spark")
-    static let outlineFileTime = UDSIconToken.asset("outline-file-time")
     static let outlineFileUpload = UDSIconToken.asset("outline-file-upload")
     static let outlineFileX = UDSIconToken.asset("outline-file-x")
-    static let outlineFiles = UDSIconToken.asset("outline-files")
     static let outlineFilter = UDSIconToken.asset("outline-filter")
-    static let outlineFilter2Code = UDSIconToken.asset("outline-filter-2-code")
-    static let outlineFilter2Pause = UDSIconToken.asset("outline-filter-2-pause")
-    static let outlineFilter2X = UDSIconToken.asset("outline-filter-2-x")
-    static let outlineFilterCheck = UDSIconToken.asset("outline-filter-check")
-    static let outlineFilterCode = UDSIconToken.asset("outline-filter-code")
-    static let outlineFilterDown = UDSIconToken.asset("outline-filter-down")
-    static let outlineFilterEdit = UDSIconToken.asset("outline-filter-edit")
-    static let outlineFilterHeart = UDSIconToken.asset("outline-filter-heart")
-    static let outlineFilterMinus = UDSIconToken.asset("outline-filter-minus")
-    static let outlineFilterOff = UDSIconToken.asset("outline-filter-off")
-    static let outlineFilterPause = UDSIconToken.asset("outline-filter-pause")
-    static let outlineFilterPin = UDSIconToken.asset("outline-filter-pin")
-    static let outlineFilterPlus = UDSIconToken.asset("outline-filter-plus")
-    static let outlineFilterQuestion = UDSIconToken.asset("outline-filter-question")
-    static let outlineFilterSearch = UDSIconToken.asset("outline-filter-search")
-    static let outlineFilterShare = UDSIconToken.asset("outline-filter-share")
-    static let outlineFilterStar = UDSIconToken.asset("outline-filter-star")
-    static let outlineFilterUp = UDSIconToken.asset("outline-filter-up")
-    static let outlineFilterX = UDSIconToken.asset("outline-filter-x")
-    static let outlineFireExtinguisher = UDSIconToken.asset("outline-fire-extinguisher")
-    static let outlineFish = UDSIconToken.asset("outline-fish")
-    static let outlineFishOff = UDSIconToken.asset("outline-fish-off")
     static let outlineFlag = UDSIconToken.asset("outline-flag")
-    static let outlineFlagOff = UDSIconToken.asset("outline-flag-off")
-    static let outlineFlame = UDSIconToken.asset("outline-flame")
-    static let outlineFlower = UDSIconToken.asset("outline-flower")
-    static let outlineFocus = UDSIconToken.asset("outline-focus")
     static let outlineFolder = UDSIconToken.asset("outline-folder")
     static let outlineFolderCheck = UDSIconToken.asset("outline-folder-check")
-    static let outlineFolderCode = UDSIconToken.asset("outline-folder-code")
-    static let outlineFolderCog = UDSIconToken.asset("outline-folder-cog")
-    static let outlineFolderDown = UDSIconToken.asset("outline-folder-down")
-    static let outlineFolderHeart = UDSIconToken.asset("outline-folder-heart")
-    static let outlineFolderLock = UDSIconToken.asset("outline-folder-lock")
     static let outlineFolderMinus = UDSIconToken.asset("outline-folder-minus")
-    static let outlineFolderOff = UDSIconToken.asset("outline-folder-off")
     static let outlineFolderOpen = UDSIconToken.asset("outline-folder-open")
-    static let outlineFolderPause = UDSIconToken.asset("outline-folder-pause")
-    static let outlineFolderPin = UDSIconToken.asset("outline-folder-pin")
     static let outlineFolderPlus = UDSIconToken.asset("outline-folder-plus")
-    static let outlineFolderQuestion = UDSIconToken.asset("outline-folder-question")
-    static let outlineFolderRoot = UDSIconToken.asset("outline-folder-root")
     static let outlineFolderSearch = UDSIconToken.asset("outline-folder-search")
-    static let outlineFolderShare = UDSIconToken.asset("outline-folder-share")
-    static let outlineFolderStar = UDSIconToken.asset("outline-folder-star")
-    static let outlineFolderSymlink = UDSIconToken.asset("outline-folder-symlink")
-    static let outlineFolderUp = UDSIconToken.asset("outline-folder-up")
-    static let outlineFolderUser = UDSIconToken.asset("outline-folder-user")
     static let outlineFolderX = UDSIconToken.asset("outline-folder-x")
-    static let outlineFolders = UDSIconToken.asset("outline-folders")
-    static let outlineForklift = UDSIconToken.asset("outline-forklift")
-    static let outlineFrame = UDSIconToken.asset("outline-frame")
-    static let outlineGalaxy = UDSIconToken.asset("outline-galaxy")
-    static let outlineGauge = UDSIconToken.asset("outline-gauge")
-    static let outlineGavel = UDSIconToken.asset("outline-gavel")
-    static let outlineGhost = UDSIconToken.asset("outline-ghost")
     static let outlineGift = UDSIconToken.asset("outline-gift")
-    static let outlineGiftOff = UDSIconToken.asset("outline-gift-off")
-    static let outlineGitBranch = UDSIconToken.asset("outline-git-branch")
-    static let outlineGitCompare = UDSIconToken.asset("outline-git-compare")
-    static let outlineGitFork = UDSIconToken.asset("outline-git-fork")
-    static let outlineGitMerge = UDSIconToken.asset("outline-git-merge")
-    static let outlineGitPullRequest = UDSIconToken.asset("outline-git-pull-request")
-    static let outlineGitPullRequestClosed = UDSIconToken.asset("outline-git-pull-request-closed")
-    static let outlineGitPullRequestDraft = UDSIconToken.asset("outline-git-pull-request-draft")
     static let outlineGlobe = UDSIconToken.asset("outline-globe")
-    static let outlineGlobeOff = UDSIconToken.asset("outline-globe-off")
-    static let outlineGpu = UDSIconToken.asset("outline-gpu")
-    static let outlineGrape = UDSIconToken.asset("outline-grape")
     static let outlineGraph = UDSIconToken.asset("outline-graph")
-    static let outlineGraphOff = UDSIconToken.asset("outline-graph-off")
-    static let outlineGrid3x3 = UDSIconToken.asset("outline-grid-3x3")
-    static let outlineGripHorizontal = UDSIconToken.asset("outline-grip-horizontal")
-    static let outlineGripVertical = UDSIconToken.asset("outline-grip-vertical")
-    static let outlineHammer = UDSIconToken.asset("outline-hammer")
-    static let outlineHandGrab = UDSIconToken.asset("outline-hand-grab")
-    static let outlineHash = UDSIconToken.asset("outline-hash")
-    static let outlineHaze = UDSIconToken.asset("outline-haze")
-    static let outlineHeading = UDSIconToken.asset("outline-heading")
-    static let outlineHeadphones = UDSIconToken.asset("outline-headphones")
-    static let outlineHeadset = UDSIconToken.asset("outline-headset")
     static let outlineHeart = UDSIconToken.asset("outline-heart")
     static let outlineHeartCheck = UDSIconToken.asset("outline-heart-check")
-    static let outlineHeartCode = UDSIconToken.asset("outline-heart-code")
-    static let outlineHeartDown = UDSIconToken.asset("outline-heart-down")
     static let outlineHeartHandshake = UDSIconToken.asset("outline-heart-handshake")
     static let outlineHeartMinus = UDSIconToken.asset("outline-heart-minus")
-    static let outlineHeartOff = UDSIconToken.asset("outline-heart-off")
-    static let outlineHeartPause = UDSIconToken.asset("outline-heart-pause")
-    static let outlineHeartPin = UDSIconToken.asset("outline-heart-pin")
     static let outlineHeartPlus = UDSIconToken.asset("outline-heart-plus")
-    static let outlineHeartQuestion = UDSIconToken.asset("outline-heart-question")
-    static let outlineHeartSearch = UDSIconToken.asset("outline-heart-search")
-    static let outlineHeartShare = UDSIconToken.asset("outline-heart-share")
-    static let outlineHeartStar = UDSIconToken.asset("outline-heart-star")
-    static let outlineHeartUp = UDSIconToken.asset("outline-heart-up")
     static let outlineHeartX = UDSIconToken.asset("outline-heart-x")
-    static let outlineHelicopter = UDSIconToken.asset("outline-helicopter")
     static let outlineHelp = UDSIconToken.asset("outline-help")
-    static let outlineHelpCircle = UDSIconToken.asset("outline-help-circle")
-    static let outlineHelpOff = UDSIconToken.asset("outline-help-off")
-    static let outlineHelpSquare = UDSIconToken.asset("outline-help-square")
-    static let outlineHexagon = UDSIconToken.asset("outline-hexagon")
     static let outlineHome = UDSIconToken.asset("outline-home")
-    static let outlineHomeCheck = UDSIconToken.asset("outline-home-check")
-    static let outlineHomeDown = UDSIconToken.asset("outline-home-down")
     static let outlineHomeEdit = UDSIconToken.asset("outline-home-edit")
-    static let outlineHomeHeart = UDSIconToken.asset("outline-home-heart")
-    static let outlineHomeLink = UDSIconToken.asset("outline-home-link")
-    static let outlineHomeLock = UDSIconToken.asset("outline-home-lock")
-    static let outlineHomeMinus = UDSIconToken.asset("outline-home-minus")
-    static let outlineHomeOff = UDSIconToken.asset("outline-home-off")
     static let outlineHomePlus = UDSIconToken.asset("outline-home-plus")
-    static let outlineHomeQuestion = UDSIconToken.asset("outline-home-question")
-    static let outlineHomeSearch = UDSIconToken.asset("outline-home-search")
-    static let outlineHomeShare = UDSIconToken.asset("outline-home-share")
-    static let outlineHomeShield = UDSIconToken.asset("outline-home-shield")
-    static let outlineHomeStar = UDSIconToken.asset("outline-home-star")
-    static let outlineHomeUp = UDSIconToken.asset("outline-home-up")
     static let outlineHomeX = UDSIconToken.asset("outline-home-x")
-    static let outlineHospital = UDSIconToken.asset("outline-hospital")
-    static let outlineHourglass = UDSIconToken.asset("outline-hourglass")
-    static let outlineInbox = UDSIconToken.asset("outline-inbox")
-    static let outlineInfinity = UDSIconToken.asset("outline-infinity")
-    static let outlineInfoCircle = UDSIconToken.asset("outline-info-circle")
-    static let outlineInfoSquare = UDSIconToken.asset("outline-info-square")
-    static let outlineItalic = UDSIconToken.asset("outline-italic")
-    static let outlineKayak = UDSIconToken.asset("outline-kayak")
     static let outlineKey = UDSIconToken.asset("outline-key")
-    static let outlineKeyOff = UDSIconToken.asset("outline-key-off")
     static let outlineKeyboard = UDSIconToken.asset("outline-keyboard")
-    static let outlineKeyboardOff = UDSIconToken.asset("outline-keyboard-off")
-    static let outlineLambda = UDSIconToken.asset("outline-lambda")
-    static let outlineLamp = UDSIconToken.asset("outline-lamp")
-    static let outlineLasso = UDSIconToken.asset("outline-lasso")
-    static let outlineLayersOff = UDSIconToken.asset("outline-layers-off")
     static let outlineLayout = UDSIconToken.asset("outline-layout")
-    static let outlineLayoutDashboard = UDSIconToken.asset("outline-layout-dashboard")
-    static let outlineLayoutGrid = UDSIconToken.asset("outline-layout-grid")
-    static let outlineLayoutGridAdd = UDSIconToken.asset("outline-layout-grid-add")
-    static let outlineLayoutList = UDSIconToken.asset("outline-layout-list")
-    static let outlineLayoutOff = UDSIconToken.asset("outline-layout-off")
     static let outlineLeaf = UDSIconToken.asset("outline-leaf")
-    static let outlineLeafOff = UDSIconToken.asset("outline-leaf-off")
-    static let outlineLensConcave = UDSIconToken.asset("outline-lens-concave")
-    static let outlineLensConvex = UDSIconToken.asset("outline-lens-convex")
-    static let outlineLibrary = UDSIconToken.asset("outline-library")
     static let outlineLink = UDSIconToken.asset("outline-link")
-    static let outlineLinkMinus = UDSIconToken.asset("outline-link-minus")
-    static let outlineLinkOff = UDSIconToken.asset("outline-link-off")
-    static let outlineLinkPlus = UDSIconToken.asset("outline-link-plus")
     static let outlineList = UDSIconToken.asset("outline-list")
-    static let outlineListCheck = UDSIconToken.asset("outline-list-check")
-    static let outlineListSearch = UDSIconToken.asset("outline-list-search")
-    static let outlineListTree = UDSIconToken.asset("outline-list-tree")
-    static let outlineLoader = UDSIconToken.asset("outline-loader")
     static let outlineLocation = UDSIconToken.asset("outline-location")
-    static let outlineLocationCheck = UDSIconToken.asset("outline-location-check")
-    static let outlineLocationCode = UDSIconToken.asset("outline-location-code")
-    static let outlineLocationDown = UDSIconToken.asset("outline-location-down")
-    static let outlineLocationHeart = UDSIconToken.asset("outline-location-heart")
-    static let outlineLocationMinus = UDSIconToken.asset("outline-location-minus")
-    static let outlineLocationOff = UDSIconToken.asset("outline-location-off")
-    static let outlineLocationPause = UDSIconToken.asset("outline-location-pause")
-    static let outlineLocationPin = UDSIconToken.asset("outline-location-pin")
-    static let outlineLocationPlus = UDSIconToken.asset("outline-location-plus")
-    static let outlineLocationQuestion = UDSIconToken.asset("outline-location-question")
-    static let outlineLocationSearch = UDSIconToken.asset("outline-location-search")
-    static let outlineLocationShare = UDSIconToken.asset("outline-location-share")
-    static let outlineLocationStar = UDSIconToken.asset("outline-location-star")
-    static let outlineLocationUp = UDSIconToken.asset("outline-location-up")
-    static let outlineLocationX = UDSIconToken.asset("outline-location-x")
     static let outlineLock = UDSIconToken.asset("outline-lock")
-    static let outlineLockCheck = UDSIconToken.asset("outline-lock-check")
-    static let outlineLockCode = UDSIconToken.asset("outline-lock-code")
-    static let outlineLockDown = UDSIconToken.asset("outline-lock-down")
-    static let outlineLockHeart = UDSIconToken.asset("outline-lock-heart")
-    static let outlineLockMinus = UDSIconToken.asset("outline-lock-minus")
-    static let outlineLockOff = UDSIconToken.asset("outline-lock-off")
-    static let outlineLockOpen = UDSIconToken.asset("outline-lock-open")
-    static let outlineLockPause = UDSIconToken.asset("outline-lock-pause")
-    static let outlineLockPin = UDSIconToken.asset("outline-lock-pin")
-    static let outlineLockPlus = UDSIconToken.asset("outline-lock-plus")
-    static let outlineLockQuestion = UDSIconToken.asset("outline-lock-question")
-    static let outlineLockSearch = UDSIconToken.asset("outline-lock-search")
-    static let outlineLockShare = UDSIconToken.asset("outline-lock-share")
-    static let outlineLockSquare = UDSIconToken.asset("outline-lock-square")
-    static let outlineLockStar = UDSIconToken.asset("outline-lock-star")
-    static let outlineLockUp = UDSIconToken.asset("outline-lock-up")
-    static let outlineLockX = UDSIconToken.asset("outline-lock-x")
     static let outlineLogin = UDSIconToken.asset("outline-login")
     static let outlineLogout = UDSIconToken.asset("outline-logout")
-    static let outlineLogs = UDSIconToken.asset("outline-logs")
-    static let outlineLollipop = UDSIconToken.asset("outline-lollipop")
-    static let outlineLuggage = UDSIconToken.asset("outline-luggage")
-    static let outlineMagnet = UDSIconToken.asset("outline-magnet")
     static let outlineMail = UDSIconToken.asset("outline-mail")
     static let outlineMailCheck = UDSIconToken.asset("outline-mail-check")
-    static let outlineMailCode = UDSIconToken.asset("outline-mail-code")
-    static let outlineMailDown = UDSIconToken.asset("outline-mail-down")
-    static let outlineMailHeart = UDSIconToken.asset("outline-mail-heart")
-    static let outlineMailMinus = UDSIconToken.asset("outline-mail-minus")
-    static let outlineMailOff = UDSIconToken.asset("outline-mail-off")
-    static let outlineMailPause = UDSIconToken.asset("outline-mail-pause")
-    static let outlineMailPin = UDSIconToken.asset("outline-mail-pin")
     static let outlineMailPlus = UDSIconToken.asset("outline-mail-plus")
-    static let outlineMailQuestion = UDSIconToken.asset("outline-mail-question")
     static let outlineMailSearch = UDSIconToken.asset("outline-mail-search")
-    static let outlineMailShare = UDSIconToken.asset("outline-mail-share")
-    static let outlineMailStar = UDSIconToken.asset("outline-mail-star")
-    static let outlineMailUp = UDSIconToken.asset("outline-mail-up")
-    static let outlineMailX = UDSIconToken.asset("outline-mail-x")
-    static let outlineMailbox = UDSIconToken.asset("outline-mailbox")
     static let outlineMap = UDSIconToken.asset("outline-map")
-    static let outlineMapCheck = UDSIconToken.asset("outline-map-check")
-    static let outlineMapCode = UDSIconToken.asset("outline-map-code")
-    static let outlineMapDown = UDSIconToken.asset("outline-map-down")
-    static let outlineMapHeart = UDSIconToken.asset("outline-map-heart")
-    static let outlineMapLock = UDSIconToken.asset("outline-map-lock")
-    static let outlineMapMinus = UDSIconToken.asset("outline-map-minus")
-    static let outlineMapOff = UDSIconToken.asset("outline-map-off")
-    static let outlineMapPause = UDSIconToken.asset("outline-map-pause")
     static let outlineMapPin = UDSIconToken.asset("outline-map-pin")
-    static let outlineMapPinCheck = UDSIconToken.asset("outline-map-pin-check")
-    static let outlineMapPinCode = UDSIconToken.asset("outline-map-pin-code")
-    static let outlineMapPinDown = UDSIconToken.asset("outline-map-pin-down")
-    static let outlineMapPinHeart = UDSIconToken.asset("outline-map-pin-heart")
-    static let outlineMapPinMinus = UDSIconToken.asset("outline-map-pin-minus")
-    static let outlineMapPinOff = UDSIconToken.asset("outline-map-pin-off")
-    static let outlineMapPinPause = UDSIconToken.asset("outline-map-pin-pause")
-    static let outlineMapPinPin = UDSIconToken.asset("outline-map-pin-pin")
     static let outlineMapPinPlus = UDSIconToken.asset("outline-map-pin-plus")
-    static let outlineMapPinQuestion = UDSIconToken.asset("outline-map-pin-question")
-    static let outlineMapPinSearch = UDSIconToken.asset("outline-map-pin-search")
-    static let outlineMapPinShare = UDSIconToken.asset("outline-map-pin-share")
-    static let outlineMapPinStar = UDSIconToken.asset("outline-map-pin-star")
-    static let outlineMapPinUp = UDSIconToken.asset("outline-map-pin-up")
-    static let outlineMapPinX = UDSIconToken.asset("outline-map-pin-x")
-    static let outlineMapPinned = UDSIconToken.asset("outline-map-pinned")
-    static let outlineMapPlus = UDSIconToken.asset("outline-map-plus")
-    static let outlineMapQuestion = UDSIconToken.asset("outline-map-question")
-    static let outlineMapRoute = UDSIconToken.asset("outline-map-route")
-    static let outlineMapSearch = UDSIconToken.asset("outline-map-search")
-    static let outlineMapShare = UDSIconToken.asset("outline-map-share")
-    static let outlineMapShield = UDSIconToken.asset("outline-map-shield")
-    static let outlineMapStar = UDSIconToken.asset("outline-map-star")
-    static let outlineMapUp = UDSIconToken.asset("outline-map-up")
-    static let outlineMapX = UDSIconToken.asset("outline-map-x")
-    static let outlineMars = UDSIconToken.asset("outline-mars")
     static let outlineMaximize = UDSIconToken.asset("outline-maximize")
-    static let outlineMaximizeOff = UDSIconToken.asset("outline-maximize-off")
-    static let outlineMedal = UDSIconToken.asset("outline-medal")
     static let outlineMenu = UDSIconToken.asset("outline-menu")
     static let outlineMessage = UDSIconToken.asset("outline-message")
-    static let outlineMessage2Code = UDSIconToken.asset("outline-message-2-code")
-    static let outlineMessage2Pause = UDSIconToken.asset("outline-message-2-pause")
-    static let outlineMessage2X = UDSIconToken.asset("outline-message-2-x")
     static let outlineMessageCheck = UDSIconToken.asset("outline-message-check")
     static let outlineMessageCircle = UDSIconToken.asset("outline-message-circle")
-    static let outlineMessageCircleCheck = UDSIconToken.asset("outline-message-circle-check")
-    static let outlineMessageCircleCode = UDSIconToken.asset("outline-message-circle-code")
-    static let outlineMessageCircleDown = UDSIconToken.asset("outline-message-circle-down")
-    static let outlineMessageCircleHeart = UDSIconToken.asset("outline-message-circle-heart")
-    static let outlineMessageCircleMinus = UDSIconToken.asset("outline-message-circle-minus")
-    static let outlineMessageCircleOff = UDSIconToken.asset("outline-message-circle-off")
-    static let outlineMessageCirclePause = UDSIconToken.asset("outline-message-circle-pause")
-    static let outlineMessageCirclePin = UDSIconToken.asset("outline-message-circle-pin")
-    static let outlineMessageCirclePlus = UDSIconToken.asset("outline-message-circle-plus")
-    static let outlineMessageCircleQuestion = UDSIconToken.asset("outline-message-circle-question")
-    static let outlineMessageCircleSearch = UDSIconToken.asset("outline-message-circle-search")
-    static let outlineMessageCircleShare = UDSIconToken.asset("outline-message-circle-share")
-    static let outlineMessageCircleStar = UDSIconToken.asset("outline-message-circle-star")
-    static let outlineMessageCircleUp = UDSIconToken.asset("outline-message-circle-up")
-    static let outlineMessageCircleUser = UDSIconToken.asset("outline-message-circle-user")
-    static let outlineMessageCircleX = UDSIconToken.asset("outline-message-circle-x")
-    static let outlineMessageCode = UDSIconToken.asset("outline-message-code")
-    static let outlineMessageDown = UDSIconToken.asset("outline-message-down")
-    static let outlineMessageHeart = UDSIconToken.asset("outline-message-heart")
-    static let outlineMessageMinus = UDSIconToken.asset("outline-message-minus")
-    static let outlineMessageOff = UDSIconToken.asset("outline-message-off")
-    static let outlineMessagePause = UDSIconToken.asset("outline-message-pause")
-    static let outlineMessagePin = UDSIconToken.asset("outline-message-pin")
     static let outlineMessagePlus = UDSIconToken.asset("outline-message-plus")
-    static let outlineMessageQuestion = UDSIconToken.asset("outline-message-question")
     static let outlineMessageReply = UDSIconToken.asset("outline-message-reply")
     static let outlineMessageSearch = UDSIconToken.asset("outline-message-search")
-    static let outlineMessageShare = UDSIconToken.asset("outline-message-share")
-    static let outlineMessageStar = UDSIconToken.asset("outline-message-star")
-    static let outlineMessageUp = UDSIconToken.asset("outline-message-up")
     static let outlineMessageUser = UDSIconToken.asset("outline-message-user")
     static let outlineMessageX = UDSIconToken.asset("outline-message-x")
-    static let outlineMetronome = UDSIconToken.asset("outline-metronome")
     static let outlineMicrophone = UDSIconToken.asset("outline-microphone")
-    static let outlineMicrophoneOff = UDSIconToken.asset("outline-microphone-off")
-    static let outlineMicroscope = UDSIconToken.asset("outline-microscope")
-    static let outlineMicrowave = UDSIconToken.asset("outline-microwave")
-    static let outlineMilk = UDSIconToken.asset("outline-milk")
-    static let outlineMilkOff = UDSIconToken.asset("outline-milk-off")
-    static let outlineMinimize = UDSIconToken.asset("outline-minimize")
     static let outlineMinus = UDSIconToken.asset("outline-minus")
     static let outlineMoon = UDSIconToken.asset("outline-moon")
-    static let outlineMoonOff = UDSIconToken.asset("outline-moon-off")
-    static let outlineMosque = UDSIconToken.asset("outline-mosque")
-    static let outlineMotorbike = UDSIconToken.asset("outline-motorbike")
-    static let outlineMountain = UDSIconToken.asset("outline-mountain")
     static let outlineMouse = UDSIconToken.asset("outline-mouse")
-    static let outlineMouseOff = UDSIconToken.asset("outline-mouse-off")
     static let outlineMusic = UDSIconToken.asset("outline-music")
-    static let outlineMusicCheck = UDSIconToken.asset("outline-music-check")
-    static let outlineMusicCode = UDSIconToken.asset("outline-music-code")
-    static let outlineMusicDown = UDSIconToken.asset("outline-music-down")
-    static let outlineMusicHeart = UDSIconToken.asset("outline-music-heart")
-    static let outlineMusicMinus = UDSIconToken.asset("outline-music-minus")
-    static let outlineMusicOff = UDSIconToken.asset("outline-music-off")
-    static let outlineMusicPause = UDSIconToken.asset("outline-music-pause")
-    static let outlineMusicPin = UDSIconToken.asset("outline-music-pin")
-    static let outlineMusicPlus = UDSIconToken.asset("outline-music-plus")
-    static let outlineMusicQuestion = UDSIconToken.asset("outline-music-question")
-    static let outlineMusicSearch = UDSIconToken.asset("outline-music-search")
-    static let outlineMusicShare = UDSIconToken.asset("outline-music-share")
-    static let outlineMusicStar = UDSIconToken.asset("outline-music-star")
-    static let outlineMusicUp = UDSIconToken.asset("outline-music-up")
-    static let outlineMusicX = UDSIconToken.asset("outline-music-x")
     static let outlineNavigation = UDSIconToken.asset("outline-navigation")
-    static let outlineNavigationCheck = UDSIconToken.asset("outline-navigation-check")
-    static let outlineNavigationCode = UDSIconToken.asset("outline-navigation-code")
-    static let outlineNavigationDown = UDSIconToken.asset("outline-navigation-down")
-    static let outlineNavigationHeart = UDSIconToken.asset("outline-navigation-heart")
-    static let outlineNavigationMinus = UDSIconToken.asset("outline-navigation-minus")
-    static let outlineNavigationOff = UDSIconToken.asset("outline-navigation-off")
-    static let outlineNavigationPause = UDSIconToken.asset("outline-navigation-pause")
-    static let outlineNavigationPin = UDSIconToken.asset("outline-navigation-pin")
-    static let outlineNavigationPlus = UDSIconToken.asset("outline-navigation-plus")
-    static let outlineNavigationQuestion = UDSIconToken.asset("outline-navigation-question")
-    static let outlineNavigationSearch = UDSIconToken.asset("outline-navigation-search")
-    static let outlineNavigationShare = UDSIconToken.asset("outline-navigation-share")
-    static let outlineNavigationStar = UDSIconToken.asset("outline-navigation-star")
-    static let outlineNavigationUp = UDSIconToken.asset("outline-navigation-up")
-    static let outlineNavigationX = UDSIconToken.asset("outline-navigation-x")
-    static let outlineNetwork = UDSIconToken.asset("outline-network")
-    static let outlineNfc = UDSIconToken.asset("outline-nfc")
     static let outlineNote = UDSIconToken.asset("outline-note")
-    static let outlineNoteOff = UDSIconToken.asset("outline-note-off")
-    static let outlineNotebook = UDSIconToken.asset("outline-notebook")
     static let outlineNotification = UDSIconToken.asset("outline-notification")
-    static let outlineNotificationOff = UDSIconToken.asset("outline-notification-off")
-    static let outlineNut = UDSIconToken.asset("outline-nut")
-    static let outlineOctagon = UDSIconToken.asset("outline-octagon")
-    static let outlineOctagonMinus = UDSIconToken.asset("outline-octagon-minus")
-    static let outlineOmega = UDSIconToken.asset("outline-omega")
-    static let outlineOption = UDSIconToken.asset("outline-option")
-    static let outlineOrbit = UDSIconToken.asset("outline-orbit")
     static let outlinePackage = UDSIconToken.asset("outline-package")
-    static let outlinePackageOff = UDSIconToken.asset("outline-package-off")
     static let outlinePalette = UDSIconToken.asset("outline-palette")
-    static let outlinePaletteOff = UDSIconToken.asset("outline-palette-off")
-    static let outlinePaperBag = UDSIconToken.asset("outline-paper-bag")
     static let outlinePaperclip = UDSIconToken.asset("outline-paperclip")
-    static let outlineParentheses = UDSIconToken.asset("outline-parentheses")
-    static let outlineParkingMeter = UDSIconToken.asset("outline-parking-meter")
     static let outlinePencil = UDSIconToken.asset("outline-pencil")
-    static let outlinePencilCheck = UDSIconToken.asset("outline-pencil-check")
-    static let outlinePencilCode = UDSIconToken.asset("outline-pencil-code")
-    static let outlinePencilDown = UDSIconToken.asset("outline-pencil-down")
-    static let outlinePencilHeart = UDSIconToken.asset("outline-pencil-heart")
-    static let outlinePencilMinus = UDSIconToken.asset("outline-pencil-minus")
-    static let outlinePencilOff = UDSIconToken.asset("outline-pencil-off")
-    static let outlinePencilPause = UDSIconToken.asset("outline-pencil-pause")
-    static let outlinePencilPin = UDSIconToken.asset("outline-pencil-pin")
-    static let outlinePencilPlus = UDSIconToken.asset("outline-pencil-plus")
-    static let outlinePencilQuestion = UDSIconToken.asset("outline-pencil-question")
-    static let outlinePencilSearch = UDSIconToken.asset("outline-pencil-search")
-    static let outlinePencilShare = UDSIconToken.asset("outline-pencil-share")
-    static let outlinePencilStar = UDSIconToken.asset("outline-pencil-star")
-    static let outlinePencilUp = UDSIconToken.asset("outline-pencil-up")
-    static let outlinePencilX = UDSIconToken.asset("outline-pencil-x")
-    static let outlinePentagon = UDSIconToken.asset("outline-pentagon")
     static let outlinePhone = UDSIconToken.asset("outline-phone")
-    static let outlinePhoneCall = UDSIconToken.asset("outline-phone-call")
-    static let outlinePhoneCheck = UDSIconToken.asset("outline-phone-check")
-    static let outlinePhoneIncoming = UDSIconToken.asset("outline-phone-incoming")
-    static let outlinePhoneOff = UDSIconToken.asset("outline-phone-off")
-    static let outlinePhoneOutgoing = UDSIconToken.asset("outline-phone-outgoing")
-    static let outlinePhonePause = UDSIconToken.asset("outline-phone-pause")
-    static let outlinePhonePlus = UDSIconToken.asset("outline-phone-plus")
-    static let outlinePhoneX = UDSIconToken.asset("outline-phone-x")
     static let outlinePhoto = UDSIconToken.asset("outline-photo")
     static let outlinePhotoCheck = UDSIconToken.asset("outline-photo-check")
-    static let outlinePhotoCircle = UDSIconToken.asset("outline-photo-circle")
-    static let outlinePhotoCircleMinus = UDSIconToken.asset("outline-photo-circle-minus")
-    static let outlinePhotoCirclePlus = UDSIconToken.asset("outline-photo-circle-plus")
-    static let outlinePhotoCode = UDSIconToken.asset("outline-photo-code")
-    static let outlinePhotoDown = UDSIconToken.asset("outline-photo-down")
-    static let outlinePhotoEdit = UDSIconToken.asset("outline-photo-edit")
-    static let outlinePhotoHeart = UDSIconToken.asset("outline-photo-heart")
-    static let outlinePhotoMinus = UDSIconToken.asset("outline-photo-minus")
-    static let outlinePhotoOff = UDSIconToken.asset("outline-photo-off")
-    static let outlinePhotoPause = UDSIconToken.asset("outline-photo-pause")
-    static let outlinePhotoPin = UDSIconToken.asset("outline-photo-pin")
     static let outlinePhotoPlus = UDSIconToken.asset("outline-photo-plus")
-    static let outlinePhotoQuestion = UDSIconToken.asset("outline-photo-question")
-    static let outlinePhotoSearch = UDSIconToken.asset("outline-photo-search")
-    static let outlinePhotoShare = UDSIconToken.asset("outline-photo-share")
-    static let outlinePhotoShield = UDSIconToken.asset("outline-photo-shield")
-    static let outlinePhotoStar = UDSIconToken.asset("outline-photo-star")
-    static let outlinePhotoUp = UDSIconToken.asset("outline-photo-up")
-    static let outlinePhotoVideo = UDSIconToken.asset("outline-photo-video")
     static let outlinePhotoX = UDSIconToken.asset("outline-photo-x")
-    static let outlinePiano = UDSIconToken.asset("outline-piano")
-    static let outlinePictureInPicture = UDSIconToken.asset("outline-picture-in-picture")
-    static let outlinePilcrow = UDSIconToken.asset("outline-pilcrow")
-    static let outlinePilcrowLeft = UDSIconToken.asset("outline-pilcrow-left")
-    static let outlinePilcrowRight = UDSIconToken.asset("outline-pilcrow-right")
-    static let outlinePill = UDSIconToken.asset("outline-pill")
     static let outlinePin = UDSIconToken.asset("outline-pin")
-    static let outlinePizza = UDSIconToken.asset("outline-pizza")
     static let outlinePlane = UDSIconToken.asset("outline-plane")
-    static let outlinePlaneOff = UDSIconToken.asset("outline-plane-off")
-    static let outlinePlug = UDSIconToken.asset("outline-plug")
     static let outlinePlus = UDSIconToken.asset("outline-plus")
-    static let outlinePlusMinus = UDSIconToken.asset("outline-plus-minus")
-    static let outlinePodium = UDSIconToken.asset("outline-podium")
-    static let outlinePointer = UDSIconToken.asset("outline-pointer")
-    static let outlinePointerOff = UDSIconToken.asset("outline-pointer-off")
-    static let outlinePower = UDSIconToken.asset("outline-power")
-    static let outlinePresentation = UDSIconToken.asset("outline-presentation")
     static let outlinePrinter = UDSIconToken.asset("outline-printer")
-    static let outlinePrinterOff = UDSIconToken.asset("outline-printer-off")
     static let outlinePuzzle = UDSIconToken.asset("outline-puzzle")
-    static let outlinePuzzleOff = UDSIconToken.asset("outline-puzzle-off")
-    static let outlinePyramid = UDSIconToken.asset("outline-pyramid")
-    static let outlineQuote = UDSIconToken.asset("outline-quote")
-    static let outlineRadar = UDSIconToken.asset("outline-radar")
     static let outlineRadio = UDSIconToken.asset("outline-radio")
-    static let outlineRadioOff = UDSIconToken.asset("outline-radio-off")
-    static let outlineRainbow = UDSIconToken.asset("outline-rainbow")
     static let outlineReceipt = UDSIconToken.asset("outline-receipt")
-    static let outlineReceiptEuro = UDSIconToken.asset("outline-receipt-euro")
-    static let outlineReceiptOff = UDSIconToken.asset("outline-receipt-off")
-    static let outlineRectangleVertical = UDSIconToken.asset("outline-rectangle-vertical")
-    static let outlineRecycle = UDSIconToken.asset("outline-recycle")
     static let outlineRefresh = UDSIconToken.asset("outline-refresh")
-    static let outlineRefreshAlert = UDSIconToken.asset("outline-refresh-alert")
-    static let outlineRefreshOff = UDSIconToken.asset("outline-refresh-off")
-    static let outlineRegex = UDSIconToken.asset("outline-regex")
     static let outlineReload = UDSIconToken.asset("outline-reload")
-    static let outlineRepeat = UDSIconToken.asset("outline-repeat")
-    static let outlineRepeatOff = UDSIconToken.asset("outline-repeat-off")
-    static let outlineReplace = UDSIconToken.asset("outline-replace")
-    static let outlineRoad = UDSIconToken.asset("outline-road")
-    static let outlineRocket = UDSIconToken.asset("outline-rocket")
-    static let outlineRockingChair = UDSIconToken.asset("outline-rocking-chair")
-    static let outlineRotate3d = UDSIconToken.asset("outline-rotate-3d")
     static let outlineRoute = UDSIconToken.asset("outline-route")
-    static let outlineRouteOff = UDSIconToken.asset("outline-route-off")
-    static let outlineRouteSquare = UDSIconToken.asset("outline-route-square")
-    static let outlineRouteX = UDSIconToken.asset("outline-route-x")
-    static let outlineRouteX2 = UDSIconToken.asset("outline-route-x-2")
-    static let outlineRouter = UDSIconToken.asset("outline-router")
-    static let outlineRss = UDSIconToken.asset("outline-rss")
-    static let outlineRuler = UDSIconToken.asset("outline-ruler")
-    static let outlineSailboat = UDSIconToken.asset("outline-sailboat")
-    static let outlineSalad = UDSIconToken.asset("outline-salad")
-    static let outlineSatellite = UDSIconToken.asset("outline-satellite")
-    static let outlineScale = UDSIconToken.asset("outline-scale")
-    static let outlineScan = UDSIconToken.asset("outline-scan")
-    static let outlineScanEye = UDSIconToken.asset("outline-scan-eye")
-    static let outlineSchool = UDSIconToken.asset("outline-school")
-    static let outlineScissors = UDSIconToken.asset("outline-scissors")
-    static let outlineScooter = UDSIconToken.asset("outline-scooter")
-    static let outlineScreenShare = UDSIconToken.asset("outline-screen-share")
-    static let outlineScreenShareOff = UDSIconToken.asset("outline-screen-share-off")
     static let outlineSearch = UDSIconToken.asset("outline-search")
-    static let outlineSearchOff = UDSIconToken.asset("outline-search-off")
-    static let outlineSection = UDSIconToken.asset("outline-section")
     static let outlineSend = UDSIconToken.asset("outline-send")
-    static let outlineSendOff = UDSIconToken.asset("outline-send-off")
-    static let outlineSeparatorHorizontal = UDSIconToken.asset("outline-separator-horizontal")
-    static let outlineSeparatorVertical = UDSIconToken.asset("outline-separator-vertical")
     static let outlineServer = UDSIconToken.asset("outline-server")
-    static let outlineServerCog = UDSIconToken.asset("outline-server-cog")
-    static let outlineServerOff = UDSIconToken.asset("outline-server-off")
     static let outlineSettings = UDSIconToken.asset("outline-settings")
-    static let outlineSettings2 = UDSIconToken.asset("outline-settings-2")
-    static let outlineSettingsCheck = UDSIconToken.asset("outline-settings-check")
-    static let outlineSettingsCode = UDSIconToken.asset("outline-settings-code")
-    static let outlineSettingsDown = UDSIconToken.asset("outline-settings-down")
-    static let outlineSettingsHeart = UDSIconToken.asset("outline-settings-heart")
-    static let outlineSettingsMinus = UDSIconToken.asset("outline-settings-minus")
-    static let outlineSettingsOff = UDSIconToken.asset("outline-settings-off")
-    static let outlineSettingsPause = UDSIconToken.asset("outline-settings-pause")
-    static let outlineSettingsPin = UDSIconToken.asset("outline-settings-pin")
-    static let outlineSettingsPlus = UDSIconToken.asset("outline-settings-plus")
-    static let outlineSettingsQuestion = UDSIconToken.asset("outline-settings-question")
-    static let outlineSettingsSearch = UDSIconToken.asset("outline-settings-search")
-    static let outlineSettingsShare = UDSIconToken.asset("outline-settings-share")
-    static let outlineSettingsStar = UDSIconToken.asset("outline-settings-star")
-    static let outlineSettingsUp = UDSIconToken.asset("outline-settings-up")
-    static let outlineSettingsX = UDSIconToken.asset("outline-settings-x")
     static let outlineShare = UDSIconToken.asset("outline-share")
-    static let outlineShare2 = UDSIconToken.asset("outline-share-2")
-    static let outlineShareOff = UDSIconToken.asset("outline-share-off")
     static let outlineShield = UDSIconToken.asset("outline-shield")
-    static let outlineShieldCheck = UDSIconToken.asset("outline-shield-check")
-    static let outlineShieldCode = UDSIconToken.asset("outline-shield-code")
-    static let outlineShieldCog = UDSIconToken.asset("outline-shield-cog")
-    static let outlineShieldDown = UDSIconToken.asset("outline-shield-down")
-    static let outlineShieldHalf = UDSIconToken.asset("outline-shield-half")
-    static let outlineShieldHeart = UDSIconToken.asset("outline-shield-heart")
-    static let outlineShieldLock = UDSIconToken.asset("outline-shield-lock")
-    static let outlineShieldMinus = UDSIconToken.asset("outline-shield-minus")
-    static let outlineShieldOff = UDSIconToken.asset("outline-shield-off")
-    static let outlineShieldPause = UDSIconToken.asset("outline-shield-pause")
-    static let outlineShieldPin = UDSIconToken.asset("outline-shield-pin")
-    static let outlineShieldPlus = UDSIconToken.asset("outline-shield-plus")
-    static let outlineShieldQuestion = UDSIconToken.asset("outline-shield-question")
-    static let outlineShieldSearch = UDSIconToken.asset("outline-shield-search")
-    static let outlineShieldShare = UDSIconToken.asset("outline-shield-share")
-    static let outlineShieldStar = UDSIconToken.asset("outline-shield-star")
-    static let outlineShieldUp = UDSIconToken.asset("outline-shield-up")
-    static let outlineShieldX = UDSIconToken.asset("outline-shield-x")
-    static let outlineShip = UDSIconToken.asset("outline-ship")
-    static let outlineShirt = UDSIconToken.asset("outline-shirt")
-    static let outlineShoppingBag = UDSIconToken.asset("outline-shopping-bag")
     static let outlineShoppingCart = UDSIconToken.asset("outline-shopping-cart")
-    static let outlineShoppingCartMinus = UDSIconToken.asset("outline-shopping-cart-minus")
     static let outlineShoppingCartPlus = UDSIconToken.asset("outline-shopping-cart-plus")
-    static let outlineShovel = UDSIconToken.asset("outline-shovel")
-    static let outlineShredder = UDSIconToken.asset("outline-shredder")
-    static let outlineSignature = UDSIconToken.asset("outline-signature")
-    static let outlineSkull = UDSIconToken.asset("outline-skull")
-    static let outlineSlash = UDSIconToken.asset("outline-slash")
-    static let outlineSlice = UDSIconToken.asset("outline-slice")
-    static let outlineSnowflake = UDSIconToken.asset("outline-snowflake")
-    static let outlineSofa = UDSIconToken.asset("outline-sofa")
-    static let outlineSolarPanel = UDSIconToken.asset("outline-solar-panel")
-    static let outlineSoup = UDSIconToken.asset("outline-soup")
-    static let outlineSpace = UDSIconToken.asset("outline-space")
-    static let outlineSpade = UDSIconToken.asset("outline-spade")
-    static let outlineSparkle = UDSIconToken.asset("outline-sparkle")
-    static let outlineSparkles = UDSIconToken.asset("outline-sparkles")
     static let outlineSquare = UDSIconToken.asset("outline-square")
-    static let outlineSquareArrowDown = UDSIconToken.asset("outline-square-arrow-down")
-    static let outlineSquareArrowLeft = UDSIconToken.asset("outline-square-arrow-left")
-    static let outlineSquareArrowRight = UDSIconToken.asset("outline-square-arrow-right")
-    static let outlineSquareArrowUp = UDSIconToken.asset("outline-square-arrow-up")
-    static let outlineSquareAsterisk = UDSIconToken.asset("outline-square-asterisk")
-    static let outlineSquareCheck = UDSIconToken.asset("outline-square-check")
-    static let outlineSquareChevronDown = UDSIconToken.asset("outline-square-chevron-down")
-    static let outlineSquareChevronLeft = UDSIconToken.asset("outline-square-chevron-left")
-    static let outlineSquareChevronRight = UDSIconToken.asset("outline-square-chevron-right")
-    static let outlineSquareChevronUp = UDSIconToken.asset("outline-square-chevron-up")
-    static let outlineSquareDashed = UDSIconToken.asset("outline-square-dashed")
-    static let outlineSquareDashedTopSolid = UDSIconToken.asset("outline-square-dashed-top-solid")
-    static let outlineSquareDashedX = UDSIconToken.asset("outline-square-dashed-x")
-    static let outlineSquareDot = UDSIconToken.asset("outline-square-dot")
-    static let outlineSquareKey = UDSIconToken.asset("outline-square-key")
-    static let outlineSquareMinus = UDSIconToken.asset("outline-square-minus")
-    static let outlineSquareOff = UDSIconToken.asset("outline-square-off")
-    static let outlineSquarePlus = UDSIconToken.asset("outline-square-plus")
-    static let outlineSquareToggle = UDSIconToken.asset("outline-square-toggle")
-    static let outlineSquareX = UDSIconToken.asset("outline-square-x")
     static let outlineStack = UDSIconToken.asset("outline-stack")
-    static let outlineStackBack = UDSIconToken.asset("outline-stack-back")
-    static let outlineStackCheck = UDSIconToken.asset("outline-stack-check")
-    static let outlineStackMinus = UDSIconToken.asset("outline-stack-minus")
-    static let outlineStackPlus = UDSIconToken.asset("outline-stack-plus")
-    static let outlineStackX = UDSIconToken.asset("outline-stack-x")
     static let outlineStar = UDSIconToken.asset("outline-star")
-    static let outlineStarHalf = UDSIconToken.asset("outline-star-half")
-    static let outlineStarOff = UDSIconToken.asset("outline-star-off")
-    static let outlineStethoscope = UDSIconToken.asset("outline-stethoscope")
-    static let outlineSticker = UDSIconToken.asset("outline-sticker")
-    static let outlineStrikethrough = UDSIconToken.asset("outline-strikethrough")
-    static let outlineSubscript = UDSIconToken.asset("outline-subscript")
     static let outlineSun = UDSIconToken.asset("outline-sun")
-    static let outlineSunMoon = UDSIconToken.asset("outline-sun-moon")
-    static let outlineSunOff = UDSIconToken.asset("outline-sun-off")
-    static let outlineSunWind = UDSIconToken.asset("outline-sun-wind")
-    static let outlineSunrise = UDSIconToken.asset("outline-sunrise")
-    static let outlineSunset = UDSIconToken.asset("outline-sunset")
-    static let outlineSuperscript = UDSIconToken.asset("outline-superscript")
-    static let outlineSword = UDSIconToken.asset("outline-sword")
-    static let outlineSwords = UDSIconToken.asset("outline-swords")
     static let outlineTable = UDSIconToken.asset("outline-table")
-    static let outlineTableDown = UDSIconToken.asset("outline-table-down")
-    static let outlineTableHeart = UDSIconToken.asset("outline-table-heart")
-    static let outlineTableMinus = UDSIconToken.asset("outline-table-minus")
-    static let outlineTableOff = UDSIconToken.asset("outline-table-off")
-    static let outlineTablePlus = UDSIconToken.asset("outline-table-plus")
-    static let outlineTableShare = UDSIconToken.asset("outline-table-share")
     static let outlineTag = UDSIconToken.asset("outline-tag")
-    static let outlineTagMinus = UDSIconToken.asset("outline-tag-minus")
-    static let outlineTagOff = UDSIconToken.asset("outline-tag-off")
-    static let outlineTagPlus = UDSIconToken.asset("outline-tag-plus")
-    static let outlineTags = UDSIconToken.asset("outline-tags")
     static let outlineTarget = UDSIconToken.asset("outline-target")
-    static let outlineTargetArrow = UDSIconToken.asset("outline-target-arrow")
-    static let outlineTargetOff = UDSIconToken.asset("outline-target-off")
-    static let outlineTelescope = UDSIconToken.asset("outline-telescope")
-    static let outlineTent = UDSIconToken.asset("outline-tent")
     static let outlineTerminal = UDSIconToken.asset("outline-terminal")
-    static let outlineTextPlus = UDSIconToken.asset("outline-text-plus")
-    static let outlineTextWrap = UDSIconToken.asset("outline-text-wrap")
-    static let outlineTheater = UDSIconToken.asset("outline-theater")
-    static let outlineThermometer = UDSIconToken.asset("outline-thermometer")
-    static let outlineThumbDown = UDSIconToken.asset("outline-thumb-down")
-    static let outlineThumbDownOff = UDSIconToken.asset("outline-thumb-down-off")
-    static let outlineThumbUp = UDSIconToken.asset("outline-thumb-up")
-    static let outlineThumbUpOff = UDSIconToken.asset("outline-thumb-up-off")
     static let outlineTicket = UDSIconToken.asset("outline-ticket")
-    static let outlineTicketOff = UDSIconToken.asset("outline-ticket-off")
-    static let outlineTimeline = UDSIconToken.asset("outline-timeline")
-    static let outlineToggleLeft = UDSIconToken.asset("outline-toggle-left")
-    static let outlineToggleRight = UDSIconToken.asset("outline-toggle-right")
     static let outlineTool = UDSIconToken.asset("outline-tool")
-    static let outlineTornado = UDSIconToken.asset("outline-tornado")
-    static let outlineTractor = UDSIconToken.asset("outline-tractor")
-    static let outlineTrafficCone = UDSIconToken.asset("outline-traffic-cone")
     static let outlineTrain = UDSIconToken.asset("outline-train")
     static let outlineTrash = UDSIconToken.asset("outline-trash")
-    static let outlineTrashOff = UDSIconToken.asset("outline-trash-off")
-    static let outlineTrashX = UDSIconToken.asset("outline-trash-x")
-    static let outlineTrees = UDSIconToken.asset("outline-trees")
-    static let outlineTrendingDown = UDSIconToken.asset("outline-trending-down")
-    static let outlineTrendingUp = UDSIconToken.asset("outline-trending-up")
-    static let outlineTrendingUpDown = UDSIconToken.asset("outline-trending-up-down")
-    static let outlineTriangle = UDSIconToken.asset("outline-triangle")
-    static let outlineTriangleDashed = UDSIconToken.asset("outline-triangle-dashed")
-    static let outlineTrophy = UDSIconToken.asset("outline-trophy")
     static let outlineTruck = UDSIconToken.asset("outline-truck")
-    static let outlineTruckOff = UDSIconToken.asset("outline-truck-off")
-    static let outlineUmbrella = UDSIconToken.asset("outline-umbrella")
-    static let outlineUmbrellaOff = UDSIconToken.asset("outline-umbrella-off")
-    static let outlineUnderline = UDSIconToken.asset("outline-underline")
-    static let outlineUnlink = UDSIconToken.asset("outline-unlink")
     static let outlineUpload = UDSIconToken.asset("outline-upload")
-    static let outlineUsb = UDSIconToken.asset("outline-usb")
     static let outlineUser = UDSIconToken.asset("outline-user")
     static let outlineUserCheck = UDSIconToken.asset("outline-user-check")
     static let outlineUserCircle = UDSIconToken.asset("outline-user-circle")
-    static let outlineUserCode = UDSIconToken.asset("outline-user-code")
-    static let outlineUserCog = UDSIconToken.asset("outline-user-cog")
-    static let outlineUserDown = UDSIconToken.asset("outline-user-down")
     static let outlineUserEdit = UDSIconToken.asset("outline-user-edit")
     static let outlineUserHeart = UDSIconToken.asset("outline-user-heart")
-    static let outlineUserKey = UDSIconToken.asset("outline-user-key")
     static let outlineUserMinus = UDSIconToken.asset("outline-user-minus")
-    static let outlineUserOff = UDSIconToken.asset("outline-user-off")
-    static let outlineUserPause = UDSIconToken.asset("outline-user-pause")
     static let outlineUserPin = UDSIconToken.asset("outline-user-pin")
     static let outlineUserPlus = UDSIconToken.asset("outline-user-plus")
-    static let outlineUserQuestion = UDSIconToken.asset("outline-user-question")
     static let outlineUserSearch = UDSIconToken.asset("outline-user-search")
-    static let outlineUserShare = UDSIconToken.asset("outline-user-share")
     static let outlineUserShield = UDSIconToken.asset("outline-user-shield")
-    static let outlineUserSquare = UDSIconToken.asset("outline-user-square")
     static let outlineUserStar = UDSIconToken.asset("outline-user-star")
-    static let outlineUserUp = UDSIconToken.asset("outline-user-up")
     static let outlineUserX = UDSIconToken.asset("outline-user-x")
     static let outlineUsers = UDSIconToken.asset("outline-users")
-    static let outlineUsersMinus = UDSIconToken.asset("outline-users-minus")
-    static let outlineUsersPlus = UDSIconToken.asset("outline-users-plus")
-    static let outlineVariable = UDSIconToken.asset("outline-variable")
-    static let outlineVault = UDSIconToken.asset("outline-vault")
-    static let outlineVenus = UDSIconToken.asset("outline-venus")
     static let outlineVideo = UDSIconToken.asset("outline-video")
-    static let outlineVideoMinus = UDSIconToken.asset("outline-video-minus")
-    static let outlineVideoOff = UDSIconToken.asset("outline-video-off")
-    static let outlineVideoPlus = UDSIconToken.asset("outline-video-plus")
-    static let outlineVirus = UDSIconToken.asset("outline-virus")
-    static let outlineVirusOff = UDSIconToken.asset("outline-virus-off")
     static let outlineVolume = UDSIconToken.asset("outline-volume")
-    static let outlineVolume2 = UDSIconToken.asset("outline-volume-2")
-    static let outlineVolumeOff = UDSIconToken.asset("outline-volume-off")
     static let outlineWallet = UDSIconToken.asset("outline-wallet")
-    static let outlineWalletOff = UDSIconToken.asset("outline-wallet-off")
-    static let outlineWallpaper = UDSIconToken.asset("outline-wallpaper")
-    static let outlineWand = UDSIconToken.asset("outline-wand")
-    static let outlineWebhook = UDSIconToken.asset("outline-webhook")
-    static let outlineWebhookOff = UDSIconToken.asset("outline-webhook-off")
-    static let outlineWeight = UDSIconToken.asset("outline-weight")
-    static let outlineWheat = UDSIconToken.asset("outline-wheat")
-    static let outlineWheatOff = UDSIconToken.asset("outline-wheat-off")
     static let outlineWifi = UDSIconToken.asset("outline-wifi")
-    static let outlineWifiOff = UDSIconToken.asset("outline-wifi-off")
     static let outlineWind = UDSIconToken.asset("outline-wind")
-    static let outlineWindOff = UDSIconToken.asset("outline-wind-off")
     static let outlineWindow = UDSIconToken.asset("outline-window")
-    static let outlineWindowMaximize = UDSIconToken.asset("outline-window-maximize")
-    static let outlineWindowOff = UDSIconToken.asset("outline-window-off")
     static let outlineWorld = UDSIconToken.asset("outline-world")
-    static let outlineWorldCheck = UDSIconToken.asset("outline-world-check")
-    static let outlineWorldCode = UDSIconToken.asset("outline-world-code")
-    static let outlineWorldDown = UDSIconToken.asset("outline-world-down")
-    static let outlineWorldDownload = UDSIconToken.asset("outline-world-download")
-    static let outlineWorldHeart = UDSIconToken.asset("outline-world-heart")
-    static let outlineWorldMap = UDSIconToken.asset("outline-world-map")
-    static let outlineWorldMinus = UDSIconToken.asset("outline-world-minus")
-    static let outlineWorldOff = UDSIconToken.asset("outline-world-off")
-    static let outlineWorldPause = UDSIconToken.asset("outline-world-pause")
-    static let outlineWorldPin = UDSIconToken.asset("outline-world-pin")
-    static let outlineWorldPlus = UDSIconToken.asset("outline-world-plus")
-    static let outlineWorldQuestion = UDSIconToken.asset("outline-world-question")
-    static let outlineWorldSearch = UDSIconToken.asset("outline-world-search")
-    static let outlineWorldShare = UDSIconToken.asset("outline-world-share")
-    static let outlineWorldStar = UDSIconToken.asset("outline-world-star")
-    static let outlineWorldUp = UDSIconToken.asset("outline-world-up")
-    static let outlineWorldUpload = UDSIconToken.asset("outline-world-upload")
-    static let outlineWorldX = UDSIconToken.asset("outline-world-x")
     static let outlineX = UDSIconToken.asset("outline-x")
-    static let outlineZodiacAquarius = UDSIconToken.asset("outline-zodiac-aquarius")
-    static let outlineZodiacAries = UDSIconToken.asset("outline-zodiac-aries")
-    static let outlineZodiacCancer = UDSIconToken.asset("outline-zodiac-cancer")
-    static let outlineZodiacCapricorn = UDSIconToken.asset("outline-zodiac-capricorn")
-    static let outlineZodiacGemini = UDSIconToken.asset("outline-zodiac-gemini")
-    static let outlineZodiacLeo = UDSIconToken.asset("outline-zodiac-leo")
-    static let outlineZodiacLibra = UDSIconToken.asset("outline-zodiac-libra")
-    static let outlineZodiacPisces = UDSIconToken.asset("outline-zodiac-pisces")
-    static let outlineZodiacSagittarius = UDSIconToken.asset("outline-zodiac-sagittarius")
-    static let outlineZodiacScorpio = UDSIconToken.asset("outline-zodiac-scorpio")
-    static let outlineZodiacTaurus = UDSIconToken.asset("outline-zodiac-taurus")
-    static let outlineZodiacVirgo = UDSIconToken.asset("outline-zodiac-virgo")
-    static let outlineZoomIn = UDSIconToken.asset("outline-zoom-in")
-    static let outlineZoomOut = UDSIconToken.asset("outline-zoom-out")
 }
 
 /// All bundled SVG icons, paired with their stable kebab-case asset names.
 public enum UDSIconAssets {
     public static let all: [(name: String, token: UDSIconToken)] = [
         ("activity", .outlineActivity),
-        ("ad", .outlineAd),
-        ("alarm-smoke", .outlineAlarmSmoke),
         ("alert-circle", .outlineAlertCircle),
-        ("alert-circle-off", .outlineAlertCircleOff),
-        ("alert-square", .outlineAlertSquare),
-        ("align-center", .outlineAlignCenter),
-        ("align-left", .outlineAlignLeft),
-        ("align-right", .outlineAlignRight),
-        ("ambulance", .outlineAmbulance),
-        ("ampersand", .outlineAmpersand),
-        ("anchor", .outlineAnchor),
-        ("angle", .outlineAngle),
-        ("antenna", .outlineAntenna),
-        ("aperture", .outlineAperture),
-        ("app-window", .outlineAppWindow),
-        ("apple", .outlineApple),
         ("apps", .outlineApps),
-        ("apps-off", .outlineAppsOff),
         ("archive", .outlineArchive),
-        ("archive-off", .outlineArchiveOff),
-        ("armchair", .outlineArmchair),
         ("arrow-back", .outlineArrowBack),
-        ("arrow-back-up", .outlineArrowBackUp),
-        ("arrow-big-down", .outlineArrowBigDown),
-        ("arrow-big-left", .outlineArrowBigLeft),
-        ("arrow-big-right", .outlineArrowBigRight),
-        ("arrow-big-up", .outlineArrowBigUp),
         ("arrow-down", .outlineArrowDown),
-        ("arrow-down-circle", .outlineArrowDownCircle),
-        ("arrow-down-left", .outlineArrowDownLeft),
-        ("arrow-down-right", .outlineArrowDownRight),
-        ("arrow-down-square", .outlineArrowDownSquare),
         ("arrow-forward", .outlineArrowForward),
         ("arrow-left", .outlineArrowLeft),
-        ("arrow-left-circle", .outlineArrowLeftCircle),
-        ("arrow-left-right", .outlineArrowLeftRight),
-        ("arrow-left-square", .outlineArrowLeftSquare),
         ("arrow-right", .outlineArrowRight),
-        ("arrow-right-circle", .outlineArrowRightCircle),
-        ("arrow-right-square", .outlineArrowRightSquare),
         ("arrow-up", .outlineArrowUp),
-        ("arrow-up-circle", .outlineArrowUpCircle),
-        ("arrow-up-left", .outlineArrowUpLeft),
-        ("arrow-up-right", .outlineArrowUpRight),
-        ("arrow-up-square", .outlineArrowUpSquare),
-        ("asterisk", .outlineAsterisk),
-        ("atom", .outlineAtom),
-        ("award", .outlineAward),
-        ("award-off", .outlineAwardOff),
-        ("axe", .outlineAxe),
-        ("backpack", .outlineBackpack),
-        ("badge", .outlineBadge),
-        ("balloon", .outlineBalloon),
-        ("ban", .outlineBan),
-        ("banana", .outlineBanana),
-        ("bandage", .outlineBandage),
         ("barcode", .outlineBarcode),
-        ("barcode-off", .outlineBarcodeOff),
-        ("barrel", .outlineBarrel),
-        ("baseline", .outlineBaseline),
-        ("bath", .outlineBath),
         ("battery", .outlineBattery),
-        ("battery-charging", .outlineBatteryCharging),
-        ("battery-off", .outlineBatteryOff),
-        ("bed", .outlineBed),
-        ("beer", .outlineBeer),
-        ("beer-off", .outlineBeerOff),
         ("bell", .outlineBell),
         ("bell-check", .outlineBellCheck),
-        ("bell-code", .outlineBellCode),
-        ("bell-down", .outlineBellDown),
-        ("bell-heart", .outlineBellHeart),
-        ("bell-minus", .outlineBellMinus),
         ("bell-off", .outlineBellOff),
-        ("bell-pause", .outlineBellPause),
-        ("bell-pin", .outlineBellPin),
         ("bell-plus", .outlineBellPlus),
-        ("bell-question", .outlineBellQuestion),
-        ("bell-search", .outlineBellSearch),
-        ("bell-share", .outlineBellShare),
-        ("bell-star", .outlineBellStar),
-        ("bell-up", .outlineBellUp),
         ("bell-x", .outlineBellX),
-        ("bike", .outlineBike),
-        ("binary", .outlineBinary),
-        ("binoculars", .outlineBinoculars),
-        ("biohazard", .outlineBiohazard),
-        ("blender", .outlineBlender),
-        ("blocks", .outlineBlocks),
         ("bluetooth", .outlineBluetooth),
-        ("bluetooth-connected", .outlineBluetoothConnected),
-        ("bluetooth-off", .outlineBluetoothOff),
-        ("bluetooth-x", .outlineBluetoothX),
-        ("bold", .outlineBold),
-        ("bolt", .outlineBolt),
-        ("bomb", .outlineBomb),
-        ("bone", .outlineBone),
         ("book", .outlineBook),
-        ("book-download", .outlineBookDownload),
-        ("book-off", .outlineBookOff),
-        ("book-upload", .outlineBookUpload),
         ("bookmark", .outlineBookmark),
-        ("bookmark-edit", .outlineBookmarkEdit),
-        ("bookmark-minus", .outlineBookmarkMinus),
-        ("bookmark-off", .outlineBookmarkOff),
         ("bookmark-plus", .outlineBookmarkPlus),
-        ("bookmark-question", .outlineBookmarkQuestion),
         ("box", .outlineBox),
-        ("box-off", .outlineBoxOff),
-        ("braces", .outlineBraces),
-        ("brackets", .outlineBrackets),
-        ("brain", .outlineBrain),
         ("briefcase", .outlineBriefcase),
-        ("briefcase-off", .outlineBriefcaseOff),
-        ("brush", .outlineBrush),
-        ("bug", .outlineBug),
-        ("bug-off", .outlineBugOff),
         ("building", .outlineBuilding),
-        ("building-minus", .outlineBuildingMinus),
-        ("building-off", .outlineBuildingOff),
-        ("building-plus", .outlineBuildingPlus),
-        ("building-store", .outlineBuildingStore),
-        ("bus", .outlineBus),
-        ("cake", .outlineCake),
-        ("calculator", .outlineCalculator),
         ("calendar", .outlineCalendar),
         ("calendar-check", .outlineCalendarCheck),
         ("calendar-clock", .outlineCalendarClock),
-        ("calendar-code", .outlineCalendarCode),
-        ("calendar-cog", .outlineCalendarCog),
-        ("calendar-down", .outlineCalendarDown),
-        ("calendar-heart", .outlineCalendarHeart),
         ("calendar-minus", .outlineCalendarMinus),
-        ("calendar-off", .outlineCalendarOff),
-        ("calendar-pause", .outlineCalendarPause),
-        ("calendar-pin", .outlineCalendarPin),
         ("calendar-plus", .outlineCalendarPlus),
-        ("calendar-question", .outlineCalendarQuestion),
         ("calendar-search", .outlineCalendarSearch),
-        ("calendar-share", .outlineCalendarShare),
-        ("calendar-star", .outlineCalendarStar),
-        ("calendar-time", .outlineCalendarTime),
-        ("calendar-up", .outlineCalendarUp),
-        ("calendar-user", .outlineCalendarUser),
         ("calendar-x", .outlineCalendarX),
         ("camera", .outlineCamera),
         ("camera-check", .outlineCameraCheck),
-        ("camera-code", .outlineCameraCode),
-        ("camera-down", .outlineCameraDown),
-        ("camera-heart", .outlineCameraHeart),
-        ("camera-minus", .outlineCameraMinus),
-        ("camera-moon", .outlineCameraMoon),
-        ("camera-off", .outlineCameraOff),
-        ("camera-pause", .outlineCameraPause),
-        ("camera-pin", .outlineCameraPin),
         ("camera-plus", .outlineCameraPlus),
-        ("camera-question", .outlineCameraQuestion),
-        ("camera-search", .outlineCameraSearch),
-        ("camera-share", .outlineCameraShare),
-        ("camera-star", .outlineCameraStar),
-        ("camera-up", .outlineCameraUp),
         ("camera-x", .outlineCameraX),
-        ("candy", .outlineCandy),
-        ("candy-off", .outlineCandyOff),
-        ("cannabis", .outlineCannabis),
         ("car", .outlineCar),
-        ("car-off", .outlineCarOff),
-        ("caravan", .outlineCaravan),
-        ("carrot", .outlineCarrot),
         ("cash", .outlineCash),
-        ("cash-coin", .outlineCashCoin),
-        ("cash-edit", .outlineCashEdit),
-        ("cash-heart", .outlineCashHeart),
-        ("cash-minus", .outlineCashMinus),
-        ("cash-move-back", .outlineCashMoveBack),
-        ("cash-off", .outlineCashOff),
-        ("cash-plus", .outlineCashPlus),
-        ("cast", .outlineCast),
-        ("cat", .outlineCat),
-        ("chart-area", .outlineChartArea),
-        ("chart-bar", .outlineChartBar),
-        ("chart-column", .outlineChartColumn),
-        ("chart-line", .outlineChartLine),
-        ("chart-pie", .outlineChartPie),
-        ("chart-scatter", .outlineChartScatter),
         ("check", .outlineCheck),
-        ("chef-hat", .outlineChefHat),
-        ("cherry", .outlineCherry),
-        ("chess-bishop", .outlineChessBishop),
-        ("chess-king", .outlineChessKing),
-        ("chess-knight", .outlineChessKnight),
-        ("chess-queen", .outlineChessQueen),
-        ("chess-rook", .outlineChessRook),
         ("chevron-down", .outlineChevronDown),
         ("chevron-left", .outlineChevronLeft),
         ("chevron-right", .outlineChevronRight),
         ("chevron-up", .outlineChevronUp),
-        ("chevrons-down", .outlineChevronsDown),
-        ("chevrons-left", .outlineChevronsLeft),
-        ("chevrons-right", .outlineChevronsRight),
-        ("chevrons-up", .outlineChevronsUp),
         ("circle", .outlineCircle),
-        ("circle-arrow-down", .outlineCircleArrowDown),
-        ("circle-arrow-left", .outlineCircleArrowLeft),
-        ("circle-arrow-right", .outlineCircleArrowRight),
-        ("circle-arrow-up", .outlineCircleArrowUp),
-        ("circle-check", .outlineCircleCheck),
-        ("circle-chevron-down", .outlineCircleChevronDown),
-        ("circle-chevron-left", .outlineCircleChevronLeft),
-        ("circle-chevron-right", .outlineCircleChevronRight),
-        ("circle-chevron-up", .outlineCircleChevronUp),
-        ("circle-dashed", .outlineCircleDashed),
-        ("circle-dashed-check", .outlineCircleDashedCheck),
-        ("circle-dot", .outlineCircleDot),
-        ("circle-heart", .outlineCircleHeart),
-        ("circle-key", .outlineCircleKey),
-        ("circle-minus", .outlineCircleMinus),
-        ("circle-off", .outlineCircleOff),
-        ("circle-pause", .outlineCirclePause),
-        ("circle-play", .outlineCirclePlay),
-        ("circle-plus", .outlineCirclePlus),
-        ("circle-plus-minus", .outlineCirclePlusMinus),
-        ("circle-square", .outlineCircleSquare),
-        ("circle-stop", .outlineCircleStop),
-        ("circle-x", .outlineCircleX),
         ("clipboard", .outlineClipboard),
-        ("clipboard-check", .outlineClipboardCheck),
-        ("clipboard-copy", .outlineClipboardCopy),
-        ("clipboard-heart", .outlineClipboardHeart),
-        ("clipboard-list", .outlineClipboardList),
-        ("clipboard-off", .outlineClipboardOff),
-        ("clipboard-plus", .outlineClipboardPlus),
-        ("clipboard-search", .outlineClipboardSearch),
-        ("clipboard-text", .outlineClipboardText),
-        ("clipboard-x", .outlineClipboardX),
         ("clock", .outlineClock),
-        ("clock-12", .outlineClock12),
-        ("clock-2", .outlineClock2),
-        ("clock-check", .outlineClockCheck),
-        ("clock-code", .outlineClockCode),
-        ("clock-down", .outlineClockDown),
-        ("clock-edit", .outlineClockEdit),
-        ("clock-heart", .outlineClockHeart),
-        ("clock-minus", .outlineClockMinus),
-        ("clock-off", .outlineClockOff),
-        ("clock-pause", .outlineClockPause),
-        ("clock-pin", .outlineClockPin),
-        ("clock-play", .outlineClockPlay),
-        ("clock-plus", .outlineClockPlus),
-        ("clock-question", .outlineClockQuestion),
-        ("clock-search", .outlineClockSearch),
-        ("clock-share", .outlineClockShare),
-        ("clock-shield", .outlineClockShield),
-        ("clock-star", .outlineClockStar),
-        ("clock-stop", .outlineClockStop),
-        ("clock-up", .outlineClockUp),
-        ("clock-x", .outlineClockX),
         ("cloud", .outlineCloud),
         ("cloud-check", .outlineCloudCheck),
-        ("cloud-code", .outlineCloudCode),
-        ("cloud-cog", .outlineCloudCog),
-        ("cloud-down", .outlineCloudDown),
         ("cloud-download", .outlineCloudDownload),
-        ("cloud-fog", .outlineCloudFog),
-        ("cloud-heart", .outlineCloudHeart),
-        ("cloud-lock", .outlineCloudLock),
-        ("cloud-minus", .outlineCloudMinus),
-        ("cloud-off", .outlineCloudOff),
-        ("cloud-pause", .outlineCloudPause),
-        ("cloud-pin", .outlineCloudPin),
-        ("cloud-plus", .outlineCloudPlus),
-        ("cloud-question", .outlineCloudQuestion),
-        ("cloud-rain", .outlineCloudRain),
-        ("cloud-search", .outlineCloudSearch),
-        ("cloud-share", .outlineCloudShare),
-        ("cloud-snow", .outlineCloudSnow),
-        ("cloud-star", .outlineCloudStar),
-        ("cloud-up", .outlineCloudUp),
         ("cloud-upload", .outlineCloudUpload),
         ("cloud-x", .outlineCloudX),
-        ("clover", .outlineClover),
         ("code", .outlineCode),
-        ("code-circle", .outlineCodeCircle),
-        ("code-minus", .outlineCodeMinus),
-        ("code-off", .outlineCodeOff),
-        ("code-plus", .outlineCodePlus),
-        ("coffee", .outlineCoffee),
         ("coin", .outlineCoin),
-        ("coin-off", .outlineCoinOff),
-        ("coins", .outlineCoins),
-        ("columns-2", .outlineColumns2),
-        ("columns-3", .outlineColumns3),
-        ("command", .outlineCommand),
         ("compass", .outlineCompass),
-        ("compass-off", .outlineCompassOff),
-        ("cone", .outlineCone),
-        ("container", .outlineContainer),
-        ("contrast", .outlineContrast),
-        ("cookie", .outlineCookie),
         ("copy", .outlineCopy),
-        ("copy-check", .outlineCopyCheck),
-        ("copy-minus", .outlineCopyMinus),
-        ("copy-off", .outlineCopyOff),
-        ("copy-plus", .outlineCopyPlus),
-        ("copy-x", .outlineCopyX),
-        ("copyleft", .outlineCopyleft),
-        ("copyright", .outlineCopyright),
-        ("corner-down-left", .outlineCornerDownLeft),
-        ("corner-down-right", .outlineCornerDownRight),
-        ("corner-left-down", .outlineCornerLeftDown),
-        ("corner-left-up", .outlineCornerLeftUp),
-        ("corner-right-down", .outlineCornerRightDown),
-        ("corner-right-up", .outlineCornerRightUp),
-        ("corner-up-left", .outlineCornerUpLeft),
-        ("corner-up-right", .outlineCornerUpRight),
-        ("cpu", .outlineCpu),
-        ("creative-commons", .outlineCreativeCommons),
         ("credit-card", .outlineCreditCard),
-        ("crop", .outlineCrop),
-        ("cross", .outlineCross),
-        ("crosshair", .outlineCrosshair),
-        ("crown", .outlineCrown),
-        ("currency", .outlineCurrency),
-        ("cylinder", .outlineCylinder),
         ("dashboard", .outlineDashboard),
-        ("dashboard-off", .outlineDashboardOff),
         ("database", .outlineDatabase),
-        ("database-edit", .outlineDatabaseEdit),
-        ("database-heart", .outlineDatabaseHeart),
-        ("database-minus", .outlineDatabaseMinus),
-        ("database-off", .outlineDatabaseOff),
-        ("database-plus", .outlineDatabasePlus),
-        ("database-search", .outlineDatabaseSearch),
-        ("database-share", .outlineDatabaseShare),
-        ("database-star", .outlineDatabaseStar),
-        ("database-x", .outlineDatabaseX),
-        ("device-camera-phone", .outlineDeviceCameraPhone),
         ("device-desktop", .outlineDeviceDesktop),
-        ("device-heart-monitor", .outlineDeviceHeartMonitor),
-        ("device-imac-x", .outlineDeviceImacX),
-        ("device-ipad-x", .outlineDeviceIpadX),
         ("device-laptop", .outlineDeviceLaptop),
-        ("device-laptop-off", .outlineDeviceLaptopOff),
         ("device-mobile", .outlineDeviceMobile),
         ("device-mobile-check", .outlineDeviceMobileCheck),
-        ("device-mobile-code", .outlineDeviceMobileCode),
-        ("device-mobile-down", .outlineDeviceMobileDown),
-        ("device-mobile-heart", .outlineDeviceMobileHeart),
-        ("device-mobile-message", .outlineDeviceMobileMessage),
-        ("device-mobile-minus", .outlineDeviceMobileMinus),
-        ("device-mobile-off", .outlineDeviceMobileOff),
-        ("device-mobile-pause", .outlineDeviceMobilePause),
-        ("device-mobile-pin", .outlineDeviceMobilePin),
         ("device-mobile-plus", .outlineDeviceMobilePlus),
-        ("device-mobile-question", .outlineDeviceMobileQuestion),
         ("device-mobile-search", .outlineDeviceMobileSearch),
-        ("device-mobile-share", .outlineDeviceMobileShare),
-        ("device-mobile-star", .outlineDeviceMobileStar),
-        ("device-mobile-up", .outlineDeviceMobileUp),
         ("device-mobile-x", .outlineDeviceMobileX),
-        ("device-speaker", .outlineDeviceSpeaker),
-        ("device-speaker-off", .outlineDeviceSpeakerOff),
         ("device-tablet", .outlineDeviceTablet),
-        ("device-tablet-x", .outlineDeviceTabletX),
-        ("device-tv", .outlineDeviceTv),
-        ("device-tv-off", .outlineDeviceTvOff),
-        ("device-tv-old", .outlineDeviceTvOld),
-        ("device-watch", .outlineDeviceWatch),
-        ("device-watch-check", .outlineDeviceWatchCheck),
-        ("device-watch-code", .outlineDeviceWatchCode),
-        ("device-watch-down", .outlineDeviceWatchDown),
-        ("device-watch-heart", .outlineDeviceWatchHeart),
-        ("device-watch-minus", .outlineDeviceWatchMinus),
-        ("device-watch-off", .outlineDeviceWatchOff),
-        ("device-watch-pause", .outlineDeviceWatchPause),
-        ("device-watch-pin", .outlineDeviceWatchPin),
-        ("device-watch-plus", .outlineDeviceWatchPlus),
-        ("device-watch-question", .outlineDeviceWatchQuestion),
-        ("device-watch-search", .outlineDeviceWatchSearch),
-        ("device-watch-share", .outlineDeviceWatchShare),
-        ("device-watch-star", .outlineDeviceWatchStar),
-        ("device-watch-up", .outlineDeviceWatchUp),
-        ("device-watch-x", .outlineDeviceWatchX),
-        ("diamond", .outlineDiamond),
-        ("dice-1", .outlineDice1),
-        ("dice-2", .outlineDice2),
-        ("dice-3", .outlineDice3),
-        ("dice-4", .outlineDice4),
-        ("dice-5", .outlineDice5),
-        ("dice-6", .outlineDice6),
-        ("disc", .outlineDisc),
-        ("divide", .outlineDivide),
-        ("dna", .outlineDna),
-        ("dna-off", .outlineDnaOff),
-        ("dog", .outlineDog),
         ("download", .outlineDownload),
-        ("download-off", .outlineDownloadOff),
-        ("drone", .outlineDrone),
-        ("droplet", .outlineDroplet),
-        ("droplet-off", .outlineDropletOff),
-        ("droplets", .outlineDroplets),
-        ("dumbbell", .outlineDumbbell),
-        ("ear", .outlineEar),
-        ("ear-off", .outlineEarOff),
         ("edit", .outlineEdit),
-        ("edit-circle", .outlineEditCircle),
-        ("edit-circle-off", .outlineEditCircleOff),
-        ("edit-off", .outlineEditOff),
-        ("egg", .outlineEgg),
-        ("egg-fried", .outlineEggFried),
-        ("egg-off", .outlineEggOff),
-        ("engine", .outlineEngine),
-        ("equal", .outlineEqual),
-        ("equal-not", .outlineEqualNot),
-        ("eraser", .outlineEraser),
         ("external-link", .outlineExternalLink),
         ("eye", .outlineEye),
-        ("eye-check", .outlineEyeCheck),
-        ("eye-closed", .outlineEyeClosed),
-        ("eye-code", .outlineEyeCode),
-        ("eye-down", .outlineEyeDown),
-        ("eye-edit", .outlineEyeEdit),
-        ("eye-heart", .outlineEyeHeart),
-        ("eye-minus", .outlineEyeMinus),
         ("eye-off", .outlineEyeOff),
-        ("eye-pause", .outlineEyePause),
-        ("eye-pin", .outlineEyePin),
-        ("eye-plus", .outlineEyePlus),
-        ("eye-question", .outlineEyeQuestion),
-        ("eye-search", .outlineEyeSearch),
-        ("eye-share", .outlineEyeShare),
-        ("eye-star", .outlineEyeStar),
-        ("eye-table", .outlineEyeTable),
-        ("eye-up", .outlineEyeUp),
-        ("eye-x", .outlineEyeX),
-        ("feather", .outlineFeather),
-        ("fence", .outlineFence),
         ("file", .outlineFile),
-        ("file-alert", .outlineFileAlert),
-        ("file-arrow-left", .outlineFileArrowLeft),
-        ("file-arrow-right", .outlineFileArrowRight),
-        ("file-barcode", .outlineFileBarcode),
         ("file-check", .outlineFileCheck),
         ("file-code", .outlineFileCode),
-        ("file-code-2", .outlineFileCode2),
-        ("file-database", .outlineFileDatabase),
-        ("file-diff", .outlineFileDiff),
-        ("file-digit", .outlineFileDigit),
         ("file-download", .outlineFileDownload),
-        ("file-info", .outlineFileInfo),
-        ("file-lock", .outlineFileLock),
         ("file-minus", .outlineFileMinus),
-        ("file-music", .outlineFileMusic),
-        ("file-off", .outlineFileOff),
-        ("file-pencil", .outlineFilePencil),
-        ("file-percent", .outlineFilePercent),
-        ("file-phone", .outlineFilePhone),
         ("file-plus", .outlineFilePlus),
         ("file-search", .outlineFileSearch),
-        ("file-settings", .outlineFileSettings),
-        ("file-signal", .outlineFileSignal),
-        ("file-spreadsheet", .outlineFileSpreadsheet),
-        ("file-stack", .outlineFileStack),
-        ("file-star", .outlineFileStar),
-        ("file-symlink", .outlineFileSymlink),
         ("file-text", .outlineFileText),
-        ("file-text-ai", .outlineFileTextAi),
-        ("file-text-shield", .outlineFileTextShield),
-        ("file-text-spark", .outlineFileTextSpark),
-        ("file-time", .outlineFileTime),
         ("file-upload", .outlineFileUpload),
         ("file-x", .outlineFileX),
-        ("files", .outlineFiles),
         ("filter", .outlineFilter),
-        ("filter-2-code", .outlineFilter2Code),
-        ("filter-2-pause", .outlineFilter2Pause),
-        ("filter-2-x", .outlineFilter2X),
-        ("filter-check", .outlineFilterCheck),
-        ("filter-code", .outlineFilterCode),
-        ("filter-down", .outlineFilterDown),
-        ("filter-edit", .outlineFilterEdit),
-        ("filter-heart", .outlineFilterHeart),
-        ("filter-minus", .outlineFilterMinus),
-        ("filter-off", .outlineFilterOff),
-        ("filter-pause", .outlineFilterPause),
-        ("filter-pin", .outlineFilterPin),
-        ("filter-plus", .outlineFilterPlus),
-        ("filter-question", .outlineFilterQuestion),
-        ("filter-search", .outlineFilterSearch),
-        ("filter-share", .outlineFilterShare),
-        ("filter-star", .outlineFilterStar),
-        ("filter-up", .outlineFilterUp),
-        ("filter-x", .outlineFilterX),
-        ("fire-extinguisher", .outlineFireExtinguisher),
-        ("fish", .outlineFish),
-        ("fish-off", .outlineFishOff),
         ("flag", .outlineFlag),
-        ("flag-off", .outlineFlagOff),
-        ("flame", .outlineFlame),
-        ("flower", .outlineFlower),
-        ("focus", .outlineFocus),
         ("folder", .outlineFolder),
         ("folder-check", .outlineFolderCheck),
-        ("folder-code", .outlineFolderCode),
-        ("folder-cog", .outlineFolderCog),
-        ("folder-down", .outlineFolderDown),
-        ("folder-heart", .outlineFolderHeart),
-        ("folder-lock", .outlineFolderLock),
         ("folder-minus", .outlineFolderMinus),
-        ("folder-off", .outlineFolderOff),
         ("folder-open", .outlineFolderOpen),
-        ("folder-pause", .outlineFolderPause),
-        ("folder-pin", .outlineFolderPin),
         ("folder-plus", .outlineFolderPlus),
-        ("folder-question", .outlineFolderQuestion),
-        ("folder-root", .outlineFolderRoot),
         ("folder-search", .outlineFolderSearch),
-        ("folder-share", .outlineFolderShare),
-        ("folder-star", .outlineFolderStar),
-        ("folder-symlink", .outlineFolderSymlink),
-        ("folder-up", .outlineFolderUp),
-        ("folder-user", .outlineFolderUser),
         ("folder-x", .outlineFolderX),
-        ("folders", .outlineFolders),
-        ("forklift", .outlineForklift),
-        ("frame", .outlineFrame),
-        ("galaxy", .outlineGalaxy),
-        ("gauge", .outlineGauge),
-        ("gavel", .outlineGavel),
-        ("ghost", .outlineGhost),
         ("gift", .outlineGift),
-        ("gift-off", .outlineGiftOff),
-        ("git-branch", .outlineGitBranch),
-        ("git-compare", .outlineGitCompare),
-        ("git-fork", .outlineGitFork),
-        ("git-merge", .outlineGitMerge),
-        ("git-pull-request", .outlineGitPullRequest),
-        ("git-pull-request-closed", .outlineGitPullRequestClosed),
-        ("git-pull-request-draft", .outlineGitPullRequestDraft),
         ("globe", .outlineGlobe),
-        ("globe-off", .outlineGlobeOff),
-        ("gpu", .outlineGpu),
-        ("grape", .outlineGrape),
         ("graph", .outlineGraph),
-        ("graph-off", .outlineGraphOff),
-        ("grid-3x3", .outlineGrid3x3),
-        ("grip-horizontal", .outlineGripHorizontal),
-        ("grip-vertical", .outlineGripVertical),
-        ("hammer", .outlineHammer),
-        ("hand-grab", .outlineHandGrab),
-        ("hash", .outlineHash),
-        ("haze", .outlineHaze),
-        ("heading", .outlineHeading),
-        ("headphones", .outlineHeadphones),
-        ("headset", .outlineHeadset),
         ("heart", .outlineHeart),
         ("heart-check", .outlineHeartCheck),
-        ("heart-code", .outlineHeartCode),
-        ("heart-down", .outlineHeartDown),
         ("heart-handshake", .outlineHeartHandshake),
         ("heart-minus", .outlineHeartMinus),
-        ("heart-off", .outlineHeartOff),
-        ("heart-pause", .outlineHeartPause),
-        ("heart-pin", .outlineHeartPin),
         ("heart-plus", .outlineHeartPlus),
-        ("heart-question", .outlineHeartQuestion),
-        ("heart-search", .outlineHeartSearch),
-        ("heart-share", .outlineHeartShare),
-        ("heart-star", .outlineHeartStar),
-        ("heart-up", .outlineHeartUp),
         ("heart-x", .outlineHeartX),
-        ("helicopter", .outlineHelicopter),
         ("help", .outlineHelp),
-        ("help-circle", .outlineHelpCircle),
-        ("help-off", .outlineHelpOff),
-        ("help-square", .outlineHelpSquare),
-        ("hexagon", .outlineHexagon),
         ("home", .outlineHome),
-        ("home-check", .outlineHomeCheck),
-        ("home-down", .outlineHomeDown),
         ("home-edit", .outlineHomeEdit),
-        ("home-heart", .outlineHomeHeart),
-        ("home-link", .outlineHomeLink),
-        ("home-lock", .outlineHomeLock),
-        ("home-minus", .outlineHomeMinus),
-        ("home-off", .outlineHomeOff),
         ("home-plus", .outlineHomePlus),
-        ("home-question", .outlineHomeQuestion),
-        ("home-search", .outlineHomeSearch),
-        ("home-share", .outlineHomeShare),
-        ("home-shield", .outlineHomeShield),
-        ("home-star", .outlineHomeStar),
-        ("home-up", .outlineHomeUp),
         ("home-x", .outlineHomeX),
-        ("hospital", .outlineHospital),
-        ("hourglass", .outlineHourglass),
-        ("inbox", .outlineInbox),
-        ("infinity", .outlineInfinity),
-        ("info-circle", .outlineInfoCircle),
-        ("info-square", .outlineInfoSquare),
-        ("italic", .outlineItalic),
-        ("kayak", .outlineKayak),
         ("key", .outlineKey),
-        ("key-off", .outlineKeyOff),
         ("keyboard", .outlineKeyboard),
-        ("keyboard-off", .outlineKeyboardOff),
-        ("lambda", .outlineLambda),
-        ("lamp", .outlineLamp),
-        ("lasso", .outlineLasso),
-        ("layers-off", .outlineLayersOff),
         ("layout", .outlineLayout),
-        ("layout-dashboard", .outlineLayoutDashboard),
-        ("layout-grid", .outlineLayoutGrid),
-        ("layout-grid-add", .outlineLayoutGridAdd),
-        ("layout-list", .outlineLayoutList),
-        ("layout-off", .outlineLayoutOff),
         ("leaf", .outlineLeaf),
-        ("leaf-off", .outlineLeafOff),
-        ("lens-concave", .outlineLensConcave),
-        ("lens-convex", .outlineLensConvex),
-        ("library", .outlineLibrary),
         ("link", .outlineLink),
-        ("link-minus", .outlineLinkMinus),
-        ("link-off", .outlineLinkOff),
-        ("link-plus", .outlineLinkPlus),
         ("list", .outlineList),
-        ("list-check", .outlineListCheck),
-        ("list-search", .outlineListSearch),
-        ("list-tree", .outlineListTree),
-        ("loader", .outlineLoader),
         ("location", .outlineLocation),
-        ("location-check", .outlineLocationCheck),
-        ("location-code", .outlineLocationCode),
-        ("location-down", .outlineLocationDown),
-        ("location-heart", .outlineLocationHeart),
-        ("location-minus", .outlineLocationMinus),
-        ("location-off", .outlineLocationOff),
-        ("location-pause", .outlineLocationPause),
-        ("location-pin", .outlineLocationPin),
-        ("location-plus", .outlineLocationPlus),
-        ("location-question", .outlineLocationQuestion),
-        ("location-search", .outlineLocationSearch),
-        ("location-share", .outlineLocationShare),
-        ("location-star", .outlineLocationStar),
-        ("location-up", .outlineLocationUp),
-        ("location-x", .outlineLocationX),
         ("lock", .outlineLock),
-        ("lock-check", .outlineLockCheck),
-        ("lock-code", .outlineLockCode),
-        ("lock-down", .outlineLockDown),
-        ("lock-heart", .outlineLockHeart),
-        ("lock-minus", .outlineLockMinus),
-        ("lock-off", .outlineLockOff),
-        ("lock-open", .outlineLockOpen),
-        ("lock-pause", .outlineLockPause),
-        ("lock-pin", .outlineLockPin),
-        ("lock-plus", .outlineLockPlus),
-        ("lock-question", .outlineLockQuestion),
-        ("lock-search", .outlineLockSearch),
-        ("lock-share", .outlineLockShare),
-        ("lock-square", .outlineLockSquare),
-        ("lock-star", .outlineLockStar),
-        ("lock-up", .outlineLockUp),
-        ("lock-x", .outlineLockX),
         ("login", .outlineLogin),
         ("logout", .outlineLogout),
-        ("logs", .outlineLogs),
-        ("lollipop", .outlineLollipop),
-        ("luggage", .outlineLuggage),
-        ("magnet", .outlineMagnet),
         ("mail", .outlineMail),
         ("mail-check", .outlineMailCheck),
-        ("mail-code", .outlineMailCode),
-        ("mail-down", .outlineMailDown),
-        ("mail-heart", .outlineMailHeart),
-        ("mail-minus", .outlineMailMinus),
-        ("mail-off", .outlineMailOff),
-        ("mail-pause", .outlineMailPause),
-        ("mail-pin", .outlineMailPin),
         ("mail-plus", .outlineMailPlus),
-        ("mail-question", .outlineMailQuestion),
         ("mail-search", .outlineMailSearch),
-        ("mail-share", .outlineMailShare),
-        ("mail-star", .outlineMailStar),
-        ("mail-up", .outlineMailUp),
-        ("mail-x", .outlineMailX),
-        ("mailbox", .outlineMailbox),
         ("map", .outlineMap),
-        ("map-check", .outlineMapCheck),
-        ("map-code", .outlineMapCode),
-        ("map-down", .outlineMapDown),
-        ("map-heart", .outlineMapHeart),
-        ("map-lock", .outlineMapLock),
-        ("map-minus", .outlineMapMinus),
-        ("map-off", .outlineMapOff),
-        ("map-pause", .outlineMapPause),
         ("map-pin", .outlineMapPin),
-        ("map-pin-check", .outlineMapPinCheck),
-        ("map-pin-code", .outlineMapPinCode),
-        ("map-pin-down", .outlineMapPinDown),
-        ("map-pin-heart", .outlineMapPinHeart),
-        ("map-pin-minus", .outlineMapPinMinus),
-        ("map-pin-off", .outlineMapPinOff),
-        ("map-pin-pause", .outlineMapPinPause),
-        ("map-pin-pin", .outlineMapPinPin),
         ("map-pin-plus", .outlineMapPinPlus),
-        ("map-pin-question", .outlineMapPinQuestion),
-        ("map-pin-search", .outlineMapPinSearch),
-        ("map-pin-share", .outlineMapPinShare),
-        ("map-pin-star", .outlineMapPinStar),
-        ("map-pin-up", .outlineMapPinUp),
-        ("map-pin-x", .outlineMapPinX),
-        ("map-pinned", .outlineMapPinned),
-        ("map-plus", .outlineMapPlus),
-        ("map-question", .outlineMapQuestion),
-        ("map-route", .outlineMapRoute),
-        ("map-search", .outlineMapSearch),
-        ("map-share", .outlineMapShare),
-        ("map-shield", .outlineMapShield),
-        ("map-star", .outlineMapStar),
-        ("map-up", .outlineMapUp),
-        ("map-x", .outlineMapX),
-        ("mars", .outlineMars),
         ("maximize", .outlineMaximize),
-        ("maximize-off", .outlineMaximizeOff),
-        ("medal", .outlineMedal),
         ("menu", .outlineMenu),
         ("message", .outlineMessage),
-        ("message-2-code", .outlineMessage2Code),
-        ("message-2-pause", .outlineMessage2Pause),
-        ("message-2-x", .outlineMessage2X),
         ("message-check", .outlineMessageCheck),
         ("message-circle", .outlineMessageCircle),
-        ("message-circle-check", .outlineMessageCircleCheck),
-        ("message-circle-code", .outlineMessageCircleCode),
-        ("message-circle-down", .outlineMessageCircleDown),
-        ("message-circle-heart", .outlineMessageCircleHeart),
-        ("message-circle-minus", .outlineMessageCircleMinus),
-        ("message-circle-off", .outlineMessageCircleOff),
-        ("message-circle-pause", .outlineMessageCirclePause),
-        ("message-circle-pin", .outlineMessageCirclePin),
-        ("message-circle-plus", .outlineMessageCirclePlus),
-        ("message-circle-question", .outlineMessageCircleQuestion),
-        ("message-circle-search", .outlineMessageCircleSearch),
-        ("message-circle-share", .outlineMessageCircleShare),
-        ("message-circle-star", .outlineMessageCircleStar),
-        ("message-circle-up", .outlineMessageCircleUp),
-        ("message-circle-user", .outlineMessageCircleUser),
-        ("message-circle-x", .outlineMessageCircleX),
-        ("message-code", .outlineMessageCode),
-        ("message-down", .outlineMessageDown),
-        ("message-heart", .outlineMessageHeart),
-        ("message-minus", .outlineMessageMinus),
-        ("message-off", .outlineMessageOff),
-        ("message-pause", .outlineMessagePause),
-        ("message-pin", .outlineMessagePin),
         ("message-plus", .outlineMessagePlus),
-        ("message-question", .outlineMessageQuestion),
         ("message-reply", .outlineMessageReply),
         ("message-search", .outlineMessageSearch),
-        ("message-share", .outlineMessageShare),
-        ("message-star", .outlineMessageStar),
-        ("message-up", .outlineMessageUp),
         ("message-user", .outlineMessageUser),
         ("message-x", .outlineMessageX),
-        ("metronome", .outlineMetronome),
         ("microphone", .outlineMicrophone),
-        ("microphone-off", .outlineMicrophoneOff),
-        ("microscope", .outlineMicroscope),
-        ("microwave", .outlineMicrowave),
-        ("milk", .outlineMilk),
-        ("milk-off", .outlineMilkOff),
-        ("minimize", .outlineMinimize),
         ("minus", .outlineMinus),
         ("moon", .outlineMoon),
-        ("moon-off", .outlineMoonOff),
-        ("mosque", .outlineMosque),
-        ("motorbike", .outlineMotorbike),
-        ("mountain", .outlineMountain),
         ("mouse", .outlineMouse),
-        ("mouse-off", .outlineMouseOff),
         ("music", .outlineMusic),
-        ("music-check", .outlineMusicCheck),
-        ("music-code", .outlineMusicCode),
-        ("music-down", .outlineMusicDown),
-        ("music-heart", .outlineMusicHeart),
-        ("music-minus", .outlineMusicMinus),
-        ("music-off", .outlineMusicOff),
-        ("music-pause", .outlineMusicPause),
-        ("music-pin", .outlineMusicPin),
-        ("music-plus", .outlineMusicPlus),
-        ("music-question", .outlineMusicQuestion),
-        ("music-search", .outlineMusicSearch),
-        ("music-share", .outlineMusicShare),
-        ("music-star", .outlineMusicStar),
-        ("music-up", .outlineMusicUp),
-        ("music-x", .outlineMusicX),
         ("navigation", .outlineNavigation),
-        ("navigation-check", .outlineNavigationCheck),
-        ("navigation-code", .outlineNavigationCode),
-        ("navigation-down", .outlineNavigationDown),
-        ("navigation-heart", .outlineNavigationHeart),
-        ("navigation-minus", .outlineNavigationMinus),
-        ("navigation-off", .outlineNavigationOff),
-        ("navigation-pause", .outlineNavigationPause),
-        ("navigation-pin", .outlineNavigationPin),
-        ("navigation-plus", .outlineNavigationPlus),
-        ("navigation-question", .outlineNavigationQuestion),
-        ("navigation-search", .outlineNavigationSearch),
-        ("navigation-share", .outlineNavigationShare),
-        ("navigation-star", .outlineNavigationStar),
-        ("navigation-up", .outlineNavigationUp),
-        ("navigation-x", .outlineNavigationX),
-        ("network", .outlineNetwork),
-        ("nfc", .outlineNfc),
         ("note", .outlineNote),
-        ("note-off", .outlineNoteOff),
-        ("notebook", .outlineNotebook),
         ("notification", .outlineNotification),
-        ("notification-off", .outlineNotificationOff),
-        ("nut", .outlineNut),
-        ("octagon", .outlineOctagon),
-        ("octagon-minus", .outlineOctagonMinus),
-        ("omega", .outlineOmega),
-        ("option", .outlineOption),
-        ("orbit", .outlineOrbit),
         ("package", .outlinePackage),
-        ("package-off", .outlinePackageOff),
         ("palette", .outlinePalette),
-        ("palette-off", .outlinePaletteOff),
-        ("paper-bag", .outlinePaperBag),
         ("paperclip", .outlinePaperclip),
-        ("parentheses", .outlineParentheses),
-        ("parking-meter", .outlineParkingMeter),
         ("pencil", .outlinePencil),
-        ("pencil-check", .outlinePencilCheck),
-        ("pencil-code", .outlinePencilCode),
-        ("pencil-down", .outlinePencilDown),
-        ("pencil-heart", .outlinePencilHeart),
-        ("pencil-minus", .outlinePencilMinus),
-        ("pencil-off", .outlinePencilOff),
-        ("pencil-pause", .outlinePencilPause),
-        ("pencil-pin", .outlinePencilPin),
-        ("pencil-plus", .outlinePencilPlus),
-        ("pencil-question", .outlinePencilQuestion),
-        ("pencil-search", .outlinePencilSearch),
-        ("pencil-share", .outlinePencilShare),
-        ("pencil-star", .outlinePencilStar),
-        ("pencil-up", .outlinePencilUp),
-        ("pencil-x", .outlinePencilX),
-        ("pentagon", .outlinePentagon),
         ("phone", .outlinePhone),
-        ("phone-call", .outlinePhoneCall),
-        ("phone-check", .outlinePhoneCheck),
-        ("phone-incoming", .outlinePhoneIncoming),
-        ("phone-off", .outlinePhoneOff),
-        ("phone-outgoing", .outlinePhoneOutgoing),
-        ("phone-pause", .outlinePhonePause),
-        ("phone-plus", .outlinePhonePlus),
-        ("phone-x", .outlinePhoneX),
         ("photo", .outlinePhoto),
         ("photo-check", .outlinePhotoCheck),
-        ("photo-circle", .outlinePhotoCircle),
-        ("photo-circle-minus", .outlinePhotoCircleMinus),
-        ("photo-circle-plus", .outlinePhotoCirclePlus),
-        ("photo-code", .outlinePhotoCode),
-        ("photo-down", .outlinePhotoDown),
-        ("photo-edit", .outlinePhotoEdit),
-        ("photo-heart", .outlinePhotoHeart),
-        ("photo-minus", .outlinePhotoMinus),
-        ("photo-off", .outlinePhotoOff),
-        ("photo-pause", .outlinePhotoPause),
-        ("photo-pin", .outlinePhotoPin),
         ("photo-plus", .outlinePhotoPlus),
-        ("photo-question", .outlinePhotoQuestion),
-        ("photo-search", .outlinePhotoSearch),
-        ("photo-share", .outlinePhotoShare),
-        ("photo-shield", .outlinePhotoShield),
-        ("photo-star", .outlinePhotoStar),
-        ("photo-up", .outlinePhotoUp),
-        ("photo-video", .outlinePhotoVideo),
         ("photo-x", .outlinePhotoX),
-        ("piano", .outlinePiano),
-        ("picture-in-picture", .outlinePictureInPicture),
-        ("pilcrow", .outlinePilcrow),
-        ("pilcrow-left", .outlinePilcrowLeft),
-        ("pilcrow-right", .outlinePilcrowRight),
-        ("pill", .outlinePill),
         ("pin", .outlinePin),
-        ("pizza", .outlinePizza),
         ("plane", .outlinePlane),
-        ("plane-off", .outlinePlaneOff),
-        ("plug", .outlinePlug),
         ("plus", .outlinePlus),
-        ("plus-minus", .outlinePlusMinus),
-        ("podium", .outlinePodium),
-        ("pointer", .outlinePointer),
-        ("pointer-off", .outlinePointerOff),
-        ("power", .outlinePower),
-        ("presentation", .outlinePresentation),
         ("printer", .outlinePrinter),
-        ("printer-off", .outlinePrinterOff),
         ("puzzle", .outlinePuzzle),
-        ("puzzle-off", .outlinePuzzleOff),
-        ("pyramid", .outlinePyramid),
-        ("quote", .outlineQuote),
-        ("radar", .outlineRadar),
         ("radio", .outlineRadio),
-        ("radio-off", .outlineRadioOff),
-        ("rainbow", .outlineRainbow),
         ("receipt", .outlineReceipt),
-        ("receipt-euro", .outlineReceiptEuro),
-        ("receipt-off", .outlineReceiptOff),
-        ("rectangle-vertical", .outlineRectangleVertical),
-        ("recycle", .outlineRecycle),
         ("refresh", .outlineRefresh),
-        ("refresh-alert", .outlineRefreshAlert),
-        ("refresh-off", .outlineRefreshOff),
-        ("regex", .outlineRegex),
         ("reload", .outlineReload),
-        ("repeat", .outlineRepeat),
-        ("repeat-off", .outlineRepeatOff),
-        ("replace", .outlineReplace),
-        ("road", .outlineRoad),
-        ("rocket", .outlineRocket),
-        ("rocking-chair", .outlineRockingChair),
-        ("rotate-3d", .outlineRotate3d),
         ("route", .outlineRoute),
-        ("route-off", .outlineRouteOff),
-        ("route-square", .outlineRouteSquare),
-        ("route-x", .outlineRouteX),
-        ("route-x-2", .outlineRouteX2),
-        ("router", .outlineRouter),
-        ("rss", .outlineRss),
-        ("ruler", .outlineRuler),
-        ("sailboat", .outlineSailboat),
-        ("salad", .outlineSalad),
-        ("satellite", .outlineSatellite),
-        ("scale", .outlineScale),
-        ("scan", .outlineScan),
-        ("scan-eye", .outlineScanEye),
-        ("school", .outlineSchool),
-        ("scissors", .outlineScissors),
-        ("scooter", .outlineScooter),
-        ("screen-share", .outlineScreenShare),
-        ("screen-share-off", .outlineScreenShareOff),
         ("search", .outlineSearch),
-        ("search-off", .outlineSearchOff),
-        ("section", .outlineSection),
         ("send", .outlineSend),
-        ("send-off", .outlineSendOff),
-        ("separator-horizontal", .outlineSeparatorHorizontal),
-        ("separator-vertical", .outlineSeparatorVertical),
         ("server", .outlineServer),
-        ("server-cog", .outlineServerCog),
-        ("server-off", .outlineServerOff),
         ("settings", .outlineSettings),
-        ("settings-2", .outlineSettings2),
-        ("settings-check", .outlineSettingsCheck),
-        ("settings-code", .outlineSettingsCode),
-        ("settings-down", .outlineSettingsDown),
-        ("settings-heart", .outlineSettingsHeart),
-        ("settings-minus", .outlineSettingsMinus),
-        ("settings-off", .outlineSettingsOff),
-        ("settings-pause", .outlineSettingsPause),
-        ("settings-pin", .outlineSettingsPin),
-        ("settings-plus", .outlineSettingsPlus),
-        ("settings-question", .outlineSettingsQuestion),
-        ("settings-search", .outlineSettingsSearch),
-        ("settings-share", .outlineSettingsShare),
-        ("settings-star", .outlineSettingsStar),
-        ("settings-up", .outlineSettingsUp),
-        ("settings-x", .outlineSettingsX),
         ("share", .outlineShare),
-        ("share-2", .outlineShare2),
-        ("share-off", .outlineShareOff),
         ("shield", .outlineShield),
-        ("shield-check", .outlineShieldCheck),
-        ("shield-code", .outlineShieldCode),
-        ("shield-cog", .outlineShieldCog),
-        ("shield-down", .outlineShieldDown),
-        ("shield-half", .outlineShieldHalf),
-        ("shield-heart", .outlineShieldHeart),
-        ("shield-lock", .outlineShieldLock),
-        ("shield-minus", .outlineShieldMinus),
-        ("shield-off", .outlineShieldOff),
-        ("shield-pause", .outlineShieldPause),
-        ("shield-pin", .outlineShieldPin),
-        ("shield-plus", .outlineShieldPlus),
-        ("shield-question", .outlineShieldQuestion),
-        ("shield-search", .outlineShieldSearch),
-        ("shield-share", .outlineShieldShare),
-        ("shield-star", .outlineShieldStar),
-        ("shield-up", .outlineShieldUp),
-        ("shield-x", .outlineShieldX),
-        ("ship", .outlineShip),
-        ("shirt", .outlineShirt),
-        ("shopping-bag", .outlineShoppingBag),
         ("shopping-cart", .outlineShoppingCart),
-        ("shopping-cart-minus", .outlineShoppingCartMinus),
         ("shopping-cart-plus", .outlineShoppingCartPlus),
-        ("shovel", .outlineShovel),
-        ("shredder", .outlineShredder),
-        ("signature", .outlineSignature),
-        ("skull", .outlineSkull),
-        ("slash", .outlineSlash),
-        ("slice", .outlineSlice),
-        ("snowflake", .outlineSnowflake),
-        ("sofa", .outlineSofa),
-        ("solar-panel", .outlineSolarPanel),
-        ("soup", .outlineSoup),
-        ("space", .outlineSpace),
-        ("spade", .outlineSpade),
-        ("sparkle", .outlineSparkle),
-        ("sparkles", .outlineSparkles),
         ("square", .outlineSquare),
-        ("square-arrow-down", .outlineSquareArrowDown),
-        ("square-arrow-left", .outlineSquareArrowLeft),
-        ("square-arrow-right", .outlineSquareArrowRight),
-        ("square-arrow-up", .outlineSquareArrowUp),
-        ("square-asterisk", .outlineSquareAsterisk),
-        ("square-check", .outlineSquareCheck),
-        ("square-chevron-down", .outlineSquareChevronDown),
-        ("square-chevron-left", .outlineSquareChevronLeft),
-        ("square-chevron-right", .outlineSquareChevronRight),
-        ("square-chevron-up", .outlineSquareChevronUp),
-        ("square-dashed", .outlineSquareDashed),
-        ("square-dashed-top-solid", .outlineSquareDashedTopSolid),
-        ("square-dashed-x", .outlineSquareDashedX),
-        ("square-dot", .outlineSquareDot),
-        ("square-key", .outlineSquareKey),
-        ("square-minus", .outlineSquareMinus),
-        ("square-off", .outlineSquareOff),
-        ("square-plus", .outlineSquarePlus),
-        ("square-toggle", .outlineSquareToggle),
-        ("square-x", .outlineSquareX),
         ("stack", .outlineStack),
-        ("stack-back", .outlineStackBack),
-        ("stack-check", .outlineStackCheck),
-        ("stack-minus", .outlineStackMinus),
-        ("stack-plus", .outlineStackPlus),
-        ("stack-x", .outlineStackX),
         ("star", .outlineStar),
-        ("star-half", .outlineStarHalf),
-        ("star-off", .outlineStarOff),
-        ("stethoscope", .outlineStethoscope),
-        ("sticker", .outlineSticker),
-        ("strikethrough", .outlineStrikethrough),
-        ("subscript", .outlineSubscript),
         ("sun", .outlineSun),
-        ("sun-moon", .outlineSunMoon),
-        ("sun-off", .outlineSunOff),
-        ("sun-wind", .outlineSunWind),
-        ("sunrise", .outlineSunrise),
-        ("sunset", .outlineSunset),
-        ("superscript", .outlineSuperscript),
-        ("sword", .outlineSword),
-        ("swords", .outlineSwords),
         ("table", .outlineTable),
-        ("table-down", .outlineTableDown),
-        ("table-heart", .outlineTableHeart),
-        ("table-minus", .outlineTableMinus),
-        ("table-off", .outlineTableOff),
-        ("table-plus", .outlineTablePlus),
-        ("table-share", .outlineTableShare),
         ("tag", .outlineTag),
-        ("tag-minus", .outlineTagMinus),
-        ("tag-off", .outlineTagOff),
-        ("tag-plus", .outlineTagPlus),
-        ("tags", .outlineTags),
         ("target", .outlineTarget),
-        ("target-arrow", .outlineTargetArrow),
-        ("target-off", .outlineTargetOff),
-        ("telescope", .outlineTelescope),
-        ("tent", .outlineTent),
         ("terminal", .outlineTerminal),
-        ("text-plus", .outlineTextPlus),
-        ("text-wrap", .outlineTextWrap),
-        ("theater", .outlineTheater),
-        ("thermometer", .outlineThermometer),
-        ("thumb-down", .outlineThumbDown),
-        ("thumb-down-off", .outlineThumbDownOff),
-        ("thumb-up", .outlineThumbUp),
-        ("thumb-up-off", .outlineThumbUpOff),
         ("ticket", .outlineTicket),
-        ("ticket-off", .outlineTicketOff),
-        ("timeline", .outlineTimeline),
-        ("toggle-left", .outlineToggleLeft),
-        ("toggle-right", .outlineToggleRight),
         ("tool", .outlineTool),
-        ("tornado", .outlineTornado),
-        ("tractor", .outlineTractor),
-        ("traffic-cone", .outlineTrafficCone),
         ("train", .outlineTrain),
         ("trash", .outlineTrash),
-        ("trash-off", .outlineTrashOff),
-        ("trash-x", .outlineTrashX),
-        ("trees", .outlineTrees),
-        ("trending-down", .outlineTrendingDown),
-        ("trending-up", .outlineTrendingUp),
-        ("trending-up-down", .outlineTrendingUpDown),
-        ("triangle", .outlineTriangle),
-        ("triangle-dashed", .outlineTriangleDashed),
-        ("trophy", .outlineTrophy),
         ("truck", .outlineTruck),
-        ("truck-off", .outlineTruckOff),
-        ("umbrella", .outlineUmbrella),
-        ("umbrella-off", .outlineUmbrellaOff),
-        ("underline", .outlineUnderline),
-        ("unlink", .outlineUnlink),
         ("upload", .outlineUpload),
-        ("usb", .outlineUsb),
         ("user", .outlineUser),
         ("user-check", .outlineUserCheck),
         ("user-circle", .outlineUserCircle),
-        ("user-code", .outlineUserCode),
-        ("user-cog", .outlineUserCog),
-        ("user-down", .outlineUserDown),
         ("user-edit", .outlineUserEdit),
         ("user-heart", .outlineUserHeart),
-        ("user-key", .outlineUserKey),
         ("user-minus", .outlineUserMinus),
-        ("user-off", .outlineUserOff),
-        ("user-pause", .outlineUserPause),
         ("user-pin", .outlineUserPin),
         ("user-plus", .outlineUserPlus),
-        ("user-question", .outlineUserQuestion),
         ("user-search", .outlineUserSearch),
-        ("user-share", .outlineUserShare),
         ("user-shield", .outlineUserShield),
-        ("user-square", .outlineUserSquare),
         ("user-star", .outlineUserStar),
-        ("user-up", .outlineUserUp),
         ("user-x", .outlineUserX),
         ("users", .outlineUsers),
-        ("users-minus", .outlineUsersMinus),
-        ("users-plus", .outlineUsersPlus),
-        ("variable", .outlineVariable),
-        ("vault", .outlineVault),
-        ("venus", .outlineVenus),
         ("video", .outlineVideo),
-        ("video-minus", .outlineVideoMinus),
-        ("video-off", .outlineVideoOff),
-        ("video-plus", .outlineVideoPlus),
-        ("virus", .outlineVirus),
-        ("virus-off", .outlineVirusOff),
         ("volume", .outlineVolume),
-        ("volume-2", .outlineVolume2),
-        ("volume-off", .outlineVolumeOff),
         ("wallet", .outlineWallet),
-        ("wallet-off", .outlineWalletOff),
-        ("wallpaper", .outlineWallpaper),
-        ("wand", .outlineWand),
-        ("webhook", .outlineWebhook),
-        ("webhook-off", .outlineWebhookOff),
-        ("weight", .outlineWeight),
-        ("wheat", .outlineWheat),
-        ("wheat-off", .outlineWheatOff),
         ("wifi", .outlineWifi),
-        ("wifi-off", .outlineWifiOff),
         ("wind", .outlineWind),
-        ("wind-off", .outlineWindOff),
         ("window", .outlineWindow),
-        ("window-maximize", .outlineWindowMaximize),
-        ("window-off", .outlineWindowOff),
         ("world", .outlineWorld),
-        ("world-check", .outlineWorldCheck),
-        ("world-code", .outlineWorldCode),
-        ("world-down", .outlineWorldDown),
-        ("world-download", .outlineWorldDownload),
-        ("world-heart", .outlineWorldHeart),
-        ("world-map", .outlineWorldMap),
-        ("world-minus", .outlineWorldMinus),
-        ("world-off", .outlineWorldOff),
-        ("world-pause", .outlineWorldPause),
-        ("world-pin", .outlineWorldPin),
-        ("world-plus", .outlineWorldPlus),
-        ("world-question", .outlineWorldQuestion),
-        ("world-search", .outlineWorldSearch),
-        ("world-share", .outlineWorldShare),
-        ("world-star", .outlineWorldStar),
-        ("world-up", .outlineWorldUp),
-        ("world-upload", .outlineWorldUpload),
-        ("world-x", .outlineWorldX),
         ("x", .outlineX),
-        ("zodiac-aquarius", .outlineZodiacAquarius),
-        ("zodiac-aries", .outlineZodiacAries),
-        ("zodiac-cancer", .outlineZodiacCancer),
-        ("zodiac-capricorn", .outlineZodiacCapricorn),
-        ("zodiac-gemini", .outlineZodiacGemini),
-        ("zodiac-leo", .outlineZodiacLeo),
-        ("zodiac-libra", .outlineZodiacLibra),
-        ("zodiac-pisces", .outlineZodiacPisces),
-        ("zodiac-sagittarius", .outlineZodiacSagittarius),
-        ("zodiac-scorpio", .outlineZodiacScorpio),
-        ("zodiac-taurus", .outlineZodiacTaurus),
-        ("zodiac-virgo", .outlineZodiacVirgo),
-        ("zoom-in", .outlineZoomIn),
-        ("zoom-out", .outlineZoomOut),
     ]
 }

@@ -6,7 +6,7 @@ custom image sets in the separate `Icons.xcassets` catalog.
 
 ## Included SVG icon library
 
-The package includes 1,200 curated monochrome outline SVG icons from
+The package includes 200 core monochrome outline SVG icons from
 [Tabler Icons](https://github.com/tabler/tabler-icons). They use a shared
 24 × 24 view box, 2-point stroke, rounded caps, and rounded joins. The assets
 preserve vector scaling and use template rendering so they inherit the view's
@@ -39,16 +39,16 @@ UDSButton(title: "Save", icon: .outlineBookmark) { }
 The bundled icons use neutral `outline-` asset names and generated tokens; these
 names are part of the design-system API and do not expose vendor naming.
 
-### Keep only the icons you need
+### Add more icons to a local package
 
-If you maintain a local copy or fork of the design system, you can trim the
-bundled library or replace it with icons you choose:
+The bundled set is intentionally small for apps using a local copy of the
+package. Add icons as needed in that local package or in your fork:
 
 1. Download or fork the package source. A remote Swift Package dependency is
    read-only from your app, so make these changes in a fork or local package.
-2. In `Sources/UDSResources/Icons.xcassets`, keep the `outline-*.imageset`
-   folders you use and delete the others. Add any selected SVG, PNG, or JPEG
-   icons as new imagesets in the same catalog.
+2. Add each SVG to `Sources/UDSResources/Icons.xcassets` as its own `.imageset`
+   folder. Name it `outline-<icon-name>.imageset`, include the SVG and a
+   `Contents.json` manifest with vector preservation and template rendering.
 3. Run `python3 scripts/generate_design_system.py` from the package root to
    regenerate the Swift accessors and icon list.
 4. Use the generated `UDSImage` accessor, or pass the asset name to a component,
