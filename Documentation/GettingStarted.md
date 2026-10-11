@@ -17,13 +17,14 @@ This guide explains how to integrate `UniversalDesignSystem` into existing or ne
 In Xcode:
 1. File -> Add Package Dependencies...
 2. Enter `https://github.com/fahadr3hman/DesignSystem`.
-3. Select `UniversalDesignSystem` as the library dependency for your target.
+3. Choose the revision rule and enter `11102026-beta`.
+4. Select `UniversalDesignSystem` as the library dependency for your target.
 
-For a `Package.swift` dependency, use the main branch until you select a tagged
-release:
+For a `Package.swift` dependency, pin to the published
+[beta tag](https://github.com/fahadr3hman/DesignSystem/releases/tag/11102026-beta):
 ```swift
 dependencies: [
-    .package(url: "https://github.com/fahadr3hman/DesignSystem.git", branch: "main")
+    .package(url: "https://github.com/fahadr3hman/DesignSystem.git", revision: "11102026-beta")
 ],
 targets: [
     .target(
@@ -35,8 +36,9 @@ targets: [
 ]
 ```
 
-After publishing a semantic version tag, replace `branch: "main"` with a
-version rule such as `from: "1.0.0"` and use that release version.
+When you publish a semantic version tag, you can use a version rule such as
+`.package(url: "https://github.com/fahadr3hman/DesignSystem.git", from: "1.0.0")`
+to receive compatible updates automatically.
 
 ---
 

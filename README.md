@@ -51,13 +51,13 @@ That command runs on macOS 13 or later; iOS launches use the Xcode project.
 
 ### 1. Swift Package Manager Integration
 
-Add the published repository to your `Package.swift`. The repository currently
-uses the `main` branch in this example; switch to a version requirement after
-publishing a release tag.
+Add the published [beta release](https://github.com/fahadr3hman/DesignSystem/releases/tag/11102026-beta)
+to your `Package.swift` using its tag as a revision. This keeps the dependency
+pinned to `11102026-beta`.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/fahadr3hman/DesignSystem.git", branch: "main")
+    .package(url: "https://github.com/fahadr3hman/DesignSystem.git", revision: "11102026-beta")
 ],
 targets: [
     .target(
@@ -69,8 +69,9 @@ targets: [
 ]
 ```
 
-In Xcode, choose **File → Add Package Dependencies…** and enter
-`https://github.com/fahadr3hman/DesignSystem`.
+In Xcode, choose **File → Add Package Dependencies…**, enter
+`https://github.com/fahadr3hman/DesignSystem`, choose the revision rule, and
+enter `11102026-beta`.
 
 ### 2. Using Tokens in SwiftUI
 
