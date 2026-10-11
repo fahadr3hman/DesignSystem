@@ -17,18 +17,28 @@ RoundedRectangle(cornerRadius: 16).fill(UDSColor.surface)
 Circle().fill(UDSColor.success)
 ```
 
-For a color by asset name, use `Color.udsToken`. It searches the design-system
-resource bundle and then the app bundle, so apps can provide a same-named color
-to override a package value:
+For a color by asset name, use `Color.udsToken`. It searches the app bundle first
+and then the design-system resource bundle. The same lookup order is used by
+`UDSColor` and UDS components, so an app color set can override a package color
+with the same name:
 
 ```swift
 Text("Brand accent")
     .foregroundStyle(Color.udsToken("brandAccent"))
 ```
 
-If no asset exists, `Color.udsToken` returns clear. Add custom color sets to the
-app's `Assets.xcassets` or add shared system colors to the package's
-`Resources.xcassets`; run the generator after adding package assets.
+If no asset exists in either bundle, `Color.udsToken` returns clear. Add custom
+color sets to the app's `Assets.xcassets`. To override semantic colors used by
+UDS components, use these exact color-set names: `primary`, `secondary`,
+`accent`, `background`, `surface`, `elevatedSurface`, `primaryText`,
+`secondaryText`, `tertiaryText`, `border`, `separator`, `success`, `warning`,
+`error`, `info`, and `disabled`. Configure Any, Dark, and (optionally) other
+appearances in the asset catalog; UIKit and SwiftUI then use the matching app
+color automatically. Custom names such as `brandAccent` are available through
+`Color.udsToken("brandAccent")` and `UIColor.udsToken("brandAccent")`.
+
+Package-owned colors belong in `Resources.xcassets`; run the generator after
+adding package assets. App assets always take priority when names collide.
 
 ## UIKit
 
@@ -39,9 +49,10 @@ titleLabel.textColor = UDSUIKitColor.uiKit.primaryText
 view.backgroundColor = UIColor.udsToken("brandAccent")
 ```
 
-`UIColor.udsToken(_:)` resolves the package catalog first, then the app's
-asset catalog, and returns clear if the name is missing. Built-in colors use
-light and dark asset values where configured.
+`UIColor.udsToken(_:)` resolves the app's asset catalog first, then the package
+catalog, and returns clear if the name is missing. `UDSUIKitColor.uiKit` also
+uses an app semantic color asset before falling back to the active runtime
+theme. Built-in package colors support light and dark variants.
 
 ## Themes
 

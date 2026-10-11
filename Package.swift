@@ -6,13 +6,13 @@ import PackageDescription
 let package = Package(
     name: "UniversalDesignSystem",
     platforms: [
-        .iOS(.v16),
-        .macOS(.v13)
+        .iOS(.v17),
+        .macOS(.v14)
     ],
     products: [
         .library(
             name: "UniversalDesignSystem",
-            targets: ["UniversalDesignSystem", "UDSCore", "UDSResources", "UDSSwiftUI", "UDSUIKit"]
+            targets: ["UniversalDesignSystem", "UDSCore", "UDSResources", "UDSSwiftUI", "UDSUIKit", "UDSUtilities"]
         ),
         .library(
             name: "UDSCore",
@@ -26,6 +26,10 @@ let package = Package(
             name: "UDSUIKit",
             targets: ["UDSUIKit"]
         ),
+        .library(
+            name: "UDSUtilities",
+            targets: ["UDSUtilities"]
+        ),
         .executable(
             name: "UniversalDesignSystemDemo",
             targets: ["UniversalDesignSystemDemo"]
@@ -34,6 +38,9 @@ let package = Package(
     targets: [
         .target(
             name: "UDSCore"
+        ),
+        .target(
+            name: "UDSUtilities"
         ),
         .target(
             name: "UDSResources",
@@ -46,7 +53,7 @@ let package = Package(
         ),
         .target(
             name: "UDSSwiftUI",
-            dependencies: ["UDSCore", "UDSResources"]
+            dependencies: ["UDSCore", "UDSResources", "UDSUtilities"]
         ),
         .target(
             name: "UDSUIKit",
@@ -54,12 +61,16 @@ let package = Package(
         ),
         .target(
             name: "UniversalDesignSystem",
-            dependencies: ["UDSCore", "UDSResources", "UDSSwiftUI", "UDSUIKit"]
+            dependencies: ["UDSCore", "UDSResources", "UDSSwiftUI", "UDSUIKit", "UDSUtilities"]
         ),
         .executableTarget(
             name: "UniversalDesignSystemDemo",
             dependencies: ["UniversalDesignSystem"],
             path: "Demo/UniversalDesignSystemDemo"
+        ),
+        .testTarget(
+            name: "UDSUtilitiesTests",
+            dependencies: ["UDSUtilities"]
         ),
         .testTarget(
             name: "UDSCoreTests",

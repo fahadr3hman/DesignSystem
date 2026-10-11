@@ -1,7 +1,7 @@
 import SwiftUI
 import UniversalDesignSystem
 
-@available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 @MainActor
 public struct ContentView: View {
     @State private var selectedTab = 0
@@ -33,6 +33,12 @@ public struct ContentView: View {
                     Label("Icons", systemImage: "square.grid.2x2")
                 }
                 .tag(3)
+
+            MoreDemoView()
+                .tabItem {
+                    Label("More", systemImage: "ellipsis.circle")
+                }
+                .tag(4)
         }
         .accentColor(Color.udsToken("primary"))
         #if os(iOS)
@@ -42,17 +48,36 @@ public struct ContentView: View {
     }
 }
 
-@available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+@MainActor
+private struct MoreDemoView: View {
+    var body: some View {
+        NavigationStack {
+            List {
+                Section("Utilities") {
+                    NavigationLink {
+                        UtilitiesDemoView()
+                    } label: {
+                        Label("Utilities", systemImage: "wrench.and.screwdriver")
+                    }
+
+                    NavigationLink {
+                        NetworkUtilitiesDemoView()
+                    } label: {
+                        Label("Connectivity & Async", systemImage: "wifi")
+                    }
+                }
+            }
+            .navigationTitle("More")
+        }
+    }
+}
+
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 @MainActor
 private struct DemoIconsView: View {
-    private let customIcons: [(String, Image)] = [
-        ("icon_home", UDSImage.iconHome),
-        ("icon_search", UDSImage.iconSearch),
-        ("icon_profile", UDSImage.iconProfile),
-        ("icon_settings", UDSImage.iconSettings),
-        ("icon_favorite", UDSImage.iconFavorite),
-        ("icon_notifications", UDSImage.iconNotifications)
-    ]
+    @State private var iconSearch = ""
+
     private let commonSymbols: [(String, UDSIconToken)] = [
         ("home", UDSIconToken.home),
         ("search", UDSIconToken.search),
@@ -61,19 +86,26 @@ private struct DemoIconsView: View {
         ("favorite", UDSIconToken.favorite),
         ("share", UDSIconToken.share)
     ]
+    private var filteredIconAssets: [(name: String, token: UDSIconToken)] {
+        let query = iconSearch.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !query.isEmpty else { return UDSIconAssets.all }
+        return UDSIconAssets.all.filter { $0.name.localizedCaseInsensitiveContains(query) }
+    }
 
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    iconSection("Custom Icon Images") {
-                        ForEach(customIcons, id: \.0) { name, image in
+                    iconSection("Icon Asset Library (\(UDSIconAssets.all.count))") {
+                        ForEach(filteredIconAssets, id: \.name) { icon in
                             VStack(spacing: 8) {
-                                image
+                                Image.udsIcon(icon.token)
                                     .resizable()
                                     .scaledToFit()
+                                    .frame(width: 32, height: 32)
+                                    .foregroundStyle(Color.udsToken("primary"))
                                     .frame(width: 56, height: 56)
-                                Text(name)
+                                Text(icon.name)
                                     .font(.caption)
                                     .multilineTextAlignment(.center)
                             }
@@ -92,10 +124,12 @@ private struct DemoIconsView: View {
                             }
                         }
                     }
+
                 }
                 .padding()
             }
             .navigationTitle("Demo Icons")
+            .searchable(text: $iconSearch, prompt: "Search icons")
         }
     }
 

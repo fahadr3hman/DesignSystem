@@ -169,6 +169,35 @@ public struct UDSThemeColors: Sendable, Hashable, Codable {
         self.warning = warning; self.error = error; self.info = info; self.disabled = disabled
     }
 
+    private enum CodingKeys: String, CodingKey {
+        case primary, secondary, accent, background, surface, elevatedSurface
+        case primaryText, secondaryText, tertiaryText, border, separator
+        case success, warning, error, info, disabled
+    }
+
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let defaults = Self.default
+        self.init(
+            primary: try container.decodeIfPresent(UDSColorToken.self, forKey: .primary) ?? defaults.primary,
+            secondary: try container.decodeIfPresent(UDSColorToken.self, forKey: .secondary) ?? defaults.secondary,
+            accent: try container.decodeIfPresent(UDSColorToken.self, forKey: .accent) ?? defaults.accent,
+            background: try container.decodeIfPresent(UDSColorToken.self, forKey: .background) ?? defaults.background,
+            surface: try container.decodeIfPresent(UDSColorToken.self, forKey: .surface) ?? defaults.surface,
+            elevatedSurface: try container.decodeIfPresent(UDSColorToken.self, forKey: .elevatedSurface) ?? defaults.elevatedSurface,
+            primaryText: try container.decodeIfPresent(UDSColorToken.self, forKey: .primaryText) ?? defaults.primaryText,
+            secondaryText: try container.decodeIfPresent(UDSColorToken.self, forKey: .secondaryText) ?? defaults.secondaryText,
+            tertiaryText: try container.decodeIfPresent(UDSColorToken.self, forKey: .tertiaryText) ?? defaults.tertiaryText,
+            border: try container.decodeIfPresent(UDSColorToken.self, forKey: .border) ?? defaults.border,
+            separator: try container.decodeIfPresent(UDSColorToken.self, forKey: .separator) ?? defaults.separator,
+            success: try container.decodeIfPresent(UDSColorToken.self, forKey: .success) ?? defaults.success,
+            warning: try container.decodeIfPresent(UDSColorToken.self, forKey: .warning) ?? defaults.warning,
+            error: try container.decodeIfPresent(UDSColorToken.self, forKey: .error) ?? defaults.error,
+            info: try container.decodeIfPresent(UDSColorToken.self, forKey: .info) ?? defaults.info,
+            disabled: try container.decodeIfPresent(UDSColorToken.self, forKey: .disabled) ?? defaults.disabled
+        )
+    }
+
     public static let `default` = UDSThemeColors()
 
     public subscript(role: String) -> UDSColorToken? {

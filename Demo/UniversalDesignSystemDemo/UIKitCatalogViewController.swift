@@ -333,7 +333,7 @@ open class UIKitCatalogViewController: UIViewController, UITableViewDataSource, 
                 content: AnyView(
                     VStack(alignment: .leading, spacing: UDSSpacing.md) {
                         HStack(spacing: UDSSpacing.sm) {
-                            UDSImage.iconHome
+                            UDSImage.outlineHome
                                 .resizable()
                                 .frame(width: 36, height: 36)
                             Text("Package-provided custom icon")

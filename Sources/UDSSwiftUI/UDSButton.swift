@@ -42,7 +42,7 @@ public struct UDSButton: View {
     }
 
     /// Compatibility initializer. The name is resolved as an asset first, then an SF Symbol.
-    @available(*, deprecated, message: "Use icon: UDSIconToken.named(_:), .symbol(_:), or .asset(_:).")
+    @available(*, deprecated, message: "Use icon: UDSIconToken.system(_:), .image(_:), .symbol(_:), or .asset(_:).")
     public init(
         title: String? = nil,
         systemIconName: String? = nil,
@@ -119,7 +119,7 @@ public struct UDSButton: View {
 
     private static func accessibilityName(for icon: UDSIconToken) -> String {
         switch icon {
-        case .symbol(let name), .asset(let name), .named(let name): name
+        case .symbol(let name), .asset(let name), .appAsset(let name), .named(let name): name
         }
     }
 

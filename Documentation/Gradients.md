@@ -81,3 +81,16 @@ UDSButton(title: "Custom", backgroundGradient: customGradient) {}
 reverse diagonal), radial, and angular gradients. Stops are ordered along the
 gradient from location 0 to 1. For radial and angular gradients, set the center
 and corresponding radii or angles.
+
+Gradient stops use explicit light and dark hex values. When matching an app's
+asset-catalog palette, use the same hex values configured for those color sets,
+then pass the gradient only to the component that should receive it:
+
+```swift
+let brandGradient = UDSGradientDefinition(stops: [
+    .init(location: 0, color: .init(name: "brand-start", lightHex: "#315CF5", darkHex: "#6888FF")),
+    .init(location: 1, color: .init(name: "brand-end", lightHex: "#A33AF0", darkHex: "#D17BFF"))
+])
+
+UDSButton(title: "Continue", backgroundGradient: brandGradient) {}
+```

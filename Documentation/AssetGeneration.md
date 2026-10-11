@@ -31,7 +31,10 @@ stable semantic name to an SF Symbol name. For example, `"search":
 
 For custom artwork, add a regular Xcode imageset under
 `Sources/UDSResources/Icons.xcassets` with its image file and `Contents.json`,
-then run `python3 scripts/generate_design_system.py`. The generator adds
+then run `python3 scripts/generate_design_system.py`. PNG/JPEG and vector SVG
+assets are supported by Xcode asset catalogs. For monochrome SVG icons, match
+the bundled Tabler icon library's 24 × 24 view box and outline stroke style, and enable
+vector preservation and template rendering in the asset manifest. The generator adds
 SwiftUI and UIKit accessors such as `UDSImage.brandMark` and
 `UDSImage.uiKit.brandMark`. Keep these custom images in `Icons.xcassets`; color
 tokens remain in the separate `Resources.xcassets` catalog.

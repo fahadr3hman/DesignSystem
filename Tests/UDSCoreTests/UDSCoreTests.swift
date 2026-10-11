@@ -24,7 +24,7 @@ final class UDSCoreTests: XCTestCase {
     }
 
     func testThemeCustomColorsAndJSONDecoding() throws {
-        let json = #"{"id":"brand","name":"Brand","colors":{"primary":{"name":"brand-primary","lightHex":"#6200EE","darkHex":"#BB86FC"}}}"#.data(using: .utf8)!
+        let json = ##"{"id":"brand","name":"Brand","colors":{"primary":{"name":"brand-primary","lightHex":"#6200EE","darkHex":"#BB86FC"}}}"##.data(using: .utf8)!
         let theme = try UDSThemeDecoder.decode(from: json)
         XCTAssertEqual(theme.id, "brand")
         XCTAssertEqual(theme.colors.primary.lightHex, "#6200EE")

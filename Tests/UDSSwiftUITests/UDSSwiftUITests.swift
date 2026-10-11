@@ -56,7 +56,7 @@ final class UDSSwiftUITests: XCTestCase {
         let symbolView = UDSSymbol("star.fill")
         XCTAssertNotNil(symbolView)
         XCTAssertNotNil(Image.udsIcon(.favoriteFilled))
-        XCTAssertNotNil(Image.udsIcon(.iconFavorite))
+        XCTAssertNotNil(Image.udsIcon(.asset("icon_favorite")))
         XCTAssertNotNil(Image.udsIcon(.named("star.fill")))
     }
 

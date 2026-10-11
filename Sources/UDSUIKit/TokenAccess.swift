@@ -6,6 +6,7 @@ import UDSCore
 @MainActor
 public enum UDSUIKitColor {
     private static func color(_ role: String) -> UIColor {
+        if let appColor = UIColor(named: role) { return appColor }
         guard let token = UDSThemeManager.shared.currentTheme.colors[role] else { return .clear }
         return UIColor { traits in
             let hex = traits.userInterfaceStyle == .dark ? token.darkHex : token.lightHex
@@ -36,13 +37,13 @@ public enum UDSUIKitColor {
 }
 
 public extension UIColor {
-    /// Resolves a named color from the design-system catalog, then the host app bundle.
+    /// Resolves a named color from the host app first, then the design-system catalog.
     /// Missing names return `UIColor.clear` so drawing never traps.
     static func udsToken(_ name: String) -> UIColor {
-        if let color = UIColor(named: name, in: UDSBundle.module, compatibleWith: nil) {
+        if let color = UIColor(named: name) {
             return color
         }
-        if let color = UIColor(named: name) {
+        if let color = UIColor(named: name, in: UDSBundle.module, compatibleWith: nil) {
             return color
         }
         return .clear
@@ -56,6 +57,7 @@ public extension UIImage {
         case .symbol(let name): UIImage(systemName: name)
         case .asset(let name):
             UIImage(named: name, in: UDSBundle.module, compatibleWith: nil) ?? UIImage(named: name)
+        case .appAsset(let name): UIImage(named: name)
         case .named(let name): udsToken(name)
         }
     }
