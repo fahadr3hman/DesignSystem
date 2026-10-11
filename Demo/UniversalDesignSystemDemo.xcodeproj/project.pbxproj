@@ -12,6 +12,8 @@
 		100000000000000000000004 /* ThemeInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* ThemeInspectorView.swift */; };
 		100000000000000000000005 /* UIKitCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* UIKitCatalogViewController.swift */; };
 		100000000000000000000006 /* UniversalDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 700000000000000000000001 /* UniversalDesignSystem */; };
+		100000000000000000000007 /* NetworkUtilitiesDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* NetworkUtilitiesDemoView.swift */; };
+		100000000000000000000008 /* UtilitiesDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* UtilitiesDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		200000000000000000000004 /* ThemeInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/ThemeInspectorView.swift; sourceTree = "<group>"; };
 		200000000000000000000005 /* UIKitCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/UIKitCatalogViewController.swift; sourceTree = "<group>"; };
 		200000000000000000000006 /* UniversalDesignSystemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalDesignSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000007 /* NetworkUtilitiesDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/NetworkUtilitiesDemoView.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* UtilitiesDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalDesignSystemDemo/UtilitiesDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 				200000000000000000000003 /* SwiftUICatalogView.swift */,
 				200000000000000000000004 /* ThemeInspectorView.swift */,
 				200000000000000000000005 /* UIKitCatalogViewController.swift */,
+				200000000000000000000007 /* NetworkUtilitiesDemoView.swift */,
+				200000000000000000000008 /* UtilitiesDemoView.swift */,
 				400000000000000000000002 /* Frameworks */,
 				400000000000000000000003 /* Products */,
 			);
@@ -106,20 +112,22 @@
 				100000000000000000000003 /* SwiftUICatalogView.swift in Sources */,
 				100000000000000000000004 /* ThemeInspectorView.swift in Sources */,
 				100000000000000000000005 /* UIKitCatalogViewController.swift in Sources */,
+				100000000000000000000007 /* NetworkUtilitiesDemoView.swift in Sources */,
+				100000000000000000000008 /* UtilitiesDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		900000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Debug; };
-		900000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Release; };
+		900000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Debug; };
+		900000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; }; name = Release; };
 		900000000000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.universaldesignsystem.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.0;
@@ -130,7 +138,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.universaldesignsystem.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.0;

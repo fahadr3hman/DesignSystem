@@ -10,10 +10,19 @@ public enum UDSButtonShape: Sendable, Hashable {
 /// Identifies an icon from SF Symbols or a named image asset.
 public enum UDSIconToken: Sendable, Hashable {
     case symbol(String)
+    /// Resolves an image asset in the design-system resource bundle.
     case asset(String)
+    /// Resolves an image asset in the consuming application's main bundle.
+    case appAsset(String)
 
     /// Resolves a name as an asset first, then as an SF Symbol.
     case named(String)
+
+    /// Creates a token for any SF Symbol, including symbols not shipped as named tokens.
+    public static func system(_ name: String) -> Self { .symbol(name) }
+
+    /// Creates a token for a named image in the consuming application's main bundle.
+    public static func image(_ name: String) -> Self { .appAsset(name) }
 }
 
 /// Shared tab metadata for SwiftUI and UIKit tab bars.

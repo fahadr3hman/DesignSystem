@@ -6,7 +6,7 @@ This guide explains how to integrate `UniversalDesignSystem` into existing or ne
 
 ## Minimum Requirements
 
-- **iOS Deployment Target**: iOS 16.0+
+- **iOS Deployment Target**: iOS 17.0+
 - **Language Mode**: Swift 6
 - **UI Frameworks**: UIKit and/or SwiftUI
 
@@ -50,6 +50,13 @@ Developers can either import the umbrella library or specific modules:
 - `import UDSCore` — Tokens and models only (ideal for framework-agnostic data models or logic).
 - `import UDSSwiftUI` — SwiftUI component view modifiers and styles.
 - `import UDSUIKit` — UIKit views, view controllers, and presentation controllers.
+- `import UDSUtilities` — Foundation helpers plus conditional SwiftUI and UIKit
+  helpers, without a dependency on UDS modules.
+
+To use only the utility helpers, select the `UDSUtilities` package product in
+Xcode or add `.product(name: "UDSUtilities", package: "designsystem")` to your
+target dependencies. The `UniversalDesignSystem` umbrella product also re-exports
+these helpers for apps that already depend on the full design system.
 
 ## Tokens, Buttons, and Loading States
 
@@ -62,7 +69,7 @@ the library; see the separate guides for [colors](Colors.md), [gradients](Gradie
 ```swift
 // SwiftUI
 Color.udsToken("primary")
-Image.udsToken("logo_placeholder")
+Image.udsIcon(.system("house.fill"))
 Font.udsToken(.body)
 Font.udsToken("Brand-Regular", relativeTo: .body)
 
@@ -71,7 +78,7 @@ ProfileView().udsSkeleton(isLoading: isLoading)
 
 // UIKit
 UIColor.udsToken("primary")
-UIImage.udsToken("logo_placeholder")
+UIImage(systemName: "house.fill")
 UIFont.udsToken(.body)
 UIFont.udsToken("Brand-Regular", relativeTo: .body)
 

@@ -2,6 +2,7 @@ import Foundation
 import SwiftUI
 import UDSCore
 import UDSResources
+import UDSUtilities
 #if canImport(UIKit)
 import UIKit
 #endif
@@ -38,18 +39,32 @@ public struct UDSToastMessage: Identifiable, Sendable, Equatable {
     public let id: UUID
     public let message: String
     public let style: UDSFeedbackStyle
-    public let duration: TimeInterval
+    public let duration: TimeInterval?
+    public let icon: String?
+    public let actionTitle: String?
+    public let action: (@MainActor @Sendable () -> Void)?
 
     public init(
         id: UUID = UUID(),
         message: String,
         style: UDSFeedbackStyle = .information,
-        duration: TimeInterval = 3
+        duration: TimeInterval? = 3,
+        icon: String? = nil,
+        actionTitle: String? = nil,
+        action: (@MainActor @Sendable () -> Void)? = nil
     ) {
         self.id = id
         self.message = message
         self.style = style
-        self.duration = max(0.5, duration)
+        self.duration = duration.map { max(0.5, $0) }
+        self.icon = icon
+        self.actionTitle = actionTitle
+        self.action = action
+    }
+
+    public static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.id == rhs.id && lhs.message == rhs.message && lhs.style == rhs.style
+            && lhs.duration == rhs.duration && lhs.icon == rhs.icon && lhs.actionTitle == rhs.actionTitle
     }
 }
 
@@ -183,13 +198,23 @@ private struct UDSToastOverlay: ViewModifier {
             .overlay(alignment: position.alignment) {
                 if let item {
                     HStack(spacing: UDSSpacing.sm) {
-                        Image(systemName: item.style.symbol)
+                        Image(systemName: item.icon ?? item.style.symbol)
                             .foregroundStyle(item.style.color)
                             .accessibilityHidden(true)
-                        Text(item.message)
-                            .font(UDSTypography.subheadline)
-                            .foregroundStyle(UDSColor.primaryText)
-                            .fixedSize(horizontal: false, vertical: true)
+                        VStack(alignment: .leading, spacing: UDSSpacing.xxs) {
+                            Text(item.message)
+                                .font(UDSTypography.subheadline)
+                                .foregroundStyle(UDSColor.primaryText)
+                                .fixedSize(horizontal: false, vertical: true)
+                            if let actionTitle = item.actionTitle, let action = item.action {
+                                Button(actionTitle) {
+                                    action()
+                                    self.item = nil
+                                }
+                                .font(UDSTypography.subheadline.weight(.semibold))
+                                .foregroundStyle(item.style.color)
+                            }
+                        }
                     }
                     .padding(.horizontal, UDSSpacing.md)
                     .padding(.vertical, UDSSpacing.sm)
@@ -205,7 +230,8 @@ private struct UDSToastOverlay: ViewModifier {
                     .transition(reduceMotion ? position.reduceMotionTransition : position.transition)
                     .task(id: item.id) {
                         let currentID = item.id
-                        try? await Task.sleep(for: .seconds(item.duration))
+                        guard let duration = item.duration else { return }
+                        try? await Task.sleep(for: .seconds(duration))
                         guard !Task.isCancelled, self.item?.id == currentID else { return }
                         self.item = nil
                     }
@@ -256,33 +282,30 @@ public enum UDSHapticNotificationType: Sendable {
 public enum UDSHaptics {
     public static func selection() {
         #if canImport(UIKit)
-        UISelectionFeedbackGenerator().selectionChanged()
+        UDSHaptic.selection()
         #endif
     }
 
     public static func impact(_ style: UDSHapticImpactStyle = .medium) {
         #if canImport(UIKit)
-        let platformStyle: UIImpactFeedbackGenerator.FeedbackStyle = switch style {
+        let platformStyle: UDSHaptic.Impact = switch style {
         case .light: .light
         case .medium: .medium
         case .heavy: .heavy
         case .soft: .soft
         case .rigid: .rigid
         }
-        let generator = UIImpactFeedbackGenerator(style: platformStyle)
-        generator.prepare()
-        generator.impactOccurred()
+        UDSHaptic.impact(platformStyle)
         #endif
     }
 
     public static func notification(_ type: UDSHapticNotificationType) {
         #if canImport(UIKit)
-        let platformType: UINotificationFeedbackGenerator.FeedbackType = switch type {
-        case .success: .success
-        case .warning: .warning
-        case .error: .error
+        switch type {
+        case .success: UDSHaptic.success()
+        case .warning: UDSHaptic.warning()
+        case .error: UDSHaptic.error()
         }
-        UINotificationFeedbackGenerator().notificationOccurred(platformType)
         #endif
     }
 }

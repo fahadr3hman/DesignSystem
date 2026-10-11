@@ -88,3 +88,8 @@ UDSThemeManager.shared.applyTheme(customTheme)
 UIKit views that are already on screen should observe `Notification.Name.udsThemeDidChange`
 and refresh their appearance after a theme change. New UDS color resolutions use the
 manager's current theme automatically.
+
+On iOS, a matching color set in the host app's asset catalog takes priority over
+the package asset and UIKit runtime theme for that semantic role. This lets an
+app provide its brand palette by adding app-owned color sets named after the
+roles listed above. See [Colors](Colors.md) for the exact names and lookup order.

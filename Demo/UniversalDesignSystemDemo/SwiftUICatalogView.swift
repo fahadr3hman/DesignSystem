@@ -1,7 +1,7 @@
 import SwiftUI
 import UniversalDesignSystem
 
-@available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 @MainActor
 public struct SwiftUICatalogView: View {
     @State private var textInput = ""
@@ -81,7 +81,7 @@ public struct SwiftUICatalogView: View {
                     UDSCard(variant: .standard) {
                         VStack(alignment: .leading, spacing: UDSSpacing.sm) {
                             HStack(spacing: UDSSpacing.md) {
-                                Image.udsToken("logo_placeholder")
+                                Image.udsIcon(.system("star.fill"))
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 36, height: 36)
@@ -417,7 +417,7 @@ public struct SwiftUICatalogView: View {
                                 .redacted(reason: isSkeletonLoading ? .placeholder : [])
 
                             HStack(spacing: UDSSpacing.sm) {
-                                Image.udsToken("avatar_placeholder")
+                                Image.udsIcon(.system("person.crop.circle.fill"))
                                     .resizable()
                                     .scaledToFill()
                                     .frame(width: 44, height: 44)

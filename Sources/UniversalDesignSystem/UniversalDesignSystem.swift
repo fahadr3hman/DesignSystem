@@ -2,3 +2,4 @@
 @_exported import UDSResources
 @_exported import UDSSwiftUI
 @_exported import UDSUIKit
+@_exported import UDSUtilities

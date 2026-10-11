@@ -9,16 +9,18 @@ UDSButton(title: "Save", variant: .primary, size: .medium) {
     save()
 }
 UDSButton(title: "Continue", icon: .checkmark, variant: .secondary) {}
-UDSButton(title: "Brand", icon: .iconFavorite, variant: .secondary) {}
+UDSButton(title: "Brand", icon: .outlineHeart, variant: .secondary) {}
 UDSButton(title: "Add item", icon: .add, shape: .circle, accessibilityLabel: "Add item") {}
 UDSButton(title: "Loading", isLoading: true) {}
 UDSButton(title: "Get started", variant: .capsule) {}
 ```
 
 The typed `icon` argument uses generated `UDSIconToken` values: common SF Symbols
-such as `.checkmark` and shared image assets such as `.iconFavorite`. For an icon
-provided only by the host app, use `.asset("brandMark")`; `.named("brandMark")`
-looks for an asset first and then an SF Symbol. When both a title and icon are
+such as `.checkmark` and bundled outline assets such as `.outlineHeart`. Consumers
+can also pass any SF Symbol name with `.system("camera")` or an app asset
+with `.image("brandMark")`. Use `.asset("brandMark")` for images in the design
+system's own bundle; `.named("brandMark")` searches design-system assets, app
+assets, then SF Symbols. When both a title and icon are
 provided, the icon appears before the title. Circular buttons display the icon only.
 The deprecated `systemIconName` initializer remains available for compatibility.
 

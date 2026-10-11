@@ -3,22 +3,32 @@ import UDSCore
 import UDSResources
 #if canImport(UIKit)
 import UIKit
+#elseif canImport(AppKit)
+import AppKit
 #endif
 
 public extension Color {
-    /// Resolves a named color from the design-system catalog, then the host app bundle.
+    /// Resolves a named color from the host app first, then the design-system catalog.
     /// Missing names return `Color.clear` so layout never traps.
     static func udsToken(_ name: String) -> Color {
         #if canImport(UIKit)
-        if let color = UIColor(named: name, in: UDSBundle.module, compatibleWith: nil) {
-            return Color(uiColor: color)
-        }
         if let color = UIColor(named: name) {
             return Color(uiColor: color)
         }
+        if let color = UIColor(named: name, in: UDSBundle.module, compatibleWith: nil) {
+            return Color(uiColor: color)
+        }
+        return Color.clear
+        #elseif canImport(AppKit)
+        if let color = NSColor(named: NSColor.Name(name), bundle: .main) {
+            return Color(nsColor: color)
+        }
+        if let color = NSColor(named: NSColor.Name(name), bundle: UDSBundle.module) {
+            return Color(nsColor: color)
+        }
         return Color.clear
         #else
-        return Color(name, bundle: UDSBundle.module)
+        return Color.clear
         #endif
     }
 
@@ -33,6 +43,7 @@ public extension Image {
         switch token {
         case .symbol(let name): return Image(systemName: name)
         case .asset(let name): return Image(name, bundle: UDSBundle.module)
+        case .appAsset(let name): return Image(name)
         case .named(let name): return Image.udsToken(name)
         }
     }

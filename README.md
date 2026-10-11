@@ -1,7 +1,7 @@
 # UniversalDesignSystem
 
 [![Swift 6](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
-[![Platform iOS](https://img.shields.io/badge/Platform-iOS%2016.0%2B-blue.svg)](https://apple.com)
+[![Platform iOS](https://img.shields.io/badge/Platform-iOS%2017.0%2B-blue.svg)](https://apple.com)
 [![SPM Compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 `UniversalDesignSystem` (UDS) is a cross-framework iOS design system written in **Swift 6** with strict concurrency checking. It provides semantic design tokens and reusable component libraries for SwiftUI and UIKit.
@@ -27,6 +27,7 @@ UniversalDesignSystem
 ├── UDSResources          # Asset catalog bundle & generated asset accessors
 ├── UDSSwiftUI            # SwiftUI views, view modifiers, styles, & layout helpers
 ├── UDSUIKit              # UIKit controls, view controllers, & presentation helpers
+├── UDSUtilities          # Standalone Foundation utilities (no UDS dependencies)
 └── UniversalDesignSystem # Umbrella module re-exporting all submodules
 ```
 
@@ -47,7 +48,7 @@ The package also includes a macOS SwiftPM executable for a quick preview:
 swift run UniversalDesignSystemDemo
 ```
 
-That command runs on macOS 13 or later; iOS launches use the Xcode project.
+That command runs on macOS 14 or later; iOS launches use the Xcode project.
 
 ### 1. Swift Package Manager Integration
 
@@ -112,6 +113,11 @@ Inject a custom `UDSTheme` on a parent view with `.udsTheme(customTheme)`; use
 For reusable gradients across UDS components and custom views, see
 [Documentation/Gradients.md](Documentation/Gradients.md).
 
+General-purpose helpers for strings, dates, collections, validation, view
+modifiers, keyboard dismissal, and images are available as the standalone
+`UDSUtilities` product, which has no dependency on the design-system modules. See the
+[utilities guide](Documentation/Utilities.md).
+
 ### 3. Using Tokens in UIKit
 
 ```swift
@@ -147,6 +153,7 @@ class ProfileViewController: UIViewController {
 - [Colors](Documentation/Colors.md)
 - [Typography](Documentation/Typography.md)
 - [Gradients](Documentation/Gradients.md)
+- [Utilities](Documentation/Utilities.md)
 - [Accessibility](Documentation/Accessibility.md)
 - [Contribution Guidelines](CONTRIBUTING.md)
 

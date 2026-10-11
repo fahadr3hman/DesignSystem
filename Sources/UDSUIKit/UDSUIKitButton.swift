@@ -77,7 +77,7 @@ open class UDSUIKitButton: UIButton {
     }
 
     /// Compatibility initializer. The name is resolved as an asset first, then an SF Symbol.
-    @available(*, deprecated, message: "Use icon: UDSIconToken.named(_:), .symbol(_:), or .asset(_:).")
+    @available(*, deprecated, message: "Use icon: UDSIconToken.system(_:), .image(_:), .symbol(_:), or .asset(_:).")
     public convenience init(
         title: String? = nil,
         systemIconName: String? = nil,

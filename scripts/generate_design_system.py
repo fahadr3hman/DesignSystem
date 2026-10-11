@@ -143,15 +143,28 @@ class DesignSystemAssetGenerator:
             "#if canImport(UIKit)",
             "import UIKit",
             "#endif",
+            "#if canImport(AppKit)",
+            "import AppKit",
+            "#endif",
             "",
             "// MARK: - UDSColor Asset Accessors",
             "public struct UDSColor: Sendable {",
-            "    public static let uiKit = UDSColorUIKitProxy()"
+            "    public static let uiKit = UDSColorUIKitProxy()",
+            "    private static func resolve(_ name: String) -> Color {",
+            "        #if canImport(UIKit)",
+            "        if let color = UIColor(named: name) { return Color(uiColor: color) }",
+            "        if let color = UIColor(named: name, in: UDSBundle.module, compatibleWith: nil) { return Color(uiColor: color) }",
+            "        #elseif canImport(AppKit)",
+            "        if let color = NSColor(named: NSColor.Name(name), bundle: .main) { return Color(nsColor: color) }",
+            "        if let color = NSColor(named: NSColor.Name(name), bundle: UDSBundle.module) { return Color(nsColor: color) }",
+            "        #endif",
+            "        return .clear",
+            "    }"
         ]
 
         for name in color_names:
             swift_id = sanitize_swift_identifier(name)
-            lines.append(f'    public static var {swift_id}: Color {{ Color("{name}", bundle: UDSBundle.module) }}')
+            lines.append(f'    public static var {swift_id}: Color {{ resolve("{name}") }}')
 
         lines.extend([
             "}",
@@ -162,7 +175,7 @@ class DesignSystemAssetGenerator:
         for name in color_names:
             swift_id = sanitize_swift_identifier(name)
             lines.append("    #if canImport(UIKit)")
-            lines.append(f'    public var {swift_id}: UIColor {{ UIColor(named: "{name}", in: UDSBundle.module, compatibleWith: nil) ?? .clear }}')
+            lines.append(f'    public var {swift_id}: UIColor {{ UIColor(named: "{name}") ?? UIColor(named: "{name}", in: UDSBundle.module, compatibleWith: nil) ?? .clear }}')
             lines.append("    #endif")
 
         lines.extend([
@@ -202,6 +215,31 @@ class DesignSystemAssetGenerator:
                 swift_id = sanitize_swift_identifier(alias)
                 lines.append(f'    static let {swift_id} = UDSIconToken.symbol("{symbol}")')
             lines.append("}")
+
+        bundled_icon_names = [name for name in image_names if name.startswith("outline-")]
+        if bundled_icon_names:
+            lines.extend([
+                "",
+                "// MARK: - Typed Bundled SVG Icon Tokens",
+                "public extension UDSIconToken {"
+            ])
+            for name in bundled_icon_names:
+                swift_id = sanitize_swift_identifier(name)
+                lines.append(f'    static let {swift_id} = UDSIconToken.asset("{name}")')
+            lines.extend([
+                "}",
+                "",
+                "/// All bundled SVG icons, paired with their stable kebab-case asset names.",
+                "public enum UDSIconAssets {",
+                "    public static let all: [(name: String, token: UDSIconToken)] = ["
+            ])
+            for name in bundled_icon_names:
+                swift_id = sanitize_swift_identifier(name)
+                lines.append(f'        ("{name.removeprefix("outline-")}", .{swift_id}),')
+            lines.extend([
+                "    ]",
+                "}"
+            ])
 
         return "\n".join(lines) + "\n"
 
